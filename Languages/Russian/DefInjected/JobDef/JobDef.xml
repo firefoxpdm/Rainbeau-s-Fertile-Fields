@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<FillCompostBarrel.reportString>заполняет TargetA.</FillCompostBarrel.reportString>
+
+	<EmptyCompostBarrel.reportString>извлекает удобрение из TargetA.</EmptyCompostBarrel.reportString>
+
+	<FinishFrameGrowing.reportString>создаёт TargetA.</FinishFrameGrowing.reportString>
+
+	<FinishFrameConstruction.reportString>создаёт TargetA.</FinishFrameConstruction.reportString>
+
+</LanguageData>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BrickFloor.label>кирпичный пол</BrickFloor.label>
+	<BrickFloor.description>Глиняные кирпичи, постеленные на пол.</BrickFloor.description>
+
+	<HBBrickFloor.label>кирпичный пол ёлочкой</HBBrickFloor.label>
+	<HBBrickFloor.description>Глиняные кирпичи, постеленные на пол ёлочкой. Чуть дольше делать, но результат привлекательнее.</HBBrickFloor.description>
+
+	<RockySoil.label>каменистая земля</RockySoil.label>
+
+	<Topsoil.label>поверхностный слой почвы</Topsoil.label>
+
+	<DirtFert.label>удобренный поверхностный слой</DirtFert.label>
+
+	<SoilTilled.label>вспаханная почва</SoilTilled.label>
+
+</LanguageData>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RFF_Farming.label>Agriculture avancée</RFF_Farming.label>
+	<RFF_Farming.description>Cette recherche représente des techniques agricoles avancées, telles que le travail du sol, qui vont au-delà de la simple fertilisation du sol. Il permet de labourer le sol ou même d'améliorer le sol fertile naturel. Il permet également de recouvrir le sol en pierre afin de pouvoir l'utiliser pour l'agriculture. Ainsi, même les champs dans une montagne peuvent être réalisés.</RFF_Farming.description>
+
+	<RFF_Terraforming.label>Terraformation</RFF_Terraforming.label>
+	<RFF_Terraforming.description>La terraformation représente la connaissance des méthodes d'irrigation et de drainage qui permettent une variété de transformations du terrain. Par exemple, le sable, les marais, la boue ou l'eau peu profonde peuvent être transformés en terres agricoles. En outre, les sols en pierre peuvent être convertis en d'autres sols.</RFF_Terraforming.description>
+
+</LanguageData>

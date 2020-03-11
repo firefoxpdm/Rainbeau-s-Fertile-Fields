@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<SplitDirt.label>извлечь песок и глину из земли</SplitDirt.label>
+	<SplitDirt.description>Разделить кучу земли на песок и глину.</SplitDirt.description>
+	<SplitDirt.jobString>Разделяет землю.</SplitDirt.jobString>
+	
+	<DirtToClay.label>превратить 3 земли в 4 глины</DirtToClay.label>
+	<DirtToClay.description>Преобразовать землю прямо в глину. Будет получено меньше глины, чем при разделении земли на песок и глину и чем при переработке песка в глину</DirtToClay.description>
+	<DirtToClay.jobString>Делает глину.</DirtToClay.jobString>
+	
+</LanguageData>

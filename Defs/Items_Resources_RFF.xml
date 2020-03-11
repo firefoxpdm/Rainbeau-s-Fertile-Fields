@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="ResourceBase_RFF" Abstract="True">
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>75</stackLimit>
+		<statBases>
+			<Beauty>-7</Beauty>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase_RFF">
+		<defName>RawCompost</defName>
+		<label>Raw compost</label>
+		<description>A mix of food wastes. Rather disgusting, but useful if you want to make fertilizer.</description>
+		<graphicData>
+			<texPath>Compost</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>2</DeteriorationRate>
+			<MarketValue>1.0</MarketValue>
+			<Mass>0.5</Mass>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<tradeability>None</tradeability>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase_RFF">
+		<defName>Fertilizer</defName>
+		<label>Fertilizer</label>
+		<description>Fertilizer enhances soil to speed the growth of plants.</description>
+		<graphicData>
+			<texPath>Fertilizer</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<DeteriorationRate>2</DeteriorationRate>
+			<MarketValue>6.0</MarketValue>
+			<Mass>0.35</Mass>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<tradeTags>
+			<li>TerraformingResources</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase_RFF">
+		<defName>CrushedRocks</defName>
+		<label>Crushed rocks</label>
+		<description>Stone chunks that have been broken up into smaller pieces.</description>
+		<graphicData>
+			<texPath>CrushedRocks</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<stackLimit>25</stackLimit>
+		<statBases>
+			<MarketValue>1.0</MarketValue>
+			<Mass>10.0</Mass>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<tradeTags>
+			<li>TerraformingResources</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase_RFF">
+		<defName>PileofDirt</defName>
+		<label>Pile of dirt</label>
+		<description>Simple soil dug out of the ground.</description>
+		<graphicData>
+			<texPath>DirtPile</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<stackLimit>25</stackLimit>
+		<statBases>
+			<MarketValue>2.0</MarketValue>
+			<Mass>5.0</Mass>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<tradeTags>
+			<li>TerraformingResources</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase_RFF">
+		<defName>SandPile</defName>
+		<label>Pile of sand</label>
+		<description>Sand, possibly dug up from a desert or a beach.</description>
+		<graphicData>
+			<texPath>SandPile</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<stackLimit>25</stackLimit>
+		<statBases>
+			<MarketValue>1.0</MarketValue>
+			<Mass>5.0</Mass>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<tradeTags>
+			<li>TerraformingResources</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase_RFF">
+		<defName>RFFClay</defName>
+		<label>Clay</label>
+		<description>Clay. Could be molded and fired to create bricks, or could be mixed with sand and fertilizer to make good dirt.</description>
+		<graphicData>
+			<texPath>Clay</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<stackLimit>25</stackLimit>
+		<statBases>
+			<MarketValue>2.0</MarketValue>
+			<Mass>5.0</Mass>
+		</statBases>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<tradeTags>
+			<li>TerraformingResources</li>
+		</tradeTags>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase_RFF">
+		<defName>PlantScraps</defName>
+		<label>plant scraps</label>
+		<description>Branches, twigs and leaves from cut plants. Useful for making compost, or perhaps for feeding animals.</description>
+		<graphicData>
+			<texPath>Stuff/Scraps</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>200</stackLimit>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<DeteriorationRate>2</DeteriorationRate>
+			<Flammability>1.0</Flammability>
+			<Mass>0.1</Mass>
+			<Nutrition>0.05</Nutrition>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<ingestible>
+			<foodType>Plant</foodType>
+			<preferability>DesperateOnlyForHumanlikes</preferability>
+			<tasteThought>AteRawFood</tasteThought>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>RawVegetable_Eat</ingestSound>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>30</daysToRotStart>
+				<rotDestroys>false</rotDestroys>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>Foods</li>
+		</thingCategories>
+		<tradeability>None</tradeability>
+	</ThingDef>
+	
+	<ThingDef ParentName="ResourceBase_RFF">
+		<defName>RottedMush</defName>
+		<label>rotted mush</label>
+		<description>Whatever this used to be, it's now just a disgusting pile of rotted mush. Useful for making compost, perhaps, but not for much else.</description>
+		<graphicData>
+			<texPath>Stuff/RotV</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<DeteriorationRate>2</DeteriorationRate>
+			<Flammability>1.0</Flammability>
+			<Mass>0.02</Mass>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<tradeability>None</tradeability>
+	</ThingDef>
+
+	<ThingDef ParentName="ResourceBase_RFF">
+		<defName>RFFBricks</defName>
+		<label>bricks</label>
+		<description>Classic bricks made from fired clay.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/StoneBlocks</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(160,64,48)</color>
+		</graphicData>
+		<soundInteract>Stone_Drop</soundInteract>
+		<soundDrop>Stone_Drop</soundDrop>
+		<useHitPoints>false</useHitPoints>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<MarketValue>1.9</MarketValue>
+			<SharpDamageMultiplier>0.5</SharpDamageMultiplier>
+			<BluntDamageMultiplier>1.0</BluntDamageMultiplier>
+			<Beauty>-12</Beauty>
+			<Mass>1</Mass>
+		</statBases>
+		<thingCategories>
+			<li>StoneBlocks</li>
+		</thingCategories>
+		<stuffProps>
+			<categories>
+				<li>Brick</li>
+			</categories>
+			<commonality>0.20</commonality>
+			<appearance>Bricks</appearance>
+			<color>(96,32,0)</color>
+			<soundImpactStuff>BulletImpact_Ground</soundImpactStuff>
+			<soundMeleeHitSharp>MeleeHit_Stone</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Stone</soundMeleeHitBlunt>
+			<stuffAdjective>brick</stuffAdjective>
+			<statOffsets>
+				<WorkToBuild>140</WorkToBuild>
+			</statOffsets>
+			<statFactors>
+				<Beauty>1.1</Beauty>
+				<MarketValue>0.5</MarketValue>
+				<MaxHitPoints>1.5</MaxHitPoints>
+				<Flammability>0</Flammability>
+				<WorkToBuild>5.0</WorkToBuild>
+				<WorkToMake>1.0</WorkToMake>
+				<DoorOpenSpeed>0.45</DoorOpenSpeed>
+				<BedRestEffectiveness>0.9</BedRestEffectiveness>
+				<MeleeWeapon_CooldownMultiplier>1.35</MeleeWeapon_CooldownMultiplier>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+	
+</Defs>

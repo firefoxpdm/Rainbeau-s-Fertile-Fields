@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RawCompost.label>Compost brut</RawCompost.label>
+  <RawCompost.description>Un mélange de nourriture (pourrie). Dégoûtant, mais utile pour en faire du compost.</RawCompost.description>
+
+  <Fertilizer.label>Compost</Fertilizer.label>
+  <Fertilizer.description>Le compost rend le sol plus fertile pour accélérer la croissance des plantes.</Fertilizer.description>
+
+  <CrushedRocks.label>Roches concassées</CrushedRocks.label>
+  <CrushedRocks.description>Roches qui ont été brisées dans du sable en grains grossiers.</CrushedRocks.description>
+
+  <PileofDirt.label>Pile de terre</PileofDirt.label>
+  <PileofDirt.description>Terre simple empilée dans un tas.</PileofDirt.description>
+
+  <SandPile.label>Pile de sable</SandPile.label>
+  <SandPile.description>Du sable empilé dans un tas. Vient probablement du désert ou d'une plage.</SandPile.description>
+
+  <RFFClay.label>Argile</RFFClay.label>
+  <RFFClay.description>Argile. Pourrait être façonné et cuit pour faire des briques ou mélangé avec du sable et du compost pour faire un sol fertile.</RFFClay.description>
+
+  <RottedMeat.label>Viande pourrie</RottedMeat.label>
+  <RottedMeat.description>Cela semblait avoir été de la viande, maintenant c'est juste un tas dégoûtant de bouillie. Utile pour faire du compost, mais pas pour plus.</RottedMeat.description>
+
+  <RottedMush.label>Bouillie pourrie</RottedMush.label>
+  <RottedMush.description>Quoi que ce soit, c'est juste un tas dégoûtant de bouillie maintenant. Utile pour faire du compost, mais pas pour plus.</RottedMush.description>
+
+  <RFFBricks.label>Brique</RFFBricks.label>
+  <RFFBricks.description>Briques classiques en argile cuite.</RFFBricks.description>
+  <RFFBricks.stuffProps.stuffAdjective>Brique</RFFBricks.stuffProps.stuffAdjective>
+
+
+</LanguageData>

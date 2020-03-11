@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<SubCategory_Stone.label>Rauer Stein</SubCategory_Stone.label>
+	<SubCategory_Stone.description>Terraforming-Funktion um Rauen Steinboden zu erschaffen.</SubCategory_Stone.description>
+	
+	<SubCategory_RockyDirt.label>Schotter</SubCategory_RockyDirt.label>
+	<SubCategory_RockyDirt.description>Terraforming-Funktion um Schotter zu erschaffen.</SubCategory_RockyDirt.description>
+		
+	<SubCategory_Sand.label>Sand</SubCategory_Sand.label>
+	<SubCategory_Sand.description>Terraforming-Funktion um Sand zu erschaffen..</SubCategory_Sand.description>
+		
+	<SubCategory_Gravel.label>Kies</SubCategory_Gravel.label>
+	<SubCategory_Gravel.description>Terraforming-Funktion um Kies zu erschaffen.</SubCategory_Gravel.description>
+		
+	<SubCategory_PackedDirt.label>Festgetretene Erde</SubCategory_PackedDirt.label>
+	<SubCategory_PackedDirt.description>Terraforming-Funktion um Festgetretene Erde zu erschaffen. Gut geeignet für Pfade.</SubCategory_PackedDirt.description>
+		
+	<SubCategory_Soil.label>Fruchtbare Erde</SubCategory_Soil.label>
+	<SubCategory_Soil.description>Terraforming-Funktion um Fruchtbare Erde zu erschaffen.</SubCategory_Soil.description>
+		
+	<SubCategory_SoilMarshy.label>Sumpfige Erde</SubCategory_SoilMarshy.label>
+	<SubCategory_SoilMarshy.description>Terraforming-Funktion um Sumpfige Erde zu erschaffen.</SubCategory_SoilMarshy.description>
+		
+	<SubCategory_Marsh.label>Sumpf</SubCategory_Marsh.label>
+	<SubCategory_Marsh.description>Terraforming-Funktion um Sumpf zu erschaffen.</SubCategory_Marsh.description>
+	
+	<SubCategory_WaterShallow.label>Flaches Wasser</SubCategory_WaterShallow.label>
+	<SubCategory_WaterShallow.description>Terraforming-Funktion um Flaches Wasser zu erschaffen.</SubCategory_WaterShallow.description>
+		
+	<SubCategory_WaterDeep.label>Tiefes Wasser</SubCategory_WaterDeep.label>
+	<SubCategory_WaterDeep.description>Terraforming-Funktion um Tiefes Wasser zu erschaffen.\n\nWichtig: Tiefes Wasser ist unpassierbar: Karawanen, Besucher, Angreifer usw. können dich evtl. nicht mehr erreichen. Mit Vorsicht zu Genießen!!</SubCategory_WaterDeep.description>
+
+</LanguageData>

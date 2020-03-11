@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RFF_Farming.label>Fortgeschrittene Landwirtschaft</RFF_Farming.label>
+	<RFF_Farming.description>Diese Forschung stellt fortgeschrittene landwirtschaftliche Techniken wie Bodenbearbeitung dar, die über die einfache Befruchtung des Bodens hinausgehen. Sie erlaubt, Boden zu pflügen oder sogar natürlichen fruchtbaren Boden zu verbessern. Außerdem erlaubt sie, Erde über Steinböden zu schichten, sodass diese Landwirtschaftlich genutzt werden kann. Somit sind sogar Felder innerhalb eines Berges realisierbar.</RFF_Farming.description>
+
+	<RFF_Terraforming.label>Terraforming</RFF_Terraforming.label>
+	<RFF_Terraforming.description>Terraforming stellt das Wissen über Bewässerungs- und Entwässerungsmethoden dar, die eine Vielzahl von Geländeumwandlungen ermöglichen. Sand, Sumpf, Schlamm oder flaches Wasser zum Beispiel können in landwirtschaftlich nutzbares Land verwandelt werden. Zudem können Steinböden in Erde umgewandelt werden.</RFF_Terraforming.description>
+
+</LanguageData>

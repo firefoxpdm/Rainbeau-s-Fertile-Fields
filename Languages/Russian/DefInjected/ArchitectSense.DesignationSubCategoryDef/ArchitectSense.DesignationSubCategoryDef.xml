@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<SubCategory_Stone.label>Камень</SubCategory_Stone.label>
+	<SubCategory_Stone.description>Терраформировать поверхность в грубый камень.</SubCategory_Stone.description>
+	
+	<SubCategory_RockyDirt.label>Каменистая земля</SubCategory_RockyDirt.label>
+	<SubCategory_RockyDirt.description>Терраформировать поверхность в каменистую землю.</SubCategory_RockyDirt.description>
+		
+	<SubCategory_Sand.label>Песок</SubCategory_Sand.label>
+	<SubCategory_Sand.description>Терраформировать поверхность в песок.</SubCategory_Sand.description>
+		
+	<SubCategory_Gravel.label>Гравий</SubCategory_Gravel.label>
+	<SubCategory_Gravel.description>Терраформировать поверхность в гравий.</SubCategory_Gravel.description>
+		
+	<SubCategory_PackedDirt.label>Прессованная земля</SubCategory_PackedDirt.label>
+	<SubCategory_PackedDirt.description>Терраформировать поверхность в спрессованную землю.</SubCategory_PackedDirt.description>
+		
+	<SubCategory_Soil.label>Почва</SubCategory_Soil.label>
+	<SubCategory_Soil.description>Терраформировать поверхность в плодородную почву.</SubCategory_Soil.description>
+		
+	<SubCategory_Mud.label>Слякоть</SubCategory_Mud.label>
+	<SubCategory_Mud.description>Терраформировать поверхность в слякоть.</SubCategory_Mud.description>
+		
+	<SubCategory_SoilMarshy.label>Болотистая почва</SubCategory_SoilMarshy.label>
+	<SubCategory_SoilMarshy.description>Терраформировать поверхность в болотистую почву.</SubCategory_SoilMarshy.description>
+		
+	<SubCategory_Marsh.label>Болото</SubCategory_Marsh.label>
+	<SubCategory_Marsh.description>Терраформировать поверхность в болото.</SubCategory_Marsh.description>
+	
+	<SubCategory_WaterShallow.label>Мелководье</SubCategory_WaterShallow.label>
+	<SubCategory_WaterShallow.description>Терраформировать поверхность в мелководье.</SubCategory_WaterShallow.description>
+		
+	<SubCategory_WaterDeep.label>Глубокая вода</SubCategory_WaterDeep.label>
+	<SubCategory_WaterDeep.description>Терраформировать поверхность в глубокую воду.\n\nВнимание: Размещение непроходимых поверхностей на карте - читерно и потенциально может привести к неиграбельности. Используй на свой страх и риск!</SubCategory_WaterDeep.description>
+
+</LanguageData>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<WorkGiverDef>
+		<defName>FillCompostBarrel</defName>
+		<label>fill compost barrel</label>
+		<giverClass>RFF_Code.WorkGiver_FillCompostBarrel</giverClass>
+		<workType>Hauling</workType>
+		<verb>fill</verb>
+		<gerund>filling</gerund>
+		<priorityInType>120</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+
+	<WorkGiverDef>
+		<defName>EmptyCompostBarrel</defName>
+		<label>take fertilizer out of compost barrel</label>
+		<giverClass>RFF_Code.WorkGiver_EmptyCompostBarrel</giverClass>
+		<workType>Hauling</workType>
+		<verb>take fertilizer</verb>
+		<gerund>taking fertilizer from</gerund>
+		<priorityInType>130</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+
+	<WorkGiverDef>
+		<defName>DoBillsUseRockMill</defName>
+		<label>do bills at rock mill</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>130</priorityInType>
+		<fixedBillGiverDefs>
+			<li>RockMill</li>
+		</fixedBillGiverDefs>
+		<verb>mill</verb>
+		<gerund>milling at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+
+	<WorkGiverDef>
+		<defName>ConstructFinishFramesGrowing</defName>
+		<label>fertilize and plow soil</label>
+		<giverClass>RFF_Code.WorkGiver_ConstructFinishFramesGrowing</giverClass>
+		<workType>Growing</workType>
+		<priorityInType>50</priorityInType>
+		<verb>construct</verb>
+		<gerund>constructing</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<nonColonistsCanDo>true</nonColonistsCanDo>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+
+	<WorkGiverDef>
+		<defName>ConstructDeliverResourcesToBlueprintsGrowing</defName>
+		<label>deliver resources to improve soil</label>
+		<giverClass>RFF_Code.WorkGiver_ConstructDeliverResourcesToBlueprintsGrowing</giverClass>
+		<workType>Growing</workType>
+		<priorityInType>30</priorityInType>
+		<verb>work on</verb>
+		<gerund>working on</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<nonColonistsCanDo>true</nonColonistsCanDo>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+
+	<WorkGiverDef>
+		<defName>DeliverResourcesToBlueprintsGrowing</defName>
+		<label>deliver resources to improve soil</label>
+		<giverClass>RFF_Code.WorkGiver_ConstructDeliverResourcesToBlueprintsGrowing</giverClass>
+		<workType>Hauling</workType>
+		<priorityInType>5</priorityInType>
+		<verb>deliver to</verb>
+		<gerund>delivering to</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<nonColonistsCanDo>true</nonColonistsCanDo>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+	
+</Defs>

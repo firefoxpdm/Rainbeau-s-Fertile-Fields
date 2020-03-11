@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<FillCompostBarrel.label>Abondance du baril de compost.</FillCompostBarrel.label>
+	<FillCompostBarrel.verb>remplir</FillCompostBarrel.verb>
+	<FillCompostBarrel.gerund>rempli</FillCompostBarrel.gerund>
+
+	<EmptyCompostBarrel.label>Prendre le compost du baril de compost.</EmptyCompostBarrel.label>
+	<EmptyCompostBarrel.verb>Prendre du compost</EmptyCompostBarrel.verb>
+	<EmptyCompostBarrel.gerund>Prend du compost</EmptyCompostBarrel.gerund>
+
+	<DoBillsUseRockMill.label>Broyer de la pierre au broyeur</DoBillsUseRockMill.label>
+	<DoBillsUseRockMill.verb>Broyer</DoBillsUseRockMill.verb>
+	<DoBillsUseRockMill.gerund>Broye de la pierre</DoBillsUseRockMill.gerund>
+
+</LanguageData>

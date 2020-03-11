@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Brick Wall -->
+
+  <BrickWall.label>Mur de briques</BrickWall.label>
+  <BrickWall.description>C'est un mur construit de briques.</BrickWall.description>
+  <BrickWall_Blueprint.label>Mur de briques (plan)</BrickWall_Blueprint.label>
+  <BrickWall_Frame.label>Mur de briques (en construction)</BrickWall_Frame.label>
+  <BrickWall_Frame.description>C'est un mur construit de briques.</BrickWall_Frame.description>
+
+
+  <!-- Production -->
+
+  <RockMill.label>Broyeur</RockMill.label>
+  <RockMill.description>C'est une machine qui broie et mélange des matériaux tels que la pierre, le sable et le sol. Cela fonctionne avec l'électricité.</RockMill.description>
+  <RockMill_Blueprint.label>Broyeur (plan)</RockMill_Blueprint.label>
+  <RockMill_Frame.label>Broyeur (en construction)</RockMill_Frame.label>
+  <RockMill_Frame.description>C'est une machine qui broie et mélange des matériaux tels que la pierre, le sable et le sol. Cela fonctionne avec l'électricité.</RockMill_Frame.description>
+
+
+  <!-- Terraforming -->
+
+  <Terraform_RockyDirt-Stone.label>Terre rocheuse → Pierre</Terraform_RockyDirt-Stone.label>
+  <Terraform_RockyDirt-Stone.description>Devient : Pierre</Terraform_RockyDirt-Stone.description>
+  <Terraform_RockyDirt-Stone_Blueprint.label> Pierre (plan)</Terraform_RockyDirt-Stone_Blueprint.label>
+  <Terraform_RockyDirt-Stone_Frame.label> Pierre (en contruction)</Terraform_RockyDirt-Stone_Frame.label>
+  <Terraform_RockyDirt-Stone_Frame.description> Pierre.</Terraform_RockyDirt-Stone_Frame.description>
+
+  <Terraform_Stone-RockyDirt.label>Pierre → Terre rocheuse</Terraform_Stone-RockyDirt.label>
+  <Terraform_Stone-RockyDirt.description>Devient : Terre rocheuse</Terraform_Stone-RockyDirt.description>
+  <Terraform_Stone-RockyDirt_Blueprint.label>Terre rocheuse (plan)</Terraform_Stone-RockyDirt_Blueprint.label>
+  <Terraform_Stone-RockyDirt_Frame.label>Terre rocheuse (en contruction)</Terraform_Stone-RockyDirt_Frame.label>
+  <Terraform_Stone-RockyDirt_Frame.description>Terre rocheuse.</Terraform_Stone-RockyDirt_Frame.description>
+
+  <Terraform_Sand-RockyDirt.label>Sable → Terre rocheuse</Terraform_Sand-RockyDirt.label>
+  <Terraform_Sand-RockyDirt.description>Devient : Terre rocheuse</Terraform_Sand-RockyDirt.description>
+  <Terraform_Sand-RockyDirt_Blueprint.label>Terre rocheuse (plan)</Terraform_Sand-RockyDirt_Blueprint.label>
+  <Terraform_Sand-RockyDirt_Frame.label>Terre rocheuse (en contruction)</Terraform_Sand-RockyDirt_Frame.label>
+  <Terraform_Sand-RockyDirt_Frame.description>Terre rocheuse.</Terraform_Sand-RockyDirt_Frame.description>
+
+  <Terraform_Gravel-RockyDirt.label>Gravier → Terre rocheuse</Terraform_Gravel-RockyDirt.label>
+  <Terraform_Gravel-RockyDirt.description>Devient : Terre rocheuse</Terraform_Gravel-RockyDirt.description>
+  <Terraform_Gravel-RockyDirt_Blueprint.label>Terre rocheuse (plan)</Terraform_Gravel-RockyDirt_Blueprint.label>
+  <Terraform_Gravel-RockyDirt_Frame.label>Terre rocheuse (en contruction)</Terraform_Gravel-RockyDirt_Frame.label>
+  <Terraform_Gravel-RockyDirt_Frame.description>Terre rocheuse.</Terraform_Gravel-RockyDirt_Frame.description>
+
+  <Terraform_SoilF-RockyDirt.label>Terre → Terre rocheuse</Terraform_SoilF-RockyDirt.label>
+  <Terraform_SoilF-RockyDirt.description>Devient : Terre rocheuse</Terraform_SoilF-RockyDirt.description>
+  <Terraform_SoilF-RockyDirt_Blueprint.label>Terre rocheuse (plan)</Terraform_SoilF-RockyDirt_Blueprint.label>
+  <Terraform_SoilF-RockyDirt_Frame.label>Terre rocheuse (en contruction)</Terraform_SoilF-RockyDirt_Frame.label>
+  <Terraform_SoilF-RockyDirt_Frame.description>Terre rocheuse.</Terraform_SoilF-RockyDirt_Frame.description>
+
+  <Terraform_SoilMarshy-RockyDirt.label>Sol marécageux → Terre rocheuse</Terraform_SoilMarshy-RockyDirt.label>
+  <Terraform_SoilMarshy-RockyDirt.description>Devient : Terre rocheuse</Terraform_SoilMarshy-RockyDirt.description>
+  <Terraform_SoilMarshy-RockyDirt_Blueprint.label>Terre rocheuse. (plan)</Terraform_SoilMarshy-RockyDirt_Blueprint.label>
+  <Terraform_SoilMarshy-RockyDirt_Frame.label>Terre rocheuse. (en contruction)</Terraform_SoilMarshy-RockyDirt_Frame.label>
+  <Terraform_SoilMarshy-RockyDirt_Frame.description>Terre rocheuse.</Terraform_SoilMarshy-RockyDirt_Frame.description>
+
+  <Terraform_RockyDirt-Sand.label>Terre rocheuse → Sable</Terraform_RockyDirt-Sand.label>
+  <Terraform_RockyDirt-Sand.description>Devient : Sable</Terraform_RockyDirt-Sand.description>
+  <Terraform_RockyDirt-Sand_Blueprint.label>Sable (plan)</Terraform_RockyDirt-Sand_Blueprint.label>
+  <Terraform_RockyDirt-Sand_Frame.label>Sable (en contruction)</Terraform_RockyDirt-Sand_Frame.label>
+  <Terraform_RockyDirt-Sand_Frame.description>Sable.</Terraform_RockyDirt-Sand_Frame.description>
+
+  <Terraform_Gravel-Sand.label>Gravier → Sable</Terraform_Gravel-Sand.label>
+  <Terraform_Gravel-Sand.description>Devient : Sable.</Terraform_Gravel-Sand.description>
+  <Terraform_Gravel-Sand_Blueprint.label>Sable (plan)</Terraform_Gravel-Sand_Blueprint.label>
+  <Terraform_Gravel-Sand_Frame.label>Sable (en contruction)</Terraform_Gravel-Sand_Frame.label>
+  <Terraform_Gravel-Sand_Frame.description>Sable.</Terraform_Gravel-Sand_Frame.description>
+
+  <Terraform_SoilF-Sand.label>Terre → Sable</Terraform_SoilF-Sand.label>
+  <Terraform_SoilF-Sand.description>Devient : Sable</Terraform_SoilF-Sand.description>
+  <Terraform_SoilF-Sand_Blueprint.label>Sable (plan)</Terraform_SoilF-Sand_Blueprint.label>
+  <Terraform_SoilF-Sand_Frame.label>Sable (en contruction)</Terraform_SoilF-Sand_Frame.label>
+  <Terraform_SoilF-Sand_Frame.description>Sable.</Terraform_SoilF-Sand_Frame.description>
+
+  <Terraform_WaterShallow-Sand.label>Eau peu profonde → Sable</Terraform_WaterShallow-Sand.label>
+  <Terraform_WaterShallow-Sand.description></Terraform_WaterShallow-Sand.description>
+  <Terraform_WaterShallow-Sand_Blueprint.label>Sable (plan)</Terraform_WaterShallow-Sand_Blueprint.label>
+  <Terraform_WaterShallow-Sand_Frame.label>Sable (en contruction)</Terraform_WaterShallow-Sand_Frame.label>
+  <Terraform_WaterShallow-Sand_Frame.description>Sable.</Terraform_WaterShallow-Sand_Frame.description>
+
+  <Terraform_RockyDirt-Gravel.label>Terre rocheuse → Gravier</Terraform_RockyDirt-Gravel.label>
+  <Terraform_RockyDirt-Gravel.description></Terraform_RockyDirt-Gravel.description>
+  <Terraform_RockyDirt-Gravel_Blueprint.label>Gravier (plan)</Terraform_RockyDirt-Gravel_Blueprint.label>
+  <Terraform_RockyDirt-Gravel_Frame.label>Gravier (en contruction)</Terraform_RockyDirt-Gravel_Frame.label>
+  <Terraform_RockyDirt-Gravel_Frame.description>Gravier.</Terraform_RockyDirt-Gravel_Frame.description>
+
+  <Terraform_Sand-Gravel.label>Sable → Gravier</Terraform_Sand-Gravel.label>
+  <Terraform_Sand-Gravel.description></Terraform_Sand-Gravel.description>
+  <Terraform_Sand-Gravel_Blueprint.label>Gravier (plan)</Terraform_Sand-Gravel_Blueprint.label>
+  <Terraform_Sand-Gravel_Frame.label>Gravier (en contruction)</Terraform_Sand-Gravel_Frame.label>
+  <Terraform_Sand-Gravel_Frame.description>Gravier.</Terraform_Sand-Gravel_Frame.description>
+
+  <Terraform_SoilF-Gravel.label>Terre → Gravier</Terraform_SoilF-Gravel.label>
+  <Terraform_SoilF-Gravel.description>Donne : Pile de terre (1x)</Terraform_SoilF-Gravel.description>
+  <Terraform_SoilF-Gravel_Blueprint.label>Gravier (plan)</Terraform_SoilF-Gravel_Blueprint.label>
+  <Terraform_SoilF-Gravel_Frame.label>Gravier (en contruction)</Terraform_SoilF-Gravel_Frame.label>
+  <Terraform_SoilF-Gravel_Frame.description>Gravier.</Terraform_SoilF-Gravel_Frame.description>
+
+  <Terraform_SoilF-PackedDirt.label>Terre → Chemin de terre</Terraform_SoilF-PackedDirt.label>
+  <Terraform_SoilF-PackedDirt.description>Augmente la vitesse de déplacement mais rend la terre stérile.</Terraform_SoilF-PackedDirt.description>
+  <Terraform_SoilF-PackedDirt_Blueprint.label>Chemin de terre (plan)</Terraform_SoilF-PackedDirt_Blueprint.label>
+  <Terraform_SoilF-PackedDirt_Frame.label>Chemin de terre (en contruction)</Terraform_SoilF-PackedDirt_Frame.label>
+  <Terraform_SoilF-PackedDirt_Frame.description>Chemin de terre.</Terraform_SoilF-PackedDirt_Frame.description>
+
+  <Terraform_PackedDirt-SoilF.label>Chemin de terre → Terre</Terraform_PackedDirt-SoilF.label>
+  <Terraform_PackedDirt-SoilF.description>Rend la terre cultivable mais diminue la vitesse de déplacement.</Terraform_PackedDirt-SoilF.description>
+  <Terraform_PackedDirt-SoilF_Blueprint.label>Chemin de terre (plan)</Terraform_PackedDirt-SoilF_Blueprint.label>
+  <Terraform_PackedDirt-SoilF_Frame.label>Chemin de terre (en contruction)</Terraform_PackedDirt-SoilF_Frame.label>
+  <Terraform_PackedDirt-SoilF_Frame.description>Chemin de terre.</Terraform_PackedDirt-SoilF_Frame.description>
+  
+  <Terraform_Sand-SoilF.label>Sable → Terre</Terraform_Sand-SoilF.label>
+  <Terraform_Sand-SoilF.description></Terraform_Sand-SoilF.description>
+  <Terraform_Sand-SoilF_Blueprint.label>Terre (plan)</Terraform_Sand-SoilF_Blueprint.label>
+  <Terraform_Sand-SoilF_Frame.label>Terre (en contruction)</Terraform_Sand-SoilF_Frame.label>
+  <Terraform_Sand-SoilF_Frame.description>Terre.</Terraform_Sand-SoilF_Frame.description>
+
+  <Terraform_Gravel-SoilF.label>Gravier → Terre</Terraform_Gravel-SoilF.label>
+  <Terraform_Gravel-SoilF.description></Terraform_Gravel-SoilF.description>
+  <Terraform_Gravel-SoilF_Blueprint.label>Terre (plan)</Terraform_Gravel-SoilF_Blueprint.label>
+  <Terraform_Gravel-SoilF_Frame.label>Terre (en contruction)</Terraform_Gravel-SoilF_Frame.label>
+  <Terraform_Gravel-SoilF_Frame.description>Terre.</Terraform_Gravel-SoilF_Frame.description>
+
+  <PackedDirt-SoilF.label>Chemin de terre → Terre</PackedDirt-SoilF.label>
+  <PackedDirt-SoilF.description></PackedDirt-SoilF.description>
+  <PackedDirt-SoilF_Blueprint.label>Terre (plan)</PackedDirt-SoilF_Blueprint.label>
+  <PackedDirt-SoilF_Frame.label>Terre (en contruction)</PackedDirt-SoilF_Frame.label>
+  <PackedDirt-SoilF_Frame.description>Terre.</PackedDirt-SoilF_Frame.description>
+
+  <Terraform_Mud-SoilF.label>Boue → Terre</Terraform_Mud-SoilF.label>
+  <Terraform_Mud-SoilF.description></Terraform_Mud-SoilF.description>
+  <Terraform_Mud-SoilF_Blueprint.label>Terre (plan)</Terraform_Mud-SoilF_Blueprint.label>
+  <Terraform_Mud-SoilF_Frame.label>Terre (en contruction)</Terraform_Mud-SoilF_Frame.label>
+  <Terraform_Mud-SoilF_Frame.description>Terre.</Terraform_Mud-SoilF_Frame.description>
+
+  <Terraform_SoilMarshy-SoilF.label>Sol marécageux → Terre</Terraform_SoilMarshy-SoilF.label>
+  <Terraform_SoilMarshy-SoilF.description></Terraform_SoilMarshy-SoilF.description>
+  <Terraform_SoilMarshy-SoilF_Blueprint.label>Terre (plan)</Terraform_SoilMarshy-SoilF_Blueprint.label>
+  <Terraform_SoilMarshy-SoilF_Frame.label>Terre (en contruction)</Terraform_SoilMarshy-SoilF_Frame.label>
+  <Terraform_SoilMarshy-SoilF_Frame.description>Terre.</Terraform_SoilMarshy-SoilF_Frame.description>
+
+  <Terraform_Marsh-SoilF.label>Marais → Terre</Terraform_Marsh-SoilF.label>
+  <Terraform_Marsh-SoilF.description></Terraform_Marsh-SoilF.description>
+  <Terraform_Marsh-SoilF_Blueprint.label>Terre (plan)</Terraform_Marsh-SoilF_Blueprint.label>
+  <Terraform_Marsh-SoilF_Frame.label>Terre (en contruction)</Terraform_Marsh-SoilF_Frame.label>
+  <Terraform_Marsh-SoilF_Frame.description>Terre.</Terraform_Marsh-SoilF_Frame.description>
+
+  <Terraform_SoilF-Mud.label>Terre → Boue</Terraform_SoilF-Mud.label>
+  <Terraform_SoilF-Mud.description></Terraform_SoilF-Mud.description>
+  <Terraform_SoilF-Mud_Blueprint.label>Boue (plan)</Terraform_SoilF-Mud_Blueprint.label>
+  <Terraform_SoilF-Mud_Frame.label>Boue (en contruction)</Terraform_SoilF-Mud_Frame.label>
+  <Terraform_SoilF-Mud_Frame.description>Boue.</Terraform_SoilF-Mud_Frame.description>
+
+  <Terraform_SoilMarshy-Mud.label>Sol marécageux → Boue</Terraform_SoilMarshy-Mud.label>
+  <Terraform_SoilMarshy-Mud.description></Terraform_SoilMarshy-Mud.description>
+  <Terraform_SoilMarshy-Mud_Blueprint.label>Boue (plan)</Terraform_SoilMarshy-Mud_Blueprint.label>
+  <Terraform_SoilMarshy-Mud_Frame.label>Boue (en contruction)</Terraform_SoilMarshy-Mud_Frame.label>
+  <Terraform_SoilMarshy-Mud_Frame.description>Boue.</Terraform_SoilMarshy-Mud_Frame.description>
+
+  <Terraform_SoilF-SoilMarshy.label>Terre → Sol marécageux</Terraform_SoilF-SoilMarshy.label>
+  <Terraform_SoilF-SoilMarshy.description>Donne : Pile de terre (1x)</Terraform_SoilF-SoilMarshy.description>
+  <Terraform_SoilF-SoilMarshy_Blueprint.label>Sol marécageux (plan)</Terraform_SoilF-SoilMarshy_Blueprint.label>
+  <Terraform_SoilF-SoilMarshy_Frame.label>Sol marécageux (en contruction)</Terraform_SoilF-SoilMarshy_Frame.label>
+  <Terraform_SoilF-SoilMarshy_Frame.description>Sol marécageux.</Terraform_SoilF-SoilMarshy_Frame.description>
+
+  <Terraform_Mud-SoilMarshy.label>Boue → Sol marécageux</Terraform_Mud-SoilMarshy.label>
+  <Terraform_Mud-SoilMarshy.description>Donne : Pile de terre (1x)</Terraform_Mud-SoilMarshy.description>
+  <Terraform_Mud-SoilMarshy_Blueprint.label>Sol marécageux (plan)</Terraform_Mud-SoilMarshy_Blueprint.label>
+  <Terraform_Mud-SoilMarshy_Frame.label>Sol marécageux (en contruction)</Terraform_Mud-SoilMarshy_Frame.label>
+  <Terraform_Mud-SoilMarshy_Frame.description>Sol marécageux.</Terraform_Mud-SoilMarshy_Frame.description>
+
+  <Terraform_Marsh-SoilMarshy.label>Marais → Sol marécageux</Terraform_Marsh-SoilMarshy.label>
+  <Terraform_Marsh-SoilMarshy.description></Terraform_Marsh-SoilMarshy.description>
+  <Terraform_Marsh-SoilMarshy_Blueprint.label>Sol marécageux (plan)</Terraform_Marsh-SoilMarshy_Blueprint.label>
+  <Terraform_Marsh-SoilMarshy_Frame.label>Sol marécageux (en contruction)</Terraform_Marsh-SoilMarshy_Frame.label>
+  <Terraform_Marsh-SoilMarshy_Frame.description>Sol marécageux.</Terraform_Marsh-SoilMarshy_Frame.description>
+
+  <Terraform_SoilF-Marsh.label>Terre → Marais</Terraform_SoilF-Marsh.label>
+  <Terraform_SoilF-Marsh.description>Donne : Pile de terre (2x)</Terraform_SoilF-Marsh.description>
+  <Terraform_SoilF-Marsh_Blueprint.label>Marais (plan)</Terraform_SoilF-Marsh_Blueprint.label>
+  <Terraform_SoilF-Marsh_Frame.label>Marais (en contruction)</Terraform_SoilF-Marsh_Frame.label>
+  <Terraform_SoilF-Marsh_Frame.description>Marais.</Terraform_SoilF-Marsh_Frame.description>
+
+  <Terraform_SoilMarshy-Marsh.label>Sol marécageux → Marais</Terraform_SoilMarshy-Marsh.label>
+  <Terraform_SoilMarshy-Marsh.description>Donne : Pile de terre (1x)</Terraform_SoilMarshy-Marsh.description>
+  <Terraform_SoilMarshy-Marsh_Blueprint.label>Marais (plan)</Terraform_SoilMarshy-Marsh_Blueprint.label>
+  <Terraform_SoilMarshy-Marsh_Frame.label>Marais (en contruction)</Terraform_SoilMarshy-Marsh_Frame.label>
+  <Terraform_SoilMarshy-Marsh_Frame.description>Marais.</Terraform_SoilMarshy-Marsh_Frame.description>
+
+  <Terraform_WaterShallow-Marsh.label>Eau peu profonde → Marais</Terraform_WaterShallow-Marsh.label>
+  <Terraform_WaterShallow-Marsh.description></Terraform_WaterShallow-Marsh.description>
+  <Terraform_WaterShallow-Marsh_Blueprint.label>Marais (plan)</Terraform_WaterShallow-Marsh_Blueprint.label>
+  <Terraform_WaterShallow-Marsh_Frame.label>Marais (en contruction)</Terraform_WaterShallow-Marsh_Frame.label>
+  <Terraform_WaterShallow-Marsh_Frame.description>Marais.</Terraform_WaterShallow-Marsh_Frame.description>
+
+  <Terraform_Sand-WaterShallow.label>Sable → Eau peu profonde</Terraform_Sand-WaterShallow.label>
+  <Terraform_Sand-WaterShallow.description>Donne : Pile de sable (5x)</Terraform_Sand-WaterShallow.description>
+  <Terraform_Sand-WaterShallow_Blueprint.label>Eau peu profonde (plan)</Terraform_Sand-WaterShallow_Blueprint.label>
+  <Terraform_Sand-WaterShallow_Frame.label>Eau peu profonde (en contruction)</Terraform_Sand-WaterShallow_Frame.label>
+  <Terraform_Sand-WaterShallow_Frame.description>Eau peu profonde.</Terraform_Sand-WaterShallow_Frame.description>
+
+  <Terraform_Marsh-WaterShallow.label>Marais → Eau peu profonde</Terraform_Marsh-WaterShallow.label>
+  <Terraform_Marsh-WaterShallow.description>Donne : Pile de terre (5x)</Terraform_Marsh-WaterShallow.description>
+  <Terraform_Marsh-WaterShallow_Blueprint.label>Eau peu profonde (plan)</Terraform_Marsh-WaterShallow_Blueprint.label>
+  <Terraform_Marsh-WaterShallow_Frame.label>Eau peu profonde (en contruction)</Terraform_Marsh-WaterShallow_Frame.label>
+  <Terraform_Marsh-WaterShallow_Frame.description>Eau peu profonde.</Terraform_Marsh-WaterShallow_Frame.description>
+
+  <Terraform_WaterDeep-WaterShallow.label>Eau profonde → Eau peu profonde</Terraform_WaterDeep-WaterShallow.label>
+  <Terraform_WaterDeep-WaterShallow.description></Terraform_WaterDeep-WaterShallow.description>
+  <Terraform_WaterDeep-WaterShallow_Blueprint.label>Eau peu profonde (plan)</Terraform_WaterDeep-WaterShallow_Blueprint.label>
+  <Terraform_WaterDeep-WaterShallow_Frame.label>Eau peu profonde (en contruction)</Terraform_WaterDeep-WaterShallow_Frame.label>
+  <Terraform_WaterDeep-WaterShallow_Frame.description>Eau peu profonde.</Terraform_WaterDeep-WaterShallow_Frame.description>
+
+  <Terraform_Ice-WaterShallow.label>Glace → Eau peu profonde</Terraform_Ice-WaterShallow.label>
+  <Terraform_Ice-WaterShallow.description></Terraform_Ice-WaterShallow.description>
+  <Terraform_Ice-WaterShallow_Blueprint.label>Eau peu profonde (plan)</Terraform_Ice-WaterShallow_Blueprint.label>
+  <Terraform_Ice-WaterShallow_Frame.label>Eau peu profonde (en contruction)</Terraform_Ice-WaterShallow_Frame.label>
+  <Terraform_Ice-WaterShallow_Frame.description>Eau peu profonde.</Terraform_Ice-WaterShallow_Frame.description>
+
+  <Terraform_WaterShallow-WaterDeep.label>Eau peu profonde → Eau profonde</Terraform_WaterShallow-WaterDeep.label>
+  <Terraform_WaterShallow-WaterDeep.description>Donne : Pile de terre (10x)</Terraform_WaterShallow-WaterDeep.description>
+  <Terraform_WaterShallow-WaterDeep_Blueprint.label>Eau profonde (plan)</Terraform_WaterShallow-WaterDeep_Blueprint.label>
+  <Terraform_WaterShallow-WaterDeep_Frame.label>Eau profonde(en contruction)</Terraform_WaterShallow-WaterDeep_Frame.label>
+  <Terraform_WaterShallow-WaterDeep_Frame.description>Eau profonde.</Terraform_WaterShallow-WaterDeep_Frame.description>
+
+
+  <!-- Farming -->
+
+  <Terraform_Stone-Topsoil.label>Sol dragué</Terraform_Stone-Topsoil.label>
+  <Terraform_Stone-Topsoil.description>S'applique sur la pierre lisse. \nLa culture devient possible. Peut être retiré avec la fonction d'enlèvement du sol.</Terraform_Stone-Topsoil.description>
+  <Terraform_Stone-Topsoil_Blueprint.label>Sol dragué (plan)</Terraform_Stone-Topsoil_Blueprint.label>
+  <Terraform_Stone-Topsoil_Frame.label>Sol dragué (en contruction)</Terraform_Stone-Topsoil_Frame.label>
+  <Terraform_Stone-Topsoil_Frame.description>Sol dragué.</Terraform_Stone-Topsoil_Frame.description>
+
+  <Terraform_Topsoil-DirtFert.label>Sol dragué et fertilisé</Terraform_Topsoil-DirtFert.label>
+  <Terraform_Topsoil-DirtFert.description>S'applique sur la terre. \nLa culture devient possible. Vous pouvez l'enlever avec la fonction d'enlèvement du sol.</Terraform_Topsoil-DirtFert.description>
+  <Terraform_Topsoil-DirtFert_Blueprint.label>Sol dragué et fertilisé (plan)</Terraform_Topsoil-DirtFert_Blueprint.label>
+  <Terraform_Topsoil-DirtFert_Frame.label>Sol dragué et fertilisé (en contruction)</Terraform_Topsoil-DirtFert_Frame.label>
+  <Terraform_Topsoil-DirtFert_Frame.description>Sol dragué et fertilisé.</Terraform_Topsoil-DirtFert_Frame.description>
+
+  <Terraform_SoilF-SoilRich.label>Sol fertilisé</Terraform_SoilF-SoilRich.label>
+  <Terraform_SoilF-SoilRich.description>Sol fertilisé.</Terraform_SoilF-SoilRich.description>
+  <Terraform_SoilF-SoilRich_Blueprint.label>Sol fertilisé (plan)</Terraform_SoilF-SoilRich_Blueprint.label>
+  <Terraform_SoilF-SoilRich_Frame.label>Sol fertilisé (en contruction)</Terraform_SoilF-SoilRich_Frame.label>
+  <Terraform_SoilF-SoilRich_Frame.description>Sol fertilisé.</Terraform_SoilF-SoilRich_Frame.description>
+
+  <Terraform_SoilRich-SoilTilled.label>Sol labouré</Terraform_SoilRich-SoilTilled.label>
+  <Terraform_SoilRich-SoilTilled.description>La culture des cultures est possible. Vous pouvez l'enlever avec la fonction d'enlèvement du sol.</Terraform_SoilRich-SoilTilled.description>
+  <Terraform_SoilRich-SoilTilled_Blueprint.label>Sol labouré (plan)</Terraform_SoilRich-SoilTilled_Blueprint.label>
+  <Terraform_SoilRich-SoilTilled_Frame.label>Sol labouré (en contruction)</Terraform_SoilRich-SoilTilled_Frame.label>
+  <Terraform_SoilRich-SoilTilled_Frame.description>Sol labouré.</Terraform_SoilRich-SoilTilled_Frame.description>
+
+
+  <!-- Farming Tools -->
+
+  <CompostBin.label>Zone de compost</CompostBin.label>
+  <CompostBin.description>C'est un espace pour faire mûrir le compost et en faire un engrais. L'odeur est terrible.</CompostBin.description>
+  <CompostBin_Blueprint.label>Zone de compost (plan)</CompostBin_Blueprint.label>
+  <CompostBin_Frame.label>Zone de compost (en contruction)</CompostBin_Frame.label>
+  <CompostBin_Frame.description>Zone où l'on transforme le fumier en engrais. L'odeur est terrible.</CompostBin_Frame.description>
+
+  <CompostBarrel.label>Baril de compost</CompostBarrel.label>
+  <CompostBarrel.description>Un baril de compost transforme le compost brut (10x) en compost (10x). Fonctionne comme un baril de fermentation mais nécessite de l'électricité.</CompostBarrel.description>
+  <CompostBarrel_Blueprint.label>Baril de compost (plan)</CompostBarrel_Blueprint.label>
+  <CompostBarrel_Blueprint_Install.label>Baril de compost (plan)</CompostBarrel_Blueprint_Install.label>
+  <CompostBarrel_Frame.label>Baril de compost (en contruction)</CompostBarrel_Frame.label>
+  <CompostBarrel_Frame.description>C'est un appareil pour convertir en masse le compost en engrais. L'électricité est requise.</CompostBarrel_Frame.description>
+
+  <HeavySandbags.label>Épais sac de sable</HeavySandbags.label>
+  <HeavySandbags.description>Le sac de sable fournit un espace de couverture.</HeavySandbags.description>
+  <HeavySandbags_Blueprint.label>Épais sac de sable (plan)</HeavySandbags_Blueprint.label>
+  <HeavySandbags_Blueprint_Install.label>Épais sac de sable (plan)</HeavySandbags_Blueprint_Install.label>
+  <HeavySandbags_Frame.label>Épais sac de sable (en contruction)</HeavySandbags_Frame.label>
+  <HeavySandbags_Frame.description>Le sac de sable fournit un espace de couverture.</HeavySandbags_Frame.description>
+
+  <FertilizerMachine_Blueprint.label>Nada</FertilizerMachine_Blueprint.label>
+  <FertilizerMachine_Blueprint.description>Nothin' to see here.</FertilizerMachine_Blueprint.description>
+
+  <FertilizerMachine_Frame.label>Nada</FertilizerMachine_Frame.label>
+  <FertilizerMachine_Frame.description>Nothin' to see here.</FertilizerMachine_Frame.description>
+
+
+</LanguageData>

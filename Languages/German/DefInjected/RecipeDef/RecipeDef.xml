@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<SplitDirt.label>Extrahiere Sand und Lehm aus Erde</SplitDirt.label>
+	<SplitDirt.description>Trenne Erde auf, um Sand und Lehm zu erhalten.</SplitDirt.description>
+	<SplitDirt.jobString>Trennt Sand und Lehm von Erde.</SplitDirt.jobString>
+	
+	<MakeBricks.label>Stelle Ziegelsteine her</MakeBricks.label>
+	<MakeBricks.description>Modelliere und brenne Lehm um Ziegelsteine herzustellen.</MakeBricks.description>
+	<MakeBricks.jobString>Stellt Ziegelsteine her.</MakeBricks.jobString>
+		
+	<MakeCrushedRocks.label>Stelle Grobe Steine her</MakeCrushedRocks.label>
+	<MakeCrushedRocks.description>Verarbeite Brocken zu Groben Steinen.</MakeCrushedRocks.description>
+	<MakeCrushedRocks.jobString>Stellt Grobe Steine her.</MakeCrushedRocks.jobString>
+
+	<MakeSand.label>Stelle Sand her</MakeSand.label>
+	<MakeSand.description>Verarbeite Grobe Steine zu Sand.</MakeSand.description>
+	<MakeSand.jobString>Stellt Sand her.</MakeSand.jobString>
+
+	<MakeClay.label>Stelle Lehm her</MakeClay.label>
+	<MakeClay.description>Mahle Sand in kleinere Partikel um Lehm herzustellen.</MakeClay.description>
+	<MakeClay.jobString>Stellt Lehm her.</MakeClay.jobString>
+		
+	<MakeDirt.label>Stelle Erde her (2x)</MakeDirt.label>
+	<MakeDirt.description>Stelle aus Sand, Lehm oder Kompost Erde her.</MakeDirt.description>
+	<MakeDirt.jobString>Stellt Erde (2x) her.</MakeDirt.jobString>
+
+	<MakeCrushedRocks5.label>Stelle Grobe Steine her (5x)</MakeCrushedRocks5.label>
+	<MakeCrushedRocks5.description>Verarbeite Brocken zu Groben Steinen.</MakeCrushedRocks5.description>
+	<MakeCrushedRocks5.jobString>Stellt Grobe Steine (5x) her.</MakeCrushedRocks5.jobString>
+
+	<MakeSand5.label>Stelle Sand her (5x)</MakeSand5.label>
+	<MakeSand5.description>Verarbeite Grobe Steine zu Sand.</MakeSand5.description>
+	<MakeSand5.jobString>Stellt Sand (5x) her.</MakeSand5.jobString>
+
+	<MakeClay5.label>Stelle Lehm her (5x)</MakeClay5.label>
+	<MakeClay5.description>Mahle Sand in kleinere Partikel um Lehm herzustellen.</MakeClay5.description>
+	<MakeClay5.jobString>Stellt Lehm (5x) her.</MakeClay5.jobString>
+		
+	<MakeDirt5.label>Stelle Erde her (10x)</MakeDirt5.label>
+	<MakeDirt5.description>Stelle aus Sand, Lehm oder Kompost 10x Erde her.</MakeDirt5.description>
+	<MakeDirt5.jobString>Stellt Erde (10x) her.</MakeDirt5.jobString>
+	
+	<MakeCompost.label>Stelle Rohkompost her</MakeCompost.label>
+	<MakeCompost.description>Stelle Rohkompost aus Organischen Materialien her (rohes Fleisch, Pflanzen).</MakeCompost.description>
+	<MakeCompost.jobString>Stellt Rohkompost her.</MakeCompost.jobString>
+
+	<MakeCompostRotted.label>Stelle Rohkompost aus Verrottetem her</MakeCompostRotted.label>
+	<MakeCompostRotted.description>Stelle Rohkompost aus verdorbenen Materialien her, sodass du weniger bis keine überlebenswichtigen Nahrungsmittel verwenden musst.</MakeCompostRotted.description>
+	<MakeCompostRotted.jobString>Stellt Rohompost her.</MakeCompostRotted.jobString>
+
+	<MakeCompost5.label>Stelle Rohkompost her (5x)</MakeCompost5.label>
+	<MakeCompost5.description>Stelle Rohkompost aus Organischen Materialien her (rohes Fleisch, Pflanzen).</MakeCompost5.description>
+	<MakeCompost5.jobString>Stellt Rohkompost (5x) her.</MakeCompost5.jobString>
+
+	<MakeCompostRotted5.label>Stelle Rohkompost aus Verrottetem her (5x)</MakeCompostRotted5.label>
+	<MakeCompostRotted5.description>Stelle Rohkompost aus verdorbenen Materialien her, sodass du weniger bis keine überlebenswichtigen Nahrungsmittel verwenden musst.</MakeCompostRotted5.description>
+	<MakeCompostRotted5.jobString>Stellt Rohkompost (5x) her.</MakeCompostRotted5.jobString>
+
+	<CompostCorpse.label>Verbrenne Leichen um Rohkompost herzustellen</CompostCorpse.label>
+	<CompostCorpse.description>Verbrenne eine Leiche um 10x Rohkompost herzustellen.</CompostCorpse.description>
+	<CompostCorpse.jobString>Verbrennt Leiche.</CompostCorpse.jobString>
+
+	<CompostCorpseCampfire.label>Verbrenne Leichen um Rohkompost herzustellen</CompostCorpseCampfire.label>
+	<CompostCorpseCampfire.description>Verbrenne eine Leiche im Lagerfeuer um 5x Rohkompost herzustellen. Dies ist weniger effektiv, als die Leiche in einem Krematorium zu verbrennen.</CompostCorpseCampfire.description>
+	<CompostCorpseCampfire.jobString>Verbrennt Leiche.</CompostCorpseCampfire.jobString>
+
+</LanguageData>

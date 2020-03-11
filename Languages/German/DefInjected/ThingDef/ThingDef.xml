@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- Buildings -->
+	
+	<RockMill.label>Steinmühle (elektr)</RockMill.label>
+	<RockMill.description>Eine elektrisch angetriebene Mühle zum Zerkleinern und Mischen von Gesteinsbrocken, Sand und Erde.</RockMill.description>
+
+	<Terraform_RockyDirt-Stone.label>Schotter zu Rauen Stein</Terraform_RockyDirt-Stone.label>
+	<Terraform_RockyDirt-Stone.description>Verwende auf: Schotter.\nWird zu: Rauer Stein.</Terraform_RockyDirt-Stone.description>
+
+	<Terraform_Stone-RockyDirt.label>Rauer/Glatter Stein zu Schotter</Terraform_Stone-RockyDirt.label>
+	<Terraform_Stone-RockyDirt.description>Verwende auf: Rauen oder glatten Steinboden.\nWird zu: Schotter.\nDu erhältst: Brocken (manchmal, Material je nach Boden).</Terraform_Stone-RockyDirt.description>
+
+	<Terraform_Sand-RockyDirt.label>Sand zu Schotter</Terraform_Sand-RockyDirt.label>
+	<Terraform_Sand-RockyDirt.description>Verwende auf: Sand.\nWird zu: Schotter.\nDu erhältst: Sand.</Terraform_Sand-RockyDirt.description>
+
+	<Terraform_Gravel-RockyDirt.label>Kies zu Schotter</Terraform_Gravel-RockyDirt.label>
+	<Terraform_Gravel-RockyDirt.description>Verwende auf: Kies.\nWird zu: Schotter.\nDu erhältst: Grobe Steine und Erde.</Terraform_Gravel-RockyDirt.description>
+
+	<Terraform_SoilF-RockyDirt.label>Erde zu Schotter</Terraform_SoilF-RockyDirt.label>
+	<Terraform_SoilF-RockyDirt.description>Verwende auf: Erde.\nWird zu: Schotter.\nDu erhältst: Erde (3x).</Terraform_SoilF-RockyDirt.description>
+
+	<Terraform_SoilMarshy-RockyDirt.label>Sumpfige Erde zu Schotter</Terraform_SoilMarshy-RockyDirt.label>
+	<Terraform_SoilMarshy-RockyDirt.description>Verwende auf: Sumpfige Erde.\nWird zu: Schotter.\nDu erhältst: Erde (2x).</Terraform_SoilMarshy-RockyDirt.description>
+
+	<Terraform_RockyDirt-Sand.label>Schotter zu Sand</Terraform_RockyDirt-Sand.label>
+	<Terraform_RockyDirt-Sand.description>Verwende auf: Schotter.\nWird zu: Sand.</Terraform_RockyDirt-Sand.description>
+
+	<Terraform_Gravel-Sand.label>Kies zu Sand</Terraform_Gravel-Sand.label>
+	<Terraform_Gravel-Sand.description>Verwende auf: Kies.\nWird zu: Sand.\nDu erhältst: Grobe Steine.</Terraform_Gravel-Sand.description>
+
+	<Terraform_SoilF-Sand.label>Erde zu Sand</Terraform_SoilF-Sand.label>
+	<Terraform_SoilF-Sand.description>Verwende auf: Erde.\nWird zu: Sand.\nDu erhältst: Erde (2x).</Terraform_SoilF-Sand.description>
+
+	<Terraform_WaterShallow-Sand.label>Flaches Wasser zu Sand</Terraform_WaterShallow-Sand.label>
+	<Terraform_WaterShallow-Sand.description>Verwende auf: Flaches Wasser.\nWird zu: Sand.</Terraform_WaterShallow-Sand.description>
+
+	<Terraform_RockyDirt-Gravel.label>Schotter zu Kies</Terraform_RockyDirt-Gravel.label>
+	<Terraform_RockyDirt-Gravel.description>Verwende auf: Schotter.\nWird zu: Kies.</Terraform_RockyDirt-Gravel.description>
+
+	<Terraform_Sand-Gravel.label>Sand zu Kies</Terraform_Sand-Gravel.label>
+	<Terraform_Sand-Gravel.description>Verwende auf: Sand.\nWird zu: Kies.</Terraform_Sand-Gravel.description>
+
+	<Terraform_SoilF-Gravel.label>Erde zu Kies</Terraform_SoilF-Gravel.label>
+	<Terraform_SoilF-Gravel.description>Verwende auf: Erde.\nWird zu: Kies.\nDu erhältst: Erde.</Terraform_SoilF-Gravel.description>
+
+	<Terraform_SoilF-PackedDirt.label>Erde zu Festgetretene Erde</Terraform_SoilF-PackedDirt.label>
+	<Terraform_SoilF-PackedDirt.description>Verwende auf: Erde.\nWird zu: Festgetretene Erde.</Terraform_SoilF-PackedDirt.description>
+
+	<Terraform_Sand-SoilF.label>Sand zu Erde</Terraform_Sand-SoilF.label>
+	<Terraform_Sand-SoilF.description>Verwende auf: Sand.\nWird zu: Erde.</Terraform_Sand-SoilF.description>
+
+	<Terraform_Gravel-SoilF.label>Kies zu Erde</Terraform_Gravel-SoilF.label>
+	<Terraform_Gravel-SoilF.description>Verwende auf: Kies.\nWird zu: Erde.</Terraform_Gravel-SoilF.description>
+
+	<Terraform_PackedDirt-SoilF.label>Festgetretene Erde zu Erde</Terraform_PackedDirt-SoilF.label>
+	<Terraform_PackedDirt-SoilF.description>Verwende auf: Festgetretene Erde.\nWird zu: Erde.</Terraform_PackedDirt-SoilF.description>
+	
+	<Terraform_SoilMarshy-SoilF.label>Sumpfige Erde zu Erde</Terraform_SoilMarshy-SoilF.label>
+	<Terraform_SoilMarshy-SoilF.description>Verwende auf: Sumpfige Erde.\nWird zu: Erde.</Terraform_SoilMarshy-SoilF.description>
+
+	<Terraform_Marsh-SoilMarshy.label>Sumpf/Schlamm zu Sumpfige Erde</Terraform_Marsh-SoilMarshy.label>
+	<Terraform_Marsh-SoilMarshy.description>Verwende auf: Sumpf oder Schlamm.\nWird zu: Sumpfige Erde.</Terraform_Marsh-SoilMarshy.description>
+
+	<Terraform_SoilF-Marsh.label>Erde zu Sumpf</Terraform_SoilF-Marsh.label>
+	<Terraform_SoilF-Marsh.description>Verwende auf: Erde.\nWird zu: Sumpf.\nDu erhältst: Erde (2x).</Terraform_SoilF-Marsh.description>
+
+	<Terraform_SoilMarshy-Marsh.label>Sumpfige Erde zu Sumpf</Terraform_SoilMarshy-Marsh.label>
+	<Terraform_SoilMarshy-Marsh.description>Verwende auf: Sumpfige Erde.\nWird zu: Sumpf.\nDu erhältst: Erde.</Terraform_SoilMarshy-Marsh.description>
+
+	<Terraform_WaterShallow-Marsh.label>Flaches Wasser zu Sumpf</Terraform_WaterShallow-Marsh.label>
+	<Terraform_WaterShallow-Marsh.description>Verwende auf: Flaches Wasser.\nWird zu: Sumpf.</Terraform_WaterShallow-Marsh.description>
+
+	<Terraform_Sand-WaterShallow.label>Sand zu Flaches Wasser</Terraform_Sand-WaterShallow.label>
+	<Terraform_Sand-WaterShallow.description>Verwende auf: Sand (in der nähe von Wasser).\nWird zu: Flaches Wasser.\nDu erhältst: Sand (5x).</Terraform_Sand-WaterShallow.description>
+
+	<Terraform_Marsh-WaterShallow.label>Sumpf zu Flaches Wasser</Terraform_Marsh-WaterShallow.label>
+	<Terraform_Marsh-WaterShallow.description>Verwende auf: Sumpf.\nWird zu: Flaches Wasser.\nDu erhältst: Erde (5x).</Terraform_Marsh-WaterShallow.description>
+
+	<Terraform_WaterDeep-WaterShallow.label>Tiefes Wasser zu Flaches Wasser</Terraform_WaterDeep-WaterShallow.label>
+	<Terraform_WaterDeep-WaterShallow.description>Verwende auf: Tiefes Wasser.\nWird zu: Flaches Wasser.</Terraform_WaterDeep-WaterShallow.description>
+
+	<Terraform_Ice-WaterShallow.label>Eis zu Flaches Wasser</Terraform_Ice-WaterShallow.label>
+	<Terraform_Ice-WaterShallow.description>Verwende auf: Eis.\nWird zu: Flaches Wasser.</Terraform_Ice-WaterShallow.description>
+
+	<Terraform_WaterShallow-WaterDeep.label>Flaches Wasser zu Tiefes Wasser</Terraform_WaterShallow-WaterDeep.label>
+	<Terraform_WaterShallow-WaterDeep.description>Verwende auf: Flaches Wasser.\nWird zu: Tiefes Wasser.\nDu erhältst: Erde (10x).\n\nWichtig: Tiefes Wasser ist unpassierbar: Karawanen, Besucher, Angreifer usw. können dich evtl. nicht mehr erreichen. Mit Vorsicht zu Genießen!</Terraform_WaterShallow-WaterDeep.description>
+
+	<Terraform_Stone-Topsoil.label>Glatter Boden zu Aufgeschüttete Erde</Terraform_Stone-Topsoil.label>
+	<Terraform_Stone-Topsoil.description>Verwende auf: Glatten Stein.\nWird zu: Erde.\n\nWichtig: Aufgeschüttete Erde kann mit der "Boden entfernen" Funktion wieder entfernt werden. Außerdem kann Aufgeschüttete Erde zwar gedüngt, aber nicht gepflügt werden.</Terraform_Stone-Topsoil.description>
+
+	<Terraform_Topsoil-DirtFert.label>Erde zu Gedüngter Erde</Terraform_Topsoil-DirtFert.label>
+	<Terraform_Topsoil-DirtFert.description>Verwende auf: Erde.\nWird zu: Gedüngte Erde.\n\nWichtig: Gedüngte Erde kann mit der "Boden entfernen" Funktion wieder entfernt werden.</Terraform_Topsoil-DirtFert.description>
+
+	<Terraform_SoilF-SoilRich.label>Moosüberzogene Erde/Erde zu Fruchtbare Erde</Terraform_SoilF-SoilRich.label>
+	<Terraform_SoilF-SoilRich.description>Verwende auf: Erde oder Moosüberzogene Erde.\nWird zu: Fruchtbare Erde.</Terraform_SoilF-SoilRich.description>
+	
+	<Terraform_SoilRich-SoilTilled.label>Fruchtbarer Boden zu Gepflügte Erde</Terraform_SoilRich-SoilTilled.label>
+	<Terraform_SoilRich-SoilTilled.description>Verwende auf: Fruchtbaren Boden.\nWird zu: Gepflügte Erde.\n\nWichtig: Gepflügte Erde kann mit der "Boden entfernen" Funktion wieder entfernt werden.</Terraform_SoilRich-SoilTilled.description>
+
+	<CompostBin.label>Komposter</CompostBin.label>
+	<CompostBin.description>Ein Behälter, in dem Rohompost nach Dreieinhalb Tagen zu Kompost (1x) wird. Er ist Hässlich und Stinkt fürchterlich.\nWichtig: Muss nicht befüllt werden, Zersetzung beginnt direkt nach dem Bau.</CompostBin.description>
+
+	<CompostBarrel.label>Kompostfass</CompostBarrel.label>
+	<CompostBarrel.description>Ein Kompostfass das Rohkompost (10x) in Kompost (10x) verwandelt. Funktioniert wie ein Fermentier Fass, benötigt allerdings Strom.</CompostBarrel.description>
+
+	<!-- Items (Resources) -->
+	
+	<RawCompost.label>Rohkompost</RawCompost.label>
+	<RawCompost.description>Eine Mischung aus (verdorbenen) Nahrungsmitteln. Ekelhaft, aber nützlich um daraus Kompost herzustellen.</RawCompost.description>
+
+	<Fertilizer.label>Kompost</Fertilizer.label>
+	<Fertilizer.description>Kompost macht den Boden Fruchtbarer, um das Wachstum der Pflanzen zu beschleunigen.</Fertilizer.description>
+
+	<CrushedRocks.label>Grobe Steine</CrushedRocks.label>
+	<CrushedRocks.description>Gesteinsbrocken die zu grobkörnigem Sand zertrümmert wurden.</CrushedRocks.description>
+
+	<PileofDirt.label>Erde</PileofDirt.label>
+	<PileofDirt.description>Einfache Erde gestapelt zu einem Haufen.</PileofDirt.description>
+
+	<SandPile.label>Sand</SandPile.label>
+	<SandPile.description>Sand gestapelt zu einem Haufen. Stammt womöglich aus der Wüste oder von einem Strand.</SandPile.description>
+
+	<RFFClay.label>Lehm</RFFClay.label>
+	<RFFClay.description>Lehm. Könnte geformt und gebrannt werden um Ziegel herzustellen oder mit Sand und Kompost gemischt werden um fruchtbare Erde herzustellen.</RFFClay.description>
+		
+	<RottedMush.label>Verrotteter Brei</RottedMush.label>
+	<RottedMush.description>Was auch immer das war, es ist jetzt nur noch ein ekelhafter Haufen Brei. Nützlich für die Herstellung von Kompost, für mehr aber auch nicht.</RottedMush.description>
+
+	<RFFBricks.label>Ziegel</RFFBricks.label>
+	<RFFBricks.description>Klassische Ziegelsteine aus gebranntem Ton.</RFFBricks.description>
+		
+</LanguageData>

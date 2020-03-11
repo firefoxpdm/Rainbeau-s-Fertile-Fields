@@ -1,0 +1,87 @@
+<Defs>
+
+	<TerrainAffordanceDef>
+		<defName>RFF_Gravel</defName>
+		<label>rff gravel</label>
+		<order>2500</order>
+	</TerrainAffordanceDef>
+
+	<TerrainAffordanceDef>
+		<defName>RFF_Ice</defName>
+		<label>rff ice</label>
+		<order>2500</order>
+	</TerrainAffordanceDef>
+
+	<TerrainAffordanceDef>
+		<defName>RFF_Marsh</defName>
+		<label>rff marsh</label>
+		<order>2500</order>
+	</TerrainAffordanceDef>
+
+	<TerrainAffordanceDef>
+		<defName>RFF_SoilMarshy</defName>
+		<label>rff marshy soil</label>
+		<order>2500</order>
+	</TerrainAffordanceDef>
+
+	<TerrainAffordanceDef>
+		<defName>RFF_SoilFd</defName>
+		<label>rff fertile soil (downgradable)</label>
+		<order>2500</order>
+	</TerrainAffordanceDef>
+
+	<TerrainAffordanceDef>
+		<defName>RFF_SoilFu</defName>
+		<label>rff fertile soil (upgradeable)</label>
+		<order>2500</order>
+	</TerrainAffordanceDef>
+
+	<TerrainAffordanceDef>
+		<defName>RFF_SoilRich</defName>
+		<label>rff rich soil</label>
+		<order>2500</order>
+	</TerrainAffordanceDef>
+
+	<TerrainAffordanceDef>
+		<defName>RFF_Mud</defName>
+		<label>rff mud</label>
+		<order>2500</order>
+	</TerrainAffordanceDef>
+
+	<TerrainAffordanceDef>
+		<defName>RFF_PackedDirt</defName>
+		<label>rff packed dirt</label>
+		<order>2500</order>
+	</TerrainAffordanceDef>
+
+	<TerrainAffordanceDef>
+		<defName>RFF_RockyDirt</defName>
+		<label>rff rocky soil</label>
+		<order>2500</order>
+	</TerrainAffordanceDef>
+
+	<TerrainAffordanceDef>
+		<defName>RFF_Sand</defName>
+		<label>rff sand</label>
+		<order>2500</order>
+	</TerrainAffordanceDef>
+
+	<TerrainAffordanceDef>
+		<defName>RFF_Topsoil</defName>
+		<label>rff topsoil</label>
+		<order>2500</order>
+	</TerrainAffordanceDef>
+
+	<TerrainAffordanceDef>
+		<defName>RFF_WaterDeep</defName>
+		<label>rff deep water</label>
+		<order>2500</order>
+	</TerrainAffordanceDef>
+
+	<TerrainAffordanceDef>
+		<defName>RFF_WaterShallow</defName>
+		<label>rff shallow water</label>
+		<order>2500</order>
+	</TerrainAffordanceDef>
+
+</Defs>

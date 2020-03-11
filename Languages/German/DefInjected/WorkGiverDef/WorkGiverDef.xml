@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<FillCompostBarrel.label>Fülle Kompostfass.</FillCompostBarrel.label>
+	<FillCompostBarrel.verb>befülle</FillCompostBarrel.verb>
+	<FillCompostBarrel.gerund>fülle</FillCompostBarrel.gerund>
+
+	<EmptyCompostBarrel.label>Nimm Kompost aus Kompostfass.</EmptyCompostBarrel.label>
+	<EmptyCompostBarrel.verb>Nimm Kompost</EmptyCompostBarrel.verb>
+	<EmptyCompostBarrel.gerund>Nimm Kompost aus</EmptyCompostBarrel.gerund>
+
+	<DoBillsUseRockMill.label>do bills at Steinmühle</DoBillsUseRockMill.label>
+	<DoBillsUseRockMill.verb>mahle</DoBillsUseRockMill.verb>
+	<DoBillsUseRockMill.gerund>Mahle Steine an</DoBillsUseRockMill.gerund>
+
+</LanguageData>

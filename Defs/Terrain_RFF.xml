@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<TerrainDef>
+		<defName>BrickFloor</defName>
+		<label>brick floor</label>
+		<costList>
+			<RFFBricks>3</RFFBricks>
+		</costList>
+		<renderPrecedence>220</renderPrecedence>
+		<description>Clay bricks laid out to make a nice flooring.</description>
+		<texturePath>Stuff/RFF_TileBricks</texturePath>
+		<statBases>
+			<WorkToBuild>400</WorkToBuild>
+			<Beauty>1</Beauty>
+		</statBases>
+		<layerable>true</layerable>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<!--<li>SmoothHard</li>-->
+		</affordances>
+		<designationCategory>Floors</designationCategory>
+		<fertility>0</fertility>
+		<constructEffect>ConstructDirt</constructEffect>
+		<acceptTerrainSourceFilth>True</acceptTerrainSourceFilth>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	</TerrainDef>
+
+	<TerrainDef>
+		<defName>HBBrickFloor</defName>
+		<label>herringbone brick floor</label>
+		<costList>
+			<RFFBricks>4</RFFBricks>
+		</costList>
+		<renderPrecedence>220</renderPrecedence>
+		<description>Clay bricks laid out in a fancy herringbone pattern. A bit more work than a standard brick floor, but also a bit more attractive.</description>
+		<texturePath>Stuff/RFF_HerringboneBricks</texturePath>
+		<statBases>
+			<WorkToBuild>600</WorkToBuild>
+			<Beauty>2</Beauty>
+		</statBases>
+		<layerable>true</layerable>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<!--<li>SmoothHard</li>-->
+		</affordances>
+		<designationCategory>Floors</designationCategory>
+		<fertility>0</fertility>
+		<constructEffect>ConstructDirt</constructEffect>
+		<acceptTerrainSourceFilth>True</acceptTerrainSourceFilth>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	</TerrainDef>
+	
+	<TerrainDef>
+		<defName>RockySoil</defName>
+		<label>rough gravel</label>
+		<texturePath>Stuff/RFF_RockyDirt</texturePath>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>320</renderPrecedence>
+		<pathCost>2</pathCost>
+		<statBases>
+			<Beauty>-1</Beauty>
+			<Cleanliness>-1</Cleanliness>
+		</statBases>
+		<scatterType>Rocky</scatterType>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>GrowSoil</li>
+			<li>Diggable</li>
+			<li>RFF_RockyDirt</li>
+		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<fertility>0.2</fertility>
+		<takeFootprints>True</takeFootprints> 
+	</TerrainDef>
+
+	<TerrainDef>
+		<defName>Topsoil</defName>
+		<label>topsoil</label>
+		<texturePath>Terrain/Surfaces/Soil</texturePath>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>340</renderPrecedence>
+		<pathCost>2</pathCost>
+		<layerable>true</layerable>
+		<statBases>
+			<Beauty>-1</Beauty>
+		</statBases>
+		<scatterType>Rocky</scatterType>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>GrowSoil</li>
+			<li>Diggable</li>
+			<li>RFF_Topsoil</li>
+		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<fertility>1.0</fertility>
+		<takeFootprints>True</takeFootprints>
+	</TerrainDef>
+
+	<TerrainDef>
+		<defName>DirtFert</defName>
+		<label>fertilized topsoil</label>
+		<texturePath>Terrain/Surfaces/SoilRich</texturePath>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>335</renderPrecedence>
+		<pathCost>2</pathCost>
+		<layerable>true</layerable>
+		<statBases>
+			<Beauty>-1</Beauty>
+			<WorkToBuild>250</WorkToBuild>
+		</statBases>
+		<scatterType></scatterType>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>GrowSoil</li>
+			<li>Diggable</li>
+		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<fertility>1.4</fertility>
+		<takeFootprints>True</takeFootprints>
+	</TerrainDef>
+
+	<TerrainDef>
+		<defName>SoilTilled</defName>
+		<label>plowed soil</label>
+		<texturePath>Stuff/RFF_SoilTilled</texturePath>
+		<edgeType>FadeRough</edgeType>
+		<renderPrecedence>333</renderPrecedence>
+		<pathCost>5</pathCost>
+		<layerable>true</layerable>
+		<statBases>
+			<Beauty>0</Beauty>
+			<WorkToBuild>500</WorkToBuild>
+		</statBases>
+		<scatterType></scatterType>
+		<affordances>
+			<li>Light</li>
+			<li>Medium</li>
+			<li>Heavy</li>
+			<li>GrowSoil</li>
+			<li>Diggable</li>
+		</affordances>
+		<generatedFilth>Filth_Dirt</generatedFilth>
+		<fertility>1.8</fertility>
+		<takeFootprints>True</takeFootprints>
+		<avoidWander>true</avoidWander>
+	</TerrainDef>
+
+</Defs>

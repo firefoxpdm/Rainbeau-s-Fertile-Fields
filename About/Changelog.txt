@@ -1,0 +1,620 @@
+---------------------------------------------------------------------------------
+  Changelog for "Rainbeau's Fertile Fields"
+---------------------------------------------------------------------------------
+
+- 12/05/2018
+	- Plant scraps can now be used in silage and bulk kibble recipes added by
+	  "Vegetable Garden," if that mod is in use.
+	- Rewrote XML patches to improve load efficiency slightly.
+
+- 12/02/2018
+	- Plant scraps now stack to 200, like hay, instead of just to 75, and are
+	  once again categorized (for stockpile purposes) as food, as they can be 
+	  used to feed animals.
+	- Plant scraps, like hay, can now be used in the kibble recipe.
+	- The options menu toggle to determine if plant scraps drop has been replaced
+	  with a slider to determine how *much* scrap drops.
+	- Sand piles no longer deteriorate if outside.
+	- Plant cutting, just like harvesting, can now result in soil degradation.
+	- Placement of moving or still water near rivers as new water tiles are
+	  created is better than it was, but can still result in "glitchy" graphics
+	  at the interface between the two. I'll continue trying to improve it.
+
+- 11/04/2018
+    - Patched for compatibility with yet another "VGP Garden Tools" update.
+	
+- 11/04/2018
+	- Rock mills and compost barrels are now minifiable and movable.
+	- Rock mills, like other work benches, now benefit from tool cabinets.
+	
+- 11/03/2018
+	- Whether degraded plowed tiles, degraded rich soil tiles, and compost bins
+	  leave behind blueprints are now three separate configuration options.
+	- Doubled the mass of plant scraps. This will make them more efficient as
+	  compost ingredients. (You'll need only five to create a pile of compost,
+	  rather than 10.)
+	- Harvesting plants now yields plant scraps, though not as large a quantity
+	  as does plant cutting.
+	- Sandbags (both regular and heavy) are now minifiable and movable.
+	- The rock mill now only requires Electricity (rather than both Electricity
+	  and Terraforming) to be researched. This change allows the rock mill to be
+	  added to my "Concrete" mod for independent use.
+	- It's now possible to create normal stone blocks at the rock mill, faster
+	  and more efficiently than at a stonecutting table. (I should have thought
+	  to add this long ago.)
+	- Added patches so that glass from "Glass+Lights" and "Dub's Skylights"
+	  is actually made from sand.
+
+- 10/29/2019
+	- Removed a stray line in the code, left over from my testing yesterday, that
+	  was generating unnecessary entries in the game's log file.
+	  
+- 10/28/2018
+	- The amount of scrap a particular plant will drop is now influenced by the
+	  plant's growth amount, so you'll no longer be able to plant things and
+	  immediately cut them down to quickly build up a large plant scrap supply.
+	- Added a configuration option to determine whether plants actually drop
+	  scraps at all.
+	- Made a few adjustments to the ordering of items on the "Terraform" tab, in
+	  order to prevent transformations which require research from incorrectly
+	  showing up before the prerequisite research is actually complete.
+	- Compost barrels now have a higher capacity, and can convert up to 30 piles
+	  of compost (instead of just 10) into fertilizer per run.
+	- Similarly, compost bins now require three piles of compost, instead of just
+	  one, and yield three piles of fertilizer.
+	- Compost bins will now leave behind blueprints for new compost bins, if the
+	  "auto-refertilize" setting in the options menu is checked.
+	- Compost recipe requirements are now based on total mass rather than total
+	  nutritional value.
+	- Rotted mush no longer has a nutritional value, so even pigs should no 
+	  longer eat it (and make themselves sick as a result).
+	- Rotted mush can still deteriorate, but will no longer "rot," so you'll no
+	  longer have rotted mush rotting into... more rotted mush.
+	- Plant scraps are now categorized (for stockpile purposes) as plant matter
+	  rather than as food, and rotted mush is now categorized simply as a generic
+	  raw resource.
+	- It is now possible to allow the use of kibble and/or pemmican in the 
+	  production of compost, though those ingredients will not be allowed by
+	  default.
+	  
+- 10/27/2018
+	- Restructured the "Terraform" tab of the Architect menu to take advantage of
+	  vanilla's new "designator drop-down" groupings.
+	- Fixed the bug that sometimes had plowed soil degrading directly to normal
+	  soil. Hopefully, also fixed the bug that sometimes had degraded plowed soil
+	  not leaving behind a blueprint when it should have.
+	- Soil degradation will now leave behind blueprints only in growing zones,
+	  rather than all over the map.
+	- Fixed a new incompatibility created by an update to "VGP Garden Tools."
+	
+- 10/20/2018
+	- "Fertile Fields" and "VGP Garden Tools" once again play nicely together.
+	- Water from "No Water, No Life" should no longer rot into mush.
+	
+- 10/14/2018
+	- Tweaked the "from ice" transformations to better handle modded biomes that
+	  happen to contain ice.
+	  
+- 10/14/2018
+	- Updated to RimWorld 1.0 release!
+	- Rotted mush is now forbidden only if it appears outside of your home area.
+	- Grass and wildflowers now produce less plant scrap than other plants.
+	- Updated some of the mod's graphics (primarily to utilize StackCounts).
+	
+- 10/13/2018
+	- Cut plants (including blighted plants) can now yield "plant scraps," which
+	  can be used in composting.
+	- Pawns will now haul fertilizer to tiles designated to be improved to rich
+	  or plowed soil, even if they're not assigned to plant work, just as pawns
+	  will haul materials to blueprints, even if not assigned to construction.
+	- Cremating a corpse in a crematorium now yields 5 compost instead of 4, and
+	  cremating in a campfire yields 4 compost instead of 2.
+	- When items rot, the rotted mush that results is now forbidden, to prevent
+	  pawns from running all over the map collecting... well, mush.
+	  
+- 10/10/2018
+	- The chance of plowed soil degrading to rich soil when crops are harvested
+	  is now a configuration option (default 100%).
+	- An additional configuration option determines the chance of rich soil
+	  degrading to normal soil when crops are harvested (default 50%).
+	- When a soil tile degrades due to crop harvesting, it will by default be
+	  flagged automatically for replowing/refertilizing before new any new crops
+	  are planted. However, this behavior is also configurable, and can be turned
+	  off (for example, if you're low on fertilizer and don't want farms tiles
+	  sitting idle).
+	- Topsoil can now be laid over ice as well as over smooth stone. This will
+	  provide a potentially important new option for farming on ice sheet and sea
+	  ice maps, especially if playing in the mod's new "hard mode."
+	- Added a "Hard Mode" configuration option which disables the less realistic
+	  terrain transformations (removing ice from ice sheet or sea ice maps, 
+	  creating mud, marsh or marshy soil on those same maps, and creating or
+	  removing deep ocean water on any map).
+
+- 10/09/2018
+	- Plowed soil now degrades to rich soil when crops are harvested, rather than
+	  as a random time-based function.
+	  
+- 10/08/2018
+	- Plowed soil on which no plants are growing will, in time, degrade back to
+	  rich soil. The practical upshot of this change is that fields will likely
+	  need to be replowed at the beginning of each growing season.
+	- Basic sandbags once again have a (minimal) cloth cost.
+	- It is now possible to build doors, vents and the like over brick walls,
+	  just as you can over vanilla walls.
+	- Herringbone brick floors now require 4 bricks instead of 3, in addition to
+	  requiring more work than regular brick floors, in order to better balance
+	  their beauty advantage.
+	- Brick floors can no longer be built on terrain (primarily soft sand) that
+	  won't support vanilla floors.
+	- Converting terrain other than ice to shallow water on an ice sheet map no
+	  longer has a chance of resulting in stony soil.
+	  
+- 09/24/2018
+	- Fixed a minor bug in water terrain patching.
+	
+- 09/23/2018
+	- Updated to RimWorld b19 release.
+	- Renamed "rocky dirt" to "rough gravel," since it's a better description of
+	  what the terrain is supposed to be, and since vanilla gravel is now called
+	  "stony soil." It's still an important terraforming step between solid stone
+	  and farmable terrain types, but it no longer generates naturally on maps.
+	- Eliminated custom graphics for soil and rich soil.
+	- Basic sandbags are now constructed from sand and steel instead of sand and
+	  cloth, to appease those who feel the cloth cost was too restrictive in the
+	  early game. Note that the steel cost is 2, as opposed to vanilla's 5.
+	- Heavy sandbags now also require steel, but use less leather than before.
+	- Both types of sandbags once again require regular sand piles instead of
+	  "mini" sand piles. The latter no longer exist in the mod.
+	- Updated the version of the Harmony library the mod uses.
+	- Removed "Mod Sync Ninja" files.
+
+- 01/20/2018
+	- Hot and cold springs from "Nature's Pretty Sweet" can now be transformed
+	  using any terraforming job that works on shallow water. That mod's various
+	  "wet" sand and soil terrains can also now be transformed using the obvious
+	  appropriate terraforming jobs.
+	- The various "rocky soil" terrains found on "Biomes!" cavern maps can now
+	  be transformed using any terraforming job that works on regular rocky
+	  dirt.
+	  
+- 01/20/2018
+	- Compost barrels now consume less power, and shouldn't short-circuit in the
+	  rain, meaning you can actually place them outside, where they logically 
+	  belong.
+	- Crushed rocks now stack to 25 instead of just 5.
+	- The "ice to shallow water" transformation has been replaced with a "remove
+	  ice" transformation, which will yield shallow water on "sea ice" maps, and
+	  either shallow water or gravel on "ice sheet" maps.
+	- Converting ice to shallow water will no longer leave snow somehow sitting
+	  on top of the water.
+	- Sand piles can now be split into small piles (or three small piles can be
+	  recombined into one regular pile) in essentially no time at all at a rock
+	  mill, stonecutting table or crafting spot.
+	- Sandbags now require small sand piles instead of regular sand piles, so
+	  that you can make three times as many bags with the same amount of sand.
+	  Hopefully, this will finally satisfy those who still complain about how
+	  difficult the mod supposedly makes sandbag production.
+
+- 01/08/2018
+	- FIRST ANNIVERSARY UPDATE! "Fertile Fields" is now a year old!
+	- The mod now finally works again with Fluffy's "Architect Sense," as it's
+	  supposed to.
+	- The transformations in the rocky dirt - sand - gravel - soil sequence have
+	  been adjusted so they make a bit more sense and to correct some imbalances.
+	- Transformation of ice to shallow water is no longer possible on ice sheet
+	  maps, but only on sea ice maps.
+	- Transforming sand to shallow water no longer has a research prerequisite.
+	- Switching between shallow water and sand now requires (or provides) both
+	  sand and crushed rocks.
+	- The market values of sand, dirt, crushed rocks and clay have been doubled,
+	  and the time required to create them has been cut to a quarter of what it
+	  was before, to try to better balance the cost of buying supplies against
+	  the work requirements of making them.
+	- The market value of fertilizer has been increased from 1.5 to 6.
+	- Fertilizer is no longer required for any "Terraform" transformations, but
+	  only for "Farming" transformations.
+	- Fertilizer has, however, been added as a requirement for turning rich soil
+	  into plowed soil. (It may not make much sense from a "realism" perspective
+	  to require fertilizer for plowing, but it works for game balance.)
+	- Failure chance for "Farming" jobs (creating rich soil, plowing soil, etc.)
+	  is now linked to a pawn's Growing skill rather than to Construction skill.
+	- Added Russian language translation files provided by fox_kirya.
+
+- 12/04/2017
+	- The mod now works with the "Mod Sync Ninja" updater.
+
+- 11/24/2017
+	- Minor update to accommodate my "Concrete" mod's new independence.
+
+- 11/23/2017
+	- It's now possible to make crushed rocks from stone blocks as well as from
+	  stone chunks.
+	- Crushed rocks, dirt, sand and clay are now heavier, and have lower stack
+	  limits.
+	- Dirt and clay no longer deteriorate noticeably when left outside. Piles of
+	  sand still deteriorate, but more slowly than before.
+	- Skeletons should no longer turn to rotted mush, preventing your pawns from
+	  running all over the map collecting the stuff.
+	- Added icons for use with the "Architect Icons" mod.
+	- Updated Korean and German language files.
+	- Added French translation files provided by Steam user Redstylt.
+
+- 11/19/2017
+	- Growers not assigned to construction will no longer haul materials to
+	  construction blueprints. Similarly, pawns assigned to construction but not
+	  to growing will no longer haul materials to growing-based terraforming
+	  blueprints.
+
+- 11/18/2017
+	- Updated "Vegetable Garden" compatibility.
+	- Fixed the bug where multiple pawns would try to reserve the same
+	  terraforming job and generate error messages.
+	- Added Korean translation files provided by Ludeon forums user NEPH.
+
+- 11/15/2017
+	- Updated to RimWorld b18 release.
+	- Got rid of "rotted meat." Meat and vegetables alike now just deteriorate
+	  into "rotted mush."
+	- For simplicity's sake, compost no longer requires both meat and vegetable
+	  products. You can use just one or the other, or both in combination.
+	- Removed the "rotted material only" compost recipes, since if a player
+	  prefers to use only rotted material, it's possible to simply limit the 
+	  regular compost recipes to accept only "rotted mush" as an ingredient.
+	- It is once again possible to make dirt at a rock mill as well as at a
+	  crafting spot.
+	- Terrain transformations on the "Terraform" menu now consistently provide
+	  Construction experience, regardless of whether materials are needed.
+	- Terrain transformations on the "Farming" menu are now all Growing (plant
+	  work) jobs, and provide Growing experience.
+	- The ice to shallow water transformation no longer requires Terraforming.
+	  It doesn't really take much research to figure out how to cut a hole in
+	  the ice, after all.
+	- Reduced or eliminated the need for fertilizer in a number of terrain
+	  transformations.
+
+- 08/22/2017
+	- Added the ability to terraform custom terrains from the "Crashlanding,"
+	  "Quarry" and "Tiberium Rim" mods.
+	- It is now possible to make crushed rocks from stone chunks, and sand from
+	  crushed rocks, at a stonecutting table, though doing so is of course much
+	  slower than at a rock mill.
+
+- 08/05/2017
+	- It is now possible to extract sand and clay from dirt at a rock mill as
+	  well as at a crafting spot. Maybe now people will remember that the recipe
+	  exists. ;)
+	- It is now possible, as well, to convert dirt directly to clay at either a
+	  crafting spot or a rock mill. The yield is lower than if you first split
+	  the dirt into sand and clay and then as a separate step grind the sand into
+	  more clay, but the recipe allows for automation of bulk clay production.
+	- It is possible to fire bricks in a smelter, now, with a small gain in speed
+	  as compared to firing them in a smithy.
+	- Creating compost now utilizes the cooking skill, consistent with the fact
+	  that it falls under the Cooking work type.
+
+- 07/29/2017
+	- Mud is now an optional step between soil and marshy soil; both of those 
+	  terrains can be converted to mud, and mud can be converted to either of
+	  them.
+	- It is now possible to convert marsh directly to soil, instead of having to
+	  do it with marshy soil as an intermediate step.
+	- Added a herringbone pattern brick floor for a bit of variety.
+	- Replaced the code-based deletion of VG items with XML patches. On the down
+	  side, if you're using "Vegetable Garden," your log file will now be spammed
+	  when you load the game with yellow "def-linked translation error" warning
+	  messages. On the up side, the VG items I want deleted should now actually
+	  stay deleted.
+
+- 07/25/2017
+	- There are now two types of sandbags. Standard sandbags are made with cloth
+	  and sand, while heavy sandbags are more durable, and are made with leather
+	  instead of cloth.
+	- Corrected a stupid mistake that was causing all rock chunks created by
+	  stone to rocky dirt terraform actions to be granite.
+
+- 07/24/2017
+	- Sandbags now require less cloth (10 instead of 50), and can be constructed
+	  with leather if cloth's not available.
+	- Sandbags can now be minified and moved. Which makes sense, since sandbags
+	  are by definition not "permanent" fixtures.
+	- Most non-wall items that can be built from stone blocks can now again be
+	  built from bricks, as well.
+
+- 07/22/2017
+	- The "cremate for compost" recipe again allows animal corpses to be used,
+	  but requires a minimum total mass of 50 kg, so a single squirrel corpse,
+	  for example, can't be cremated for the same yield as a human corpse.
+
+- 07/21/2017
+	- Sandbags are now made from sand and cloth instead of from steel.
+	- It is now possible to convert ice to shallow water.
+	- Brick walls and floors now have unique textures with white mortar, so they
+	  actually look more like real brick walls. The color has also been "toned
+	  down" a bit. (Note that brick walls constructed prior to this upgrade will
+	  retain the old, standard block wall texture.)
+	- Brick walls and floors now cost slightly less to build than their stone
+	  block counterparts, both in terms of resources and in terms of effort.
+	- The recipe to cremate a corpse for compost now actually defaults to allow
+	  humanlike (and only humanlike) corpses to be used, as it should have all
+	  along.
+	- The compost yield from cremating corpses has been cut about in half.
+	- The mod's custom soil and rich soil textures are now less overpoweringly
+	  reddish in color.
+	- Dirt, fertilizer, compost and sand piles now deteriorate more slowly.
+	- If Fluffy's "ArchitectSense" mod is installed, the Terraform menu will be
+	  more compact and easier to navigate, utilizing submenus. Otherwise, the
+	  Terraform menu will be unchanged from the previous version.
+	- The mod now treats the packed dirt terrain added by "TropiCKAPP" (a
+	  rainforest mod) exactly the same as it treats vanilla packed dirt.
+	- If Dub's "Hygiene" mod is in use, "night soil" can be terraformed with the
+	  same options that can terraform marshy soil.
+	- The code related to terraforming has been streamlined, as per suggestions
+	  made by NotFood. As a side effect, terraforming functions are now fully
+	  configurable from within the XML defs of the relevant "buildings."
+	- Finally replaced the detour of the CompRottable method with a Harmony
+	  patch. Thanks again to NotFood for showing me how!
+	- Added German language translation files provided by Ryder32x.
+
+- 06/18/2017
+	- Added clay to the mod. Clay can be gained by extracting it from dirt (which
+	  actually provides both clay and sand), or by further grinding sand at a
+	  rock mill.
+	- Creating dirt now requires sand and clay instead of sand and crushed rocks.
+	- Creation of dirt (and extraction of sand and clay from dirt) is now done at
+	  a crafting spot rather than at a rock mill. Rock mills are for grinding
+	  things.
+	- Clay can be baked into bricks in a smithy, which can then be used to make
+	  walls and other items which can be constructed from stone blocks.
+	- Added the ability to convert soil to packed dirt.
+	- Sand can now be converted to shallow water if it's near existing water,
+	  even if it isn't directly adjacent to water.
+	- Terraforming resources (dirt, sand, and crushed rocks) are again available
+	  from bulk traders, but hopefully only at more reasonable quantities.
+	- Terraforming resources might also be available from visitors, though in
+	  substantially smaller quantities than from bulk traders.
+
+- 06/11/2017
+	- Got the pesky "fertilizer machine" to finally leave the Production menu.
+	  The interfacing between "Fertile Fields" and "Vegetable Garden" is finally
+	  now working completely, 100% as intended. Seriously. I promise!
+
+- 06/06/2017
+	- Compost barrel "inspect strings" should no longer generate errors when the
+	  temperature is extreme.
+	- XML defs no longer try to inherit from core abstracts. (It probably wasn't
+	  creating any problems, anyway, but it's better this way.)
+	- Further tweaked "Vegetable Garden" interfacing and XML patches.
+
+- 06/04/2017
+	- Converting sand to shallow water will now leave behind piles of sand, as
+	  it's supposed to.
+	- You should no longer be pestered by error messages informing you that the
+	  game tried to place a rotted item on a null map.
+	- Rotted meat and mush are now recognized by the game (for filter purposes,
+	  primarily) as rotted items.
+	- The default soil and rich soil graphics can now be found in the mod's
+	  "Textures" folder. If you prefer the vanilla look, simply rename Soil.png
+	  and SoilRich.png to replace RFF_Soil.png and RFF_SoilRich.png.
+	- Cleaned up some behind-the-scenes mistakes I made in updating to a17. These
+	  changes will, unfortunately, break saves. I apologize. 
+	- Added "[RF]" prefix tag to the mod's name for easier mod list sorting.
+
+- 05/30/2017
+	- Rock mills can actually be used now.
+	- The "make dirt" recipe is now named "make dirt x2," as it actually produces
+	  two piles of dirt. Similarly, the "make dirt x5" recipe has been renamed
+	  "make dirt x10."
+	- Cleaned up the patch XML a bit.
+	- Cleaned up a few spots where the interface with "Vegetable Garden" wasn't
+	  as neat as it should have been, and got rid of a few annoying (but
+	  inconsequential) error messages that were being generated.
+
+- 05/29/2017
+	- Updated to RimWorld alpha 17.
+	- It is now possible to convert bodies to compost in a crematorium.
+	- Crushing rocks, creating dirt, and similar activities are now done at a
+	  rock mill rather than at a stonecutting table. Rock mills can be built once
+	  "Terraforming" has been researched, and require electricity.
+	- The new packed dirt "road" terrain can be broken up to form soil.
+	- Added "pile of sand" as a resource. Sand can be obtained from beaches or
+	  deserts, or by further crushing crushed rocks.
+	- Digging up gravel now yields both crushed rocks and dirt.
+	- Creating dirt now requires both crushed rocks and sand, in addition to
+	  fertilizer.
+	- Added "bulk" recipes for dirt, sand and crushed rock creation.
+	- Added the ability to convert between sand and shallow water at beaches.
+	- Piles of dirt, sand, compost or fertilizer will now deteriorate if left
+	  outside.
+	- Building hydroponics basins now requires fertilizer as well as steel and
+	  components.
+	- Simplified the research tree to just two research projects: "Farming"
+	  (which allows plowing and laying topsoil) and "Terraforming" (which, of
+	  course, allows bulk terrain restructuring).
+	- Split the "Terraform" tab of the architect menu into two tabs, "Terraform"
+	  and "Farming."
+ 	- Redesigned the UI icons for terrain changes.
+	- Some defNames have been changed, primarily to allow RFF terraforming to
+	  cleanly replace "Vegetable Garden" terraforming, if the two mods are used
+	  together.
+	- Compost barrels finally actually require power as they were supposed to
+	  from the beginning. Without power, they will still function, but less
+	  efficiently than compost bins.
+	- Traders may still buy or sell fertilizer, but they'll no longer fill up
+	  their wagons or cargo holds with huge quantities of dirt, compost, and the
+	  like.
+	- Overrides of vanilla terrain defs now utilize XML patches, which should
+	  reduce incompatibility issues with other mods.
+	- Got rid of mid-depth water, as it really served no purpose.
+	- Got rid of the mod's distinction between fresh and salt water, since the
+	  vanilla game now defines fresh water, river water and ocean water
+	  separately, anyway.
+ 
+- 04/23/2017
+	- The mod now uses the Harmony library instead of detouring core methods.
+	  Partly. I haven't yet figured out how to handle rotting items without an
+	  actual code detour. And map generation methods are still replaced, though
+	  technically it's not via detours, since XML files were just changed to
+	  point to different methods.
+
+- 04/16/2017
+	- Rough-hewn stone can now be converted to rocky soil without needing to be
+	  smoothed first.
+	- Stone chunks can now be broken up at a stonecutter's table into crushed
+	  rocks, which can be used to create piles of dirt or to recreate rough stone
+	  floor from rocky dirt.
+	- Yes, rocky dirt can now be converted back into rough stone flooring. (Don't
+	  ask how. Maybe you're gluing all the stones back together?)
+	- Converting soil to sand now yields two piles of dirt.
+	- Soil has been recolored slightly to better differentiate it from gravel and
+	  also to make the difference between regular and rich soil not quite so
+	  glaring.
+	- The recipe to make compost solely from rotted matter no longer cares what
+	  sort of rotted material you're using. (The regular compost recipe still
+	  requires both meat and vegetable matter.)
+	- I've added recipes allowing you to make five compost at the same time, to
+	  speed up bulk compost creation.
+	- Fresh and salt water are now defined separately. This is a completely
+	  invisible change if you're using "Fertile Fields" by itself, but will allow
+	  other mods that care about water types to know whether a water tile should
+	  be treated as ocean (salt) or lake (fresh) water.
+
+- 03/19/2017
+	- Compost has been renamed raw compost, and now requires both animal and
+	  vegetable matter for its creation. Required quantities are higher than
+	  before, equivalent to the amount used to make one and a half meals, and are
+	  now based on nutrition value rather than simple item count.
+	- Rottable organic material now eventually becomes "rotted meat" or "rotted
+	  mush" instead of just disappearing. Rotted material can be used in the
+	  creation of raw compost.
+	- Added a secondary raw compost recipe which uses only rotted material, for
+	  those who want to be able to set up a "forever" compost creation bill at
+	  the butcher's table that won't use up their supplies of actual food.
+	- Compost barrels can no longer be built until electricity has been
+	  researched, since they require power.
+	- Tilled soil has been renamed plowed soil. (The name of the tillage research
+	  hasn't been changed, though, as "tillage" is a general term which can refer
+	  to many sorts of soil agitation.)
+	- Both topsoil and fertilized topsoil, when removed with the "remove floor"
+	  command, now leave behind dirt, so you no longer lose the dirt originally 
+	  used to lay the topsoil just because you choose to fertilize it. But 
+	  neither leaves behind fertilizer that could be reused.
+
+- 03/10/2017
+	- Allowed for compatibility with non-vanilla stone types (when breaking up
+	  stone to create rocky dirt) from the "Minerals and Materials" and "Kura's
+	  Extra Minerals" mods.
+	- Added a "Getting Started" text file to the mod's "About" folder, for the
+	  benefit of those wanting a "how to" guide to using "Fertile Fields" for the
+	  first time.
+
+- 03/05/2017
+	- Fixed marshes so they can again be built on shallow water and mud.
+	- Made some adjustments to allow "Fertile Fields" and "Vegetable Garden" to
+	  coexist. But while they're mechanically compatible, they remain in some
+	  respects conceptually incompatible.
+
+- 02/25/2017
+	- Rocky dirt can now be constructed on either rough or smooth stone, costs a
+	  pile of dirt, and has a chance of yielding a chunk of the appropriate stone
+	  type.
+	- As a side effect of the above, it's no longer possible to construct rocky
+	  dirt on floors, which never should have been possible, anyway.
+	- Converting deep water to shallow water now costs dirt, and converting
+	  shallow to deep produces it.
+	- Made some "behind the scenes" adjustments to improve backward save
+	  compatibility and to prevent further usage of old terrain defs.
+
+- 02/21/2017
+	- Finally, belatedly, fixed the broken saves from the 02/04/2017 update.
+
+- 02/20/2017
+	- Removed plant cultivation into a separate mod, "Wild Cultivation."
+	- Deep water is now called impassable water, and breakwater, which is no
+	  longer impassable, is now deep water.
+	- It's now possible to create impassable water on the map, though I still
+	  think it's a terribly overpowered ability.
+	- Rocky soil is renamed rocky dirt, which better reflects the fact that it
+	  isn't really soil yet, but needs to be improved.
+	- Map generation has been modified so that all three water depths are
+	  generated on new maps, as is rocky dirt.
+	- The colors of the three water tiles have been adjusted, as has the color of
+	  rich soil, which now stands out better from regular soil.
+	- Dirt, compost and fertilizer now have higher (and much more reasonable)
+	  market values.
+	- Architect menu icons for terraforming options now explain more clearly and
+	  consistenty what they do.
+	- Added language localization file support.
+
+- 02/12/2017
+	- Dirt piles are now obtained by digging up soil, which converts the soil
+	  (depending upon how much dirt you get) either to gravel or to rocky soil.
+	- Deep water tiles can now be converted to breakwaters, using a lot of dirt 
+	  and a lot of effort. Breakwater tiles can be converted to shallow water
+	  tiles, just as can marsh tiles.
+	- Adjusted dirt/fertilizer requirements for a few terrain alterations.
+	- Compost bins now have a chance to return the wood used to create them, 
+	  once they're done converting compost to fertilizer.
+	- Renamed "advanced terrain reclamation" to "terraforming."
+	- Eliminated the old "infinite dirt" soil pits (but made sure this time that
+	  the change wouldn't break any saves).
+	- Gave up on trying to fix broken saves from last week's update. Sincere
+	  apologies for the inconvenience.
+
+- 02/07/2017
+	- Revised agave to make it less of a superplant.
+	- Hopefully fixed the issue with saves breaking after the previous update.
+
+- 02/04/2017
+	- Eliminated terrains that were functionally identical to vanilla terrains.
+	- Renamed the architect tab from "fertile fields" to "terraform."
+	- It's now possible to create shallow water tiles from marsh, sand from most
+	  any soil type, and rocky soil (a new terrain which can be further refined
+	  into gravel) from smooth stone, with Advanced Terrain Reclamation.
+	- Boosted tilled soil from 160% to 180% fertility.
+	- Compost bins can now be built in bulk over an area, not just in a line.
+	- Tilled soil no longer features random scattered rocks.
+	- It's now possible to plant agave, astragalus, grass, and both pincushion
+	  and saguaro cacti. No, this doesn't relate directly to the core point of
+	  the mod, but it's an idea I liked, and it didn't seem terribly out of 
+	  place here.
+
+- 01/29/2017
+	- Bug fix: shallow water tiles can now actually be reclaimed as soil.
+
+- 01/28/2017
+	- Added compost barrels as an alternative to compost bins.
+
+- 01/23/2017
+	- Hay can now be used in creation of compost.
+
+- 01/19/2017
+	- Topsoil can now be fertilized (but still can't be tilled).
+
+- 01/15/2017
+	- Topsoil is now removable, returning tiles to smooth stone.
+	- Soil pits and compost bins now impede movement through their tiles.
+	- Tillage now requires 140% fertility, preventing 100% to 160% jumps.
+	- Adv Terrain Reclamation now also allows creation of marshlike muck.
+
+- 01/14/2017
+	- Squashed a couple of bugs related to reclaimed soil.
+
+- 01/13/2017
+	- Fertilization of gravel or marshy soil to the fertility of regular soil,
+	  and fertilization of regular soil to the fertility of rich soil, are now
+	  separate processes.
+	- Gravel and marshy soil can't be tilled without first being fertilized.
+	- Tilling no longer requires fertilizer.
+
+- 01/12/2017
+	- Fixed minor bug. (Reclaimed soil wasn't requiring tech.)
+
+- 01/12/2017
+	- The recipe which originally made fertilizer now makes compost. 
+	- Added compost bins, which after a delay become fertilizer.
+	- Added advanced terrain reclamation research option and reclaimed soil.
+	- Gravelly soil was renamed topsoil, and its fertility was increased to 100%.
+	- It is no longer possible to fertilize or till topsoil.
+
+- 01/08/2017
+	- Initial release.

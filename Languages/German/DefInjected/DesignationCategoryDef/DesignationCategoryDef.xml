@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RFF_Adds.label>Terraforming</RFF_Adds.label>
+	<RFF_Adds.description>Umformung der Umgebung.</RFF_Adds.description>
+
+	<RFF_Farm.label>Landwirtschaft</RFF_Farm.label>
+	<RFF_Farm.description>Fortgeschrittene Landwirtschaft.</RFF_Farm.description>
+
+</LanguageData>

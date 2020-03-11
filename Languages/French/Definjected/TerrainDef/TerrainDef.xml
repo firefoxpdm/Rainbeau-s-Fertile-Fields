@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BrickFloor.label>Sol en brique</BrickFloor.label>
+	<BrickFloor.Description>Disposez des briques pour obtenir un bon sol.</BrickFloor.Description>
+
+	<HBBrickFloor.label>Sol en brique de chevrons</HBBrickFloor.label>
+	<HBBrickFloor.description>Briques d'argile disposées dans un motif fantaisie à chevrons. Un peu plus de travail qu'un sol en briques standard, mais aussi un peu plus attrayant.</HBBrickFloor.description>
+
+	<RockySoil.label>Gavier</RockySoil.label>
+
+	<Topsoil.label>Terre versée</Topsoil.label>
+
+	<DirtFert.label>Sol fertilisé</DirtFert.label>
+
+	<SoilTilled.label>Terre labourée</SoilTilled.label>
+
+</LanguageData>

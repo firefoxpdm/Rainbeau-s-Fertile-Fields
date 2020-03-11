@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- ===== PlaceWorker Errors ===== -->
+
+	<RFF.Unplaceable>Ne peut être placé sur {0}</RFF.Unplaceable>
+
+	<!-- ===== Mass-Based Recipes ===== -->
+
+	<RFF.BillRequires>Nécessite {0} kg </RFF.BillRequires>
+	
+	<!-- ===== Composting ===== -->
+
+	<RFF.Progress>Avancement:</RFF.Progress>
+	<RFF.NullMapHeld>a essayé d'obtenir une température de baril de compost mais MapHeld est nul.</RFF.NullMapHeld>
+	<RFF.FullOfFert>a essayé d'ajouter du compost brut au baril d'engrais plein. Les colons devraient d'abord retirer l'engrais.</RFF.FullOfFert>
+	<RFF.ContainsFert>Contient de l'engrais :</RFF.ContainsFert>
+	<RFF.ContainsComp>Contient du compost brut :</RFF.ContainsComp>
+	<RFF.Composted>Composté</RFF.Composted>
+	<RFF.CompProg>Avancement du compostage</RFF.CompProg>
+	<RFF.OutOfTemp>Baril de compost hors de la température idéale :</RFF.OutOfTemp>
+	<RFF.Temp>Température:</RFF.Temp>
+	<RFF.IdealTemp>Température idéale de compostage :</RFF.IdealTemp>
+	<RFF.NotReady>a essayé d'obtenir de l'engrais mais ce n'est pas encore prêt.</RFF.NotReady>
+	<RFF.BadTemp>Mauvaise température</RFF.BadTemp>
+	<RFF.NoComp>Ne contient pas de compost brut</RFF.NoComp>
+
+</LanguageData>

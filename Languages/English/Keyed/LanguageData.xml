@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<RFF.FertileFields>Rainbeau's Fertile Fields</RFF.FertileFields>
+
+	<!-- ===== PlaceWorker Errors ===== -->
+
+	<RFF.Unplaceable>Cannot place on {0}</RFF.Unplaceable>
+	<RFF.HardMode>Not allowed in "hard mode"</RFF.HardMode>
+	
+	<!-- ===== Mass-Based Recipes ===== -->
+
+	<RFF.BillRequires>Requires {0} kg </RFF.BillRequires>
+	
+	<!-- ===== Composting ===== -->
+
+	<RFF.Progress>Progress:</RFF.Progress>
+	<RFF.NullMapHeld>Tried to get a compost barrel temperature but MapHeld is null.</RFF.NullMapHeld>
+	<RFF.FullOfFert>Tried to add raw compost to barrel full of fertilizer. Colonists should take out the fertilizer first.</RFF.FullOfFert>
+	<RFF.ContainsFert>Contains fertilizer:</RFF.ContainsFert>
+	<RFF.ContainsComp>Contains raw compost:</RFF.ContainsComp>
+	<RFF.Composted>Composted</RFF.Composted>
+	<RFF.CompProg>Composting progress:</RFF.CompProg>
+	<RFF.OutOfTemp>Compost barrel out of ideal temperature:</RFF.OutOfTemp>
+	<RFF.Temp>Temperature:</RFF.Temp>
+	<RFF.IdealTemp>Ideal composting temp:</RFF.IdealTemp>
+	<RFF.NotReady>Tried to get fertilizer but it's not yet ready.</RFF.NotReady>
+	<RFF.BadTemp>Bad temperature</RFF.BadTemp>
+	<RFF.NoComp>Contains no raw compost</RFF.NoComp>
+
+	<!-- ===== Options ===== -->
+	
+	<RFF.FarmingOptions>Farming Options:</RFF.FarmingOptions>
+	
+	<RFF.DegradeChancePlowed>Chance for Plowed Soil to Degrade to Rich Soil when Crops are Harvested:</RFF.DegradeChancePlowed>
+	<RFF.DegradeChanceRich>Chance for Rich Soil to Degrade to Normal Soil when Crops are Harvested:</RFF.DegradeChanceRich>
+	
+	<RFF.AutoRefertilize>Refertilizing is Automatic.</RFF.AutoRefertilize>
+	<RFF.AutoRefertilizeTip>By default, when rich soil degrades to normal soil, it will automatically be flagged to be refertilized before any new crops are planted. If you prefer to decide for yourself when pawns should refertilize farm tiles (for example, if you don't have a ready supply of fertilizer and don't want your fields sitting idle), uncheck this option.</RFF.AutoRefertilizeTip>
+
+	<RFF.AutoReplow>Replowing is Automatic.</RFF.AutoReplow>
+	<RFF.AutoReplowTip>By default, when plowed soil degrades to rich soil, it will automatically be flagged to be replowed before any new crops are planted. If you prefer to decide for yourself when pawns should replow farm tiles (for example, if you don't have a ready supply of fertilizer and don't want your fields sitting idle), uncheck this option.</RFF.AutoReplowTip>
+
+	<RFF.AutoRecompost>Recomposting is Automatic.</RFF.AutoRecompost>
+	<RFF.AutoRecompostTip>By default, when compost bins turn to fertilizer, they will automatically leave behind blueprints for new compost bins. If you prefer that this not happen, uncheck this option.</RFF.AutoRecompostTip>
+	
+	<RFF.TerraformingOptions>General Options:</RFF.TerraformingOptions>
+
+	<RFF.PlayHardMode>Play in "Hard Mode."</RFF.PlayHardMode>
+	<RFF.PlayHardModeTip>"Hard Mode" disables the mod's less realistic terrain transformations. You won't be able to remove ice from ice sheet or sea ice maps, won't be able to create mud, marsh or marshy soil on those same maps, and won't be able to create or remove deep ocean water on any maps. (The ability to create or remove deep lake or river water is unaffected.)</RFF.PlayHardModeTip>
+
+	<RFF.PlantScraps>Amount of Scrapped Dropped by Cut/Harvested Plants:</RFF.PlantScraps>
+	
+	<RFF.CompressedMenu>Use Compressed "Terraform" Tab.</RFF.CompressedMenu>
+	<RFF.CompressedMenuTip>By default, the mod compresses the "Terraform" tab of the Architect menu so that the various transformation options that produce any particular end result are grouped as a "sub-menu." If you prefer the older system, where everything is always immediately visible, just unselect this. Note, however, that changes to this setting will not take effect until the game is restarted.</RFF.CompressedMenuTip>
+	
+</LanguageData>

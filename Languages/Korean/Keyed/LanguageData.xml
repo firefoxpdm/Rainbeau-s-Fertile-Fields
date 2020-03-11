@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- ===== PlaceWorker Errors ===== -->
+
+  <RFF.Unplaceable>이곳에는 {0}을 설치할 수 없습니다.</RFF.Unplaceable>
+
+  <!-- ===== Mass-Based Recipes ===== -->
+
+  <RFF.BillRequires>{0}kg 필요합니다.</RFF.BillRequires>
+
+  <!-- ===== Composting ===== -->
+
+  <RFF.Progress>진행율:</RFF.Progress>
+  <RFF.NullMapHeld>퇴비판이 적정 온도를 벗어닜습니다.</RFF.NullMapHeld>
+  <RFF.FullOfFert>이미 비료가 가득 차 있습니다.</RFF.FullOfFert>
+  <RFF.ContainsFert>비료 채워짐:</RFF.ContainsFert>
+  <RFF.ContainsComp>퇴비 채워짐:</RFF.ContainsComp>
+  <RFF.Composted>숙성 완료</RFF.Composted>
+  <RFF.CompProg>진행율:</RFF.CompProg>
+  <RFF.OutOfTemp>온도 부적합:</RFF.OutOfTemp>
+  <RFF.Temp>온도:</RFF.Temp>
+  <RFF.IdealTemp>적정 온도:</RFF.IdealTemp>
+  <RFF.NotReady>아직 비료가 준비되지 않았습니다.</RFF.NotReady>
+  <RFF.BadTemp>온도 부적합</RFF.BadTemp>
+  <RFF.NoComp>퇴비가 없습니다.</RFF.NoComp>
+
+</LanguageData>

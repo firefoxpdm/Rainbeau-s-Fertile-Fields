@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- ===== PlaceWorker Errors ===== -->
+
+	<RFF.Unplaceable>Не могу разместить на {0}</RFF.Unplaceable>
+
+	<!-- ===== Mass-Based Recipes ===== -->
+
+	<RFF.BillRequires>Нужно {0} кг </RFF.BillRequires>
+	
+	<!-- ===== Composting ===== -->
+
+	<RFF.Progress>Прогресс:</RFF.Progress>
+	<RFF.NullMapHeld>Попытался получить температуру компостной бочки, но MapHeld содержит null.</RFF.NullMapHeld>
+	<RFF.FullOfFert>Попытался добавить компост в бочку, полную удобрения. Сперва колонистам следует выгрести всё удобрение.</RFF.FullOfFert>
+	<RFF.ContainsFert>Содержит удобрение:</RFF.ContainsFert>
+	<RFF.ContainsComp>Содержит компост:</RFF.ContainsComp>
+	<RFF.Composted>Компостированный</RFF.Composted>
+	<RFF.CompProg>Прогресс компостирования:</RFF.CompProg>
+	<RFF.OutOfTemp>Компостная бочка в неблагоприятной температуре:</RFF.OutOfTemp>
+	<RFF.Temp>Температура:</RFF.Temp>
+	<RFF.IdealTemp>Идеальная температура:</RFF.IdealTemp>
+	<RFF.NotReady>Попытался извлечь удобрение, но процесс ещё не завершён.</RFF.NotReady>
+	<RFF.BadTemp>Плохая температура</RFF.BadTemp>
+	<RFF.NoComp>Не содержит компост</RFF.NoComp>
+
+</LanguageData>

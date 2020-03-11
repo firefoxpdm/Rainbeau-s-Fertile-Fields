@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>RFF_Farming</defName>
+		<label>Farming</label>
+		<description>This research represents advanced farming techniques such as tillage, that go beyond simple fertilization of soil. It allows soil to be plowed, so that even naturally-rich soil can be improved. It also allows topsoil to be layered over smooth stone, so that farms can be created in inhospitable environments or inside of mountains.</description>
+		<baseCost>750</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>1</researchViewX>
+		<researchViewY>5</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>RFF_Terraforming</defName>
+		<label>Terraforming</label>
+		<description>Terraforming represents knowledge of sophisticated irrigation and drainage methods which allow a wide variety of terrain conversions. Sand, marsh, mud or shallow water, for example, can be turned into farmable land. Artificial lakes can be created. And stone floors can be broken up and turned into actual soil.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Stonecutting</li>
+			<li>RFF_Farming</li>
+		</prerequisites>
+		<researchViewX>2</researchViewX>
+		<researchViewY>4.25</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

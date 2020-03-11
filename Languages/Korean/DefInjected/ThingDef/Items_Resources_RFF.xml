@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RawCompost.label>퇴비</RawCompost.label>
+  <RawCompost.description>갖가지 음식물 쓰레기를 모아 섞은 물질입니다. 역겹지만, 비료를 만들기 위해서는 반드시 거쳐야 하는 단계입니다.</RawCompost.description>
+
+  <Fertilizer.label>비료</Fertilizer.label>
+  <Fertilizer.description>식물의 성장 속도를 높여주는 유용한 재료입니다.</Fertilizer.description>
+
+  <CrushedRocks.label>자갈</CrushedRocks.label>
+  <CrushedRocks.description>암석 덩어리의 더 작은 조각입니다.</CrushedRocks.description>
+
+  <PileofDirt.label>흙</PileofDirt.label>
+  <PileofDirt.description>파낸 토양입니다.</PileofDirt.description>
+
+  <SandPile.label>모래</SandPile.label>
+  <SandPile.description>파낸 모래입니다.</SandPile.description>
+
+  <RFFClay.label>진흙</RFFClay.label>
+  <RFFClay.description>파낸 진흙입니다. 주로 벽돌을 만드는데 이용됩니다.</RFFClay.description>
+
+  <RottedMush.label>부패한 식물</RottedMush.label>
+  <RottedMush.description>이제는 먹을 수 없게 된 식물성 식재입니다. 퇴비를 만들 때 유용합니다.</RottedMush.description>
+
+  <RFFBricks.label>벽돌</RFFBricks.label>
+  <RFFBricks.description>진흙을 구워 만든 벽돌입니다.</RFFBricks.description>
+  <RFFBricks.stuffProps.stuffAdjective>벽돌</RFFBricks.stuffProps.stuffAdjective>
+
+
+</LanguageData>

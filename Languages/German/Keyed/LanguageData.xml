@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- ===== PlaceWorker Errors ===== -->
+
+	<RFF.Unplaceable>Kann nicht auf {0} platzieren</RFF.Unplaceable>
+	
+	<!-- ===== Mass-Based Recipes ===== -->
+
+	<RFF.BillRequires>Benötigt {0} kg </RFF.BillRequires>
+	
+	<!-- ===== Composting ===== -->
+
+	<RFF.Progress>Fortschritt:</RFF.Progress>
+	<RFF.NullMapHeld>Versuche, eine geeignete Temperatur zu erreichen.</RFF.NullMapHeld>
+	<RFF.FullOfFert>Versuche, Rohkompost hinzuzufügen. Ein Kolonist sollte vorher den Kompost entnehmen.</RFF.FullOfFert>
+	<RFF.ContainsFert>Beinhaltet Kompost:</RFF.ContainsFert>
+	<RFF.ContainsComp>Beinhaltet Rohkompost:</RFF.ContainsComp>
+	<RFF.Composted>Kompostiert</RFF.Composted>
+	<RFF.CompProg>Kompost Fortschritt:</RFF.CompProg>
+	<RFF.OutOfTemp>Kompostfass außerhalb der Idealen Temp.:</RFF.OutOfTemp>
+	<RFF.Temp>Temperatur:</RFF.Temp>
+	<RFF.IdealTemp>Ideale Temp.:</RFF.IdealTemp>
+	<RFF.NotReady>Versuche, Kompost zu entnehmen, allerdings ist er noch nicht fertig.</RFF.NotReady>
+	<RFF.BadTemp>Schlechte Temperatur.</RFF.BadTemp>
+	<RFF.NoComp>Beinhaltet keinen Rohkompost.</RFF.NoComp>
+
+</LanguageData>

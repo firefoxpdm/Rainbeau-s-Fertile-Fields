@@ -1,0 +1,259 @@
+﻿<Patch>
+
+	<!-- Land Tiles -->
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "Gravel"]/affordances</xpath>
+		<value>
+			<li>RFF_Gravel</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "Ice"]/affordances</xpath>
+		<value>
+			<li>RFF_Ice</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "MarshyTerrain"]/affordances</xpath>
+		<value>
+			<li>RFF_SoilMarshy</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "MossyTerrain"]/affordances</xpath>
+		<value>
+			<li>RFF_SoilFd</li>
+			<li>RFF_SoilFu</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "Soil"]/affordances</xpath>
+		<value>
+			<li>RFF_SoilFd</li>
+			<li>RFF_SoilFu</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "SoilRich"]/affordances</xpath>
+		<value>
+			<li>RFF_SoilFd</li>
+			<li>RFF_SoilRich</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "PackedDirt"]/affordances</xpath>
+		<value>
+			<li>RFF_PackedDirt</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "Sand"]/affordances</xpath>
+		<value>
+			<li>RFF_Sand</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "SoftSand"]/affordances</xpath>
+		<value>
+			<li>RFF_Sand</li>
+		</value>
+	</Operation>
+
+	<!-- Water Tiles -->
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/TerrainDef[defName = "WaterDeep"]/changeable</xpath>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TerrainDef[defName = "WaterDeep"]/affordances</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "WaterDeep"]</xpath>
+				<value>
+					<affordances/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "WaterDeep"]/affordances</xpath>
+		<value>
+			<li>RFF_WaterDeep</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/TerrainDef[defName = "WaterOceanDeep"]/changeable</xpath>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TerrainDef[defName = "WaterOceanDeep"]/affordances</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "WaterOceanDeep"]</xpath>
+				<value>
+					<affordances/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "WaterOceanDeep"]/affordances</xpath>
+		<value>
+			<li>RFF_WaterDeep</li>
+		</value>
+	</Operation>	
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TerrainDef[defName = "WaterMovingChestDeep"]/affordances</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "WaterMovingChestDeep"]</xpath>
+				<value>
+					<affordances/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "WaterMovingChestDeep"]/affordances</xpath>
+		<value>
+			<li>RFF_WaterDeep</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TerrainDef[defName = "WaterShallow"]/affordances</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "WaterShallow"]</xpath>
+				<value>
+					<affordances/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "WaterShallow"]/affordances</xpath>
+		<value>
+			<li>RFF_WaterShallow</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TerrainDef[defName = "WaterMovingShallow"]/affordances</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "WaterMovingShallow"]</xpath>
+				<value>
+					<affordances/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "WaterMovingShallow"]/affordances</xpath>
+		<value>
+			<li>RFF_WaterShallow</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TerrainDef[defName = "WaterOceanShallow"]/affordances</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "WaterOceanShallow"]</xpath>
+				<value>
+					<affordances/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "WaterOceanShallow"]/affordances</xpath>
+		<value>
+			<li>RFF_WaterShallow</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/TerrainDef[defName = "Marsh"]/affordances</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/TerrainDef[defName = "Marsh"]</xpath>
+				<value>
+					<affordances/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "Marsh"]/affordances</xpath>
+		<value>
+			<li>RFF_Marsh</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TerrainDef[defName = "Mud"]/affordances</xpath>
+		<value>
+			<li>RFF_Mud</li>
+		</value>
+	</Operation>
+	
+</Patch>

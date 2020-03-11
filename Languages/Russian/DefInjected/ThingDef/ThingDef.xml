@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<RawCompost.label>компост</RawCompost.label>
+	<RawCompost.description>Смесь из пищевых отходов и прочей органики. Довольно вонючий, но полезен для изготовления удобрения.</RawCompost.description>
+
+	<Fertilizer.label>удобрение</Fertilizer.label>
+	<Fertilizer.description>Удобрение повышает насыщенность почвы полезными веществами, что ускоряет рост растений.</Fertilizer.description>
+
+	<CrushedRocks.label>щебень</CrushedRocks.label>
+	<CrushedRocks.description>Каменные обломки, раздробленные на небольшие части.</CrushedRocks.description>
+
+	<PileofDirt.label>куча земли</PileofDirt.label>
+	<PileofDirt.description>Простая почва, выкопанная из земли.</PileofDirt.description>
+
+	<SandPile.label>куча песка</SandPile.label>
+	<SandPile.description>Песок, накопанный, возможно, в пустыне или на пляже.</SandPile.description>
+
+	<RFFClay.label>глина</RFFClay.label>
+	<RFFClay.description>Минеральная глина. Может быть сформована и обожжена для изготовления кирпичей, или может быть смешана с песком для изготовления неплохой почвы.</RFFClay.description>
+
+	<RottedMush.label>гнильё</RottedMush.label>
+	<RottedMush.description>Чем бы это ни было, сейчас это просто мерзкая куча сгнившей органики. Однако, это можно использовать для изготовления компоста и... всё.</RottedMush.description>
+
+	<RFFBricks.label>кирпичи</RFFBricks.label>
+	<RFFBricks.description>Обычные кирпичи из обожжённой глины.</RFFBricks.description>
+
+	<BrickWall.label>кирпичная стена</BrickWall.label>
+	<BrickWall.description>Стена, построенная из глиняных кирпичей и мортиры. (прим: WTF o_0 так и написано в оригинале)</BrickWall.description>
+
+	<RockMill.label>камнедробилка</RockMill.label>
+	<RockMill.description>Электроприводной стан для дробления и смешивания камней, песка и земли.</RockMill.description>
+
+	<Terraform_RockyDirt-Stone.label>груб.камень из кам.земли</Terraform_RockyDirt-Stone.label>
+	<Terraform_RockyDirt-Stone.description>ПРИМЕН.НА: каменист.земля.\nРЕЗУЛЬТАТ: грубый камень.</Terraform_RockyDirt-Stone.description>
+
+	<Terraform_Stone-RockyDirt.label>кам.земля из камня</Terraform_Stone-RockyDirt.label>
+	<Terraform_Stone-RockyDirt.description>ПРИМЕН.НА: грубый или полиров. камень.\nРЕЗУЛЬТАТ: каменист.земля.\nДОБУДЕШЬ: обломок кмня (иногда).</Terraform_Stone-RockyDirt.description>
+
+	<Terraform_Sand-RockyDirt.label>кам.земля из песка</Terraform_Sand-RockyDirt.label>
+	<Terraform_Sand-RockyDirt.description>ПРИМЕН.НА: песок.\nРЕЗУЛЬТАТ: каменист.земля.\nДОБУДЕШЬ: 1 куча песка.</Terraform_Sand-RockyDirt.description>
+
+	<Terraform_Gravel-RockyDirt.label>кам.земля из гравия</Terraform_Gravel-RockyDirt.label>
+	<Terraform_Gravel-RockyDirt.description>ПРИМЕН.НА: гравий.\nРЕЗУЛЬТАТ: каменист.земля.\nДОБУДЕШЬ: дробл.камни и куча земли.</Terraform_Gravel-RockyDirt.description>
+
+	<Terraform_SoilF-RockyDirt.label>кам.земля из почвы</Terraform_SoilF-RockyDirt.label>
+	<Terraform_SoilF-RockyDirt.description>ПРИМЕН.НА: плодор.почва.\nРЕЗУЛЬТАТ: каменист.земля.\nДОБУДЕШЬ: 3 кучи земли.</Terraform_SoilF-RockyDirt.description>
+
+	<Terraform_SoilMarshy-RockyDirt.label>кам.земля из болот.почвы</Terraform_SoilMarshy-RockyDirt.label>
+	<Terraform_SoilMarshy-RockyDirt.description>ПРИМЕН.НА: болотист.почва.\nРЕЗУЛЬТАТ: каменист.земля.\nДОБУДЕШЬ: 2 кучи земли.</Terraform_SoilMarshy-RockyDirt.description>
+
+	<Terraform_RockyDirt-Sand.label>песок из кам.земли</Terraform_RockyDirt-Sand.label>
+	<Terraform_RockyDirt-Sand.description>ПРИМЕН.НА: каменист.земля.\nРЕЗУЛЬТАТ: песок.</Terraform_RockyDirt-Sand.description>
+
+	<Terraform_Gravel-Sand.label>песок из гравия</Terraform_Gravel-Sand.label>
+	<Terraform_Gravel-Sand.description>ПРИМЕН.НА: гравий.\nРЕЗУЛЬТАТ: песок.\nДОБУДЕШЬ: дроблён.камни.</Terraform_Gravel-Sand.description>
+
+	<Terraform_SoilF-Sand.label>песок из почвы</Terraform_SoilF-Sand.label>
+	<Terraform_SoilF-Sand.description>ПРИМЕН.НА: почва.\nРЕЗУЛЬТАТ: песок.\nДОБУДЕШЬ: 2 кучи земли.</Terraform_SoilF-Sand.description>
+
+	<Terraform_WaterShallow-Sand.label>песок из мелководья</Terraform_WaterShallow-Sand.label>
+	<Terraform_WaterShallow-Sand.description>ПРИМЕН.НА: мелководье.\nРЕЗУЛЬТАТ: песок.</Terraform_WaterShallow-Sand.description>
+
+	<Terraform_RockyDirt-Gravel.label>гравий из кам.земли</Terraform_RockyDirt-Gravel.label>
+	<Terraform_RockyDirt-Gravel.description>ПРИМЕН.НА: каменист.земля.\nРЕЗУЛЬТАТ: гравий.</Terraform_RockyDirt-Gravel.description>
+
+	<Terraform_Sand-Gravel.label>гравий из песка</Terraform_Sand-Gravel.label>
+	<Terraform_Sand-Gravel.description>ПРИМЕН.НА: песок.\nРЕЗУЛЬТАТ: гравий.</Terraform_Sand-Gravel.description>
+
+	<Terraform_SoilF-Gravel.label>гравий из почвы</Terraform_SoilF-Gravel.label>
+	<Terraform_SoilF-Gravel.description>ПРИМЕН.НА: почва.\nРЕЗУЛЬТАТ: гравий.\nДОБУДЕШЬ: 1 куча земли.</Terraform_SoilF-Gravel.description>
+
+	<Terraform_SoilF-PackedDirt.label>пресс.земля из почвы</Terraform_SoilF-PackedDirt.label>
+	<Terraform_SoilF-PackedDirt.description>ПРИМЕН.НА: земля.\nРЕЗУЛЬТАТ: прессов-я земля.</Terraform_SoilF-PackedDirt.description>
+
+	<Terraform_Sand-SoilF.label>почва из песка</Terraform_Sand-SoilF.label>
+	<Terraform_Sand-SoilF.description>ПРИМЕН.НА: песок.\nРЕЗУЛЬТАТ: почва.</Terraform_Sand-SoilF.description>
+
+	<Terraform_Gravel-SoilF.label>почва из гравия</Terraform_Gravel-SoilF.label>
+	<Terraform_Gravel-SoilF.description>ПРИМЕН.НА: гравий.\nРЕЗУЛЬТАТ: почва.</Terraform_Gravel-SoilF.description>
+
+	<Terraform_PackedDirt-SoilF.label>почва из пресс.земли</Terraform_PackedDirt-SoilF.label>
+	<Terraform_PackedDirt-SoilF.description>ПРИМЕН.НА: прессов-я почва.\nРЕЗУЛЬТАТ: почва.</Terraform_PackedDirt-SoilF.description>
+
+	<Terraform_Mud-SoilF.label>почва из слякоти</Terraform_Mud-SoilF.label>
+	<Terraform_Mud-SoilF.description>ПРИМЕН.НА: слякоть.\nРЕЗУЛЬТАТ: почва.</Terraform_Mud-SoilF.description>
+
+	<Terraform_Mud-SoilF.label>почва из болот.почвы</Terraform_Mud-SoilF.label>
+	<Terraform_Mud-SoilF.description>ПРИМЕН.НА: болотист.почва.\nРЕЗУЛЬТАТ: почва.</Terraform_Mud-SoilF.description>
+
+	<Terraform_Marsh-SoilF.label>почва из болота</Terraform_Marsh-SoilF.label>
+	<Terraform_Marsh-SoilF.description>ПРИМЕН.НА: болото.\nРЕЗУЛЬТАТ: почва.</Terraform_Marsh-SoilF.description>
+
+	<Terraform_SoilF-Mud.label>слякоть из почвы</Terraform_SoilF-Mud.label>
+	<Terraform_SoilF-Mud.description>ПРИМЕН.НА: почва.\nРЕЗУЛЬТАТ: слякоть.</Terraform_SoilF-Mud.description>
+
+	<Terraform_SoilMarshy-Mud.label>слякоть из болот.почвы</Terraform_SoilMarshy-Mud.label>
+	<Terraform_SoilMarshy-Mud.description>ПРИМЕН.НА: болотист.почва.\nРЕЗУЛЬТАТ: слякоть.</Terraform_SoilMarshy-Mud.description>
+
+	<Terraform_SoilF-SoilMarshy.label>болот.почва из почвы</Terraform_SoilF-SoilMarshy.label>
+	<Terraform_SoilF-SoilMarshy.description>ПРИМЕН.НА: почва.\nРЕЗУЛЬТАТ: болотист.почва.\nДОБУДЕШЬ: 1 куча земли.</Terraform_SoilF-SoilMarshy.description>
+
+	<Terraform_Mud-SoilMarshy.label>болот.почва из слякоти</Terraform_Mud-SoilMarshy.label>
+	<Terraform_Mud-SoilMarshy.description>ПРИМЕН.НА: слякоть.\nРЕЗУЛЬТАТ: болотист.почва.\nДОБУДЕШЬ: 1 куча земли.</Terraform_Mud-SoilMarshy.description>
+
+	<Terraform_Marsh-SoilMarshy.label>болот.почва из болота</Terraform_Marsh-SoilMarshy.label>
+	<Terraform_Marsh-SoilMarshy.description>ПРИМЕН.НА: болото.\nРЕЗУЛЬТАТ: болотист.почва.</Terraform_Marsh-SoilMarshy.description>
+
+	<Terraform_SoilF-Marsh.label>болото из почвы</Terraform_SoilF-Marsh.label>
+	<Terraform_SoilF-Marsh.description>ПРИМЕН.НА: почва.\nРЕЗУЛЬТАТ: болото.\nДОБУДЕШЬ: 2 кучи земли.</Terraform_SoilF-Marsh.description>
+
+	<Terraform_WaterShallow-Marsh.label>болото из мелководья</Terraform_WaterShallow-Marsh.label>
+	<Terraform_WaterShallow-Marsh.description>ПРИМЕН.НА: мелководье.\nРЕЗУЛЬТАТ: болото.</Terraform_WaterShallow-Marsh.description>
+
+	<Terraform_Sand-WaterShallow.label>мелководье из песка</Terraform_Sand-WaterShallow.label>
+	<Terraform_Sand-WaterShallow.description>ПРИМЕН.НА: песок.\nРЕЗУЛЬТАТ: мелководье.\nДОБУДЕШЬ: 5 куч земли.</Terraform_Sand-WaterShallow.description>
+
+	<Terraform_Marsh-WaterShallow.label>мелководье из болота</Terraform_Marsh-WaterShallow.label>
+	<Terraform_Marsh-WaterShallow.description>ПРИМЕН.НА: болото.\nРЕЗУЛЬТАТ: мелководье.\nДОБУДЕШЬ: 5 куч земли.</Terraform_Marsh-WaterShallow.description>
+
+	<Terraform_WaterDeep-WaterShallow.label>мелководье из глубок.воды</Terraform_WaterDeep-WaterShallow.label>
+	<Terraform_WaterDeep-WaterShallow.description>ПРИМЕН.НА: глубокая вода.\nРЕЗУЛЬТАТ: мелководье.</Terraform_WaterDeep-WaterShallow.description>
+
+	<Terraform_Ice-WaterShallow.label>мелководье из льда</Terraform_Ice-WaterShallow.label>
+	<Terraform_Ice-WaterShallow.description>ПРИМЕН.НА: лёд.\nРЕЗУЛЬТАТ: мелководье.</Terraform_Ice-WaterShallow.description>
+
+	<Terraform_WaterShallow-WaterDeep.label>глубок.вода из мелководья</Terraform_WaterShallow-WaterDeep.label>
+	<Terraform_WaterShallow-WaterDeep.description>ПРИМЕН.НА: мелководье.\nРЕЗУЛЬТАТ: глубокая вода.\nДОБУДЕШЬ: 10 куч земли.\n\nВНИМАНИЕ: Размещение непроходимых поверхностей на карте - читерно и потенциально может привести к неиграбельности. Используй на свой страх и риск!</Terraform_WaterShallow-WaterDeep.description>
+
+	<Terraform_Stone-Topsoil.label>поверхн. слой почвы</Terraform_Stone-Topsoil.label>
+	<Terraform_Stone-Topsoil.description>ПРИМЕН.НА: полированный камень.\nРЕЗУЛЬТАТ: поверхностный слой почвы.\n\nВНИМАНИЕ: В отличие от большинства типов поверхности, этот слой может быть снят инструментом "Снять пол".</Terraform_Stone-Topsoil.description>
+
+	<Terraform_Topsoil-DirtFert.label>удобр. поверхн. слой</Terraform_Topsoil-DirtFert.label>
+	<Terraform_Topsoil-DirtFert.description>ПРИМЕН.НА: поверхностный слой почвы.\nРЕЗУЛЬТАТ: удобренный поверхностный слой.\n\nВНИМАНИЕ: В отличие от большинства типов поверхности, этот слой может быть снят инструментом "Снять пол".</Terraform_Topsoil-DirtFert.description>
+
+	<Terraform_SoilF-SoilRich.label>удобр. почва</Terraform_SoilF-SoilRich.label>
+	<Terraform_SoilF-SoilRich.description>ПРИМЕН.НА: почва.\nРЕЗУЛЬТАТ: плодородная почва.</Terraform_SoilF-SoilRich.description>
+
+	<Terraform_SoilRich-SoilTilled.label>вспаханн. почва</Terraform_SoilRich-SoilTilled.label>
+	<Terraform_SoilRich-SoilTilled.description>ПРИМЕН.НА: плодородная почва.\nРЕЗУЛЬТАТ: вспаханная почва.\n\nВНИМАНИЕ: В отличие от большинства типов поверхности, этот слой может быть снят инструментом "Снять пол".</Terraform_SoilRich-SoilTilled.description>
+
+	<CompostBin.label>компостный ящик</CompostBin.label>
+	<CompostBin.description>Ящик, в котором перегнивает 1 ед. компоста, превращаясь за три половиной дня в 1 ед. удобрения. Видок у него тот ещё. И пованивает.</CompostBin.description>
+
+	<CompostBarrel.label>компостная бочка</CompostBarrel.label>
+	<CompostBarrel.description>В компостной бочке можно сгноить 10 ед. компоста, превратив в 10 ед. удобрения. В отличие от компостного ящика требует электричества. Зато не воняет.</CompostBarrel.description>
+
+	<HeavySandbags.label>тяжёлые мешки с песком</HeavySandbags.label>
+	<HeavySandbags.description>Огневое укрытие.</HeavySandbags.description>
+</LanguageData>

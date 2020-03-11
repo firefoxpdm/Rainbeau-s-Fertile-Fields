@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<DesignationCategoryDef>
+		<defName>RFF_Adds</defName>
+		<label>terraform</label>
+		<description>Restructure your landscape.</description>
+		<order>242</order>
+		<specialDesignatorClasses>
+			<li>Designator_Cancel</li>
+		</specialDesignatorClasses>
+	</DesignationCategoryDef>  
+
+	<DesignationCategoryDef>
+		<defName>RFF_Farm</defName>
+		<label>farming</label>
+		<description>Improve your farming.</description>
+		<order>221</order>
+		<specialDesignatorClasses>
+			<li>Designator_Cancel</li>
+			<li>Designator_Deconstruct</li>
+			<li>Designator_SmoothSurface</li>
+			<li>Designator_RemoveFloor</li>
+		</specialDesignatorClasses>
+	</DesignationCategoryDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>SubCategory_RockyDirt</defName>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>SubCategory_Sand</defName>
+	</DesignatorDropdownGroupDef>
+		
+	<DesignatorDropdownGroupDef>
+		<defName>SubCategory_Gravel</defName>
+	</DesignatorDropdownGroupDef>
+		
+	<DesignatorDropdownGroupDef>
+		<defName>SubCategory_Soil</defName>
+	</DesignatorDropdownGroupDef>
+		
+	<DesignatorDropdownGroupDef>
+		<defName>SubCategory_Mud</defName>
+	</DesignatorDropdownGroupDef>
+
+	<DesignatorDropdownGroupDef>
+		<defName>SubCategory_SoilMarshy</defName>
+	</DesignatorDropdownGroupDef>
+	
+	<DesignatorDropdownGroupDef>
+		<defName>SubCategory_Marsh</defName>
+	</DesignatorDropdownGroupDef>
+		
+	<DesignatorDropdownGroupDef>
+		<defName>SubCategory_WaterShallow</defName>
+	</DesignatorDropdownGroupDef>
+	
+</Defs>

@@ -1,0 +1,333 @@
+﻿<Patch>
+
+	<!-- "TropiCKAPP" Modifications -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+		<li Class="PatchOperationAdd">
+			<xpath>Defs/TerrainDef[defName = "CK_PackedDirt"]</xpath>
+			<value>
+				<designationCategory></designationCategory>
+				<layerable>false</layerable>
+			</value>
+		</li>
+		</operations>
+	</Operation>
+
+	<!-- "Concrete" Modifications -->
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName = "BrickEmbrasure"]/costList</xpath>
+		<value>
+			<RFFBricks>4</RFFBricks>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName = "BrickEmbrasure"]/designationCategory</xpath>
+		<value>
+			<designationCategory>Security</designationCategory>
+		</value>
+	</Operation>
+	
+	<!-- Terrain Affordance Adds -->
+	
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "Crashland_Wasteland"]/affordances</xpath>
+		<value>
+			<li>RFF_Sand</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "DecrystallizedSand"]/affordances</xpath>
+		<value>
+			<li>RFF_Sand</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "TKKN_Sand"]/affordances</xpath>
+		<value>
+			<li>RFF_Sand</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "QRY_ReclaimedSoil"]/affordances</xpath>
+		<value>
+			<li>RFF_Gravel</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "DecrystallizedSoil"]/affordances</xpath>
+		<value>
+			<li>RFF_Gravel</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "NightSoil"]/affordances</xpath>
+		<value>
+			<li>RFF_MarshyTerrain</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "CK_PackedDirt"]/affordances</xpath>
+		<value>
+			<li>RFF_PackedDirt</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "SandstoneSoil"]/affordances</xpath>
+		<value>
+			<li>RFF_RockySoil</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "GraniteSoil"]/affordances</xpath>
+		<value>
+			<li>RFF_RockySoil</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "LimestoneSoil"]/affordances</xpath>
+		<value>
+			<li>RFF_RockySoil</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "SlateSoil"]/affordances</xpath>
+		<value>
+			<li>RFF_RockySoil</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "MarbleSoil"]/affordances</xpath>
+		<value>
+			<li>RFF_RockySoil</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "TKKN_ColdSpringsWater"]/affordances</xpath>
+		<value>
+			<li>RFF_WaterShallow</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "TKKN_HotSpringsWater"]/affordances</xpath>
+		<value>
+			<li>RFF_WaterShallow</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "TKKN_Ice"]/affordances</xpath>
+		<value>
+			<li>RFF_Ice</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "TKKN_MuddyIce"]/affordances</xpath>
+		<value>
+			<li>RFF_Ice</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "TKKN_SoilWet"]/affordances</xpath>
+		<value>
+			<li>RFF_SoilFu</li>
+			<li>RFF_SoilFd</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "TKKN_SoilWetRich"]/affordances</xpath>
+		<value>
+			<li>RFF_SoilFd</li>
+			<li>RFF_SoilRich</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/TerrainDef[defName = "TKKN_RiverDeposit"]/affordances</xpath>
+		<value>
+			<li>RFF_SoilFd</li>
+			<li>RFF_SoilRich</li>
+		</value>
+	</Operation>
+	
+	<!-- Sand for Glass -->
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "MakeGlass"]/ingredients</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName = "MakeGlass"]</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>SandPile</li>
+								</thingDefs>
+							</filter>
+							<count>2</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "MakeGlass"]/fixedIngredientFilter</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName = "MakeGlass"]</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>SandPile</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "MakeCircularGlass"]/ingredients</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName = "MakeCircularGlass"]</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>SandPile</li>
+								</thingDefs>
+							</filter>
+							<count>2</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "MakeCircularGlass"]/fixedIngredientFilter</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName = "MakeCircularGlass"]</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>SandPile</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "SmeltGlass"]/ingredients</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName = "SmeltGlass"]</xpath>
+				<value>
+					<ingredients>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>SandPile</li>
+								</thingDefs>
+							</filter>
+							<count>1</count>
+						</li>
+						<li>
+							<filter>
+								<thingDefs>
+									<li>Steel</li>
+								</thingDefs>
+							</filter>
+							<count>2</count>
+						</li>
+					</ingredients>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "SmeltGlass"]/fixedIngredientFilter</xpath>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/RecipeDef[defName = "SmeltGlass"]</xpath>
+				<value>
+					<fixedIngredientFilter>
+						<thingDefs>
+							<li>SandPile</li>
+							<li>Steel</li>
+						</thingDefs>
+					</fixedIngredientFilter>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+</Patch>

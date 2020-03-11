@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<SplitDirt.label>Extraire le sable et le limon du sol</SplitDirt.label>
+	<SplitDirt.description>Séparer le sol pour obtenir du sable et du limon.</SplitDirt.description>
+	<SplitDirt.jobString>Sépare le sable et le limon du sol.</SplitDirt.jobString>
+	
+	<MakeBricks.label>Faire des briques</MakeBricks.label>
+	<MakeBricks.description>Modéliser et brûler de l'argile pour fabriquer des briques.</MakeBricks.description>
+	<MakeBricks.jobString>Fait des briques.</MakeBricks.jobString>
+		
+	<MakeCrushedRocks.label>Faire des pierres brutes</MakeCrushedRocks.label>
+	<MakeCrushedRocks.description>Traitez les morceaux en grosses pierres.</MakeCrushedRocks.description>
+	<MakeCrushedRocks.jobString>Fait des pierres brutes.</MakeCrushedRocks.jobString>
+
+	<MakeSand.label>Faire du sable</MakeSand.label>
+	<MakeSand.description>Traiter les pierres grossières en sable.</MakeSand.description>
+	<MakeSand.jobString>Fait du sable</MakeSand.jobString>
+
+	<MakeClay.label>Faire de l'argile</MakeClay.label>
+	<MakeClay.description>Moudre le sable en plus petites particules pour faire de l'argile.</MakeClay.description>
+	<MakeClay.jobString>Fait de l'argile.</MakeClay.jobString>
+		
+	<MakeDirt.label>Faire de la Terre (2x)</MakeDirt.label>
+	<MakeDirt.description>Faire du sable, du limon ou du compost.</MakeDirt.description>
+	<MakeDirt.jobString>Fait de la Terre (2x).</MakeDirt.jobString>
+
+	<MakeCrushedRocks5.label>Faire des briques grossières (5x)</MakeCrushedRocks5.label>
+	<MakeCrushedRocks5.description>Traitez les morceaux en grosses pierres.</MakeCrushedRocks5.description>
+	<MakeCrushedRocks5.jobString>Fait des pierres brutes (5x).</MakeCrushedRocks5.jobString>
+
+	<MakeSand5.label>Faire du sable (5x)</MakeSand5.label>
+	<MakeSand5.description>Traiter les pierres grossières en sable.</MakeSand5.description>
+	<MakeSand5.jobString>Fait du sable (5x).</MakeSand5.jobString>
+
+	<MakeClay5.label>Faire de l'argile (5x)</MakeClay5.label>
+	<MakeClay5.description>Moudre le sable en plus petites particules pour faire de l'argile.</MakeClay5.description>
+	<MakeClay5.jobString>Fait de l'argile (5x).</MakeClay5.jobString>
+		
+	<MakeDirt5.label>Faire de la Terre (10x)</MakeDirt5.label>
+	<MakeDirt5.description>Faire du sable, du limon ou du compost (10x).</MakeDirt5.description>
+	<MakeDirt5.jobString>Fait de la Terre (10x).</MakeDirt5.jobString>
+	
+	<MakeCompost.label>Faire du compost brut</MakeCompost.label>
+	<MakeCompost.description>Faire du compost brut à partir de matières organiques (viande crue, plantes).</MakeCompost.description>
+	<MakeCompost.jobString>Fait du compost brut.</MakeCompost.jobString>
+
+	<MakeCompostRotted.label>Faire du compost cru à partir de ressources pourris</MakeCompostRotted.label>
+	<MakeCompostRotted.description>Faire du compost brut à partir de ressources pourries pour utiliser moins ou pas de ressource vitale.</MakeCompostRotted.description>
+	<MakeCompostRotted.jobString>Produit du compost brut.</MakeCompostRotted.jobString>
+
+	<MakeCompost5.label>Faire du compost brut (5x)</MakeCompost5.label>
+	<MakeCompost5.description>Faire du compost brut à partir de matières organiques (viande crue, plantes).</MakeCompost5.description>
+	<MakeCompost5.jobString>Fait du compost brut (5x).</MakeCompost5.jobString>
+
+	<MakeCompostRotted5.label>Faire du compost brut à partir de ressources pourries (5x)</MakeCompostRotted5.label>
+	<MakeCompostRotted5.description>Faire du compost brut à partir de ressources pourries pour utiliser moins ou pas de ressource vitale.</MakeCompostRotted5.description>
+	<MakeCompostRotted5.jobString>Produit du compost brut (5x).</MakeCompostRotted5.jobString>
+
+	<CompostCorpse.label>Bruler des cadavres pour faire du compost brut</CompostCorpse.label>
+	<CompostCorpse.description>Bruler un cadavre pour faire 10x compost brut.</CompostCorpse.description>
+	<CompostCorpse.jobString>Brule un cadavre.</CompostCorpse.jobString>
+
+	<CompostCorpseCampfire.label>Brulez des cadavres pour faire du compost brut</CompostCorpseCampfire.label>
+	<CompostCorpseCampfire.description>Bruler un cadavre dans le feu de camp pour faire 5x compost cru. C'est moins efficace que de brûler le corps dans un crématoire.</CompostCorpseCampfire.description>
+	<CompostCorpseCampfire.jobString>Brule un cadavre.</CompostCorpseCampfire.jobString>
+
+</LanguageData>

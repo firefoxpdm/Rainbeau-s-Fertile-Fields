@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SplitDirt.label>모래와 진흙 생산</SplitDirt.label>
+  <SplitDirt.description>흙으로부터 모래와 진흙을 걸러냅니다.</SplitDirt.description>
+  <SplitDirt.jobString>흙 거르는 중.</SplitDirt.jobString>
+
+  <DirtToClay.label>진흙 네 자루 생산</DirtToClay.label>
+  <DirtToClay.description>흙으로부터 진흙을 걸러냅니다.</DirtToClay.description>
+  <DirtToClay.jobString>흙 거르는 중.</DirtToClay.jobString>
+
+  <SplitDirt2.label>모래와 진흙 생산</SplitDirt2.label>
+  <SplitDirt2.description>흙으로부터 모래와 진흙을 걸러냅니다.</SplitDirt2.description>
+  <SplitDirt2.jobString>흙 거르는 중.</SplitDirt2.jobString>
+
+  <DirtToClay2.label>진흙 다섯 자루 생산</DirtToClay2.label>
+  <DirtToClay2.description>흙으로부터 진흙을 걸러냅니다.</DirtToClay2.description>
+  <DirtToClay2.jobString>흙 거르는 중.</DirtToClay2.jobString>
+
+  <MakeBricks.label>벽돌 12개 생산</MakeBricks.label>
+  <MakeBricks.description>진흙을 구워 벽돌을 만듭니다.</MakeBricks.description>
+  <MakeBricks.jobString>벽돌 굽는 중.</MakeBricks.jobString>
+
+  <MakeFastBricks.label>벽돌 24개 생산</MakeFastBricks.label>
+  <MakeFastBricks.description>진흙을 구워 벽돌을 만듭니다.</MakeFastBricks.description>
+  <MakeFastBricks.jobString>벽돌 굽는 중.</MakeFastBricks.jobString>
+
+  <MakeCrushedRocksSlow.label>자갈 두 자루 생산</MakeCrushedRocksSlow.label>
+  <MakeCrushedRocksSlow.description>암석 덩어리를 분쇄하여 자갈을 만듭니다.</MakeCrushedRocksSlow.description>
+  <MakeCrushedRocksSlow.jobString>암석 덩어리 분쇄 중.</MakeCrushedRocksSlow.jobString>
+
+  <MakeSandSlow.label>모래 한 자루 생산</MakeSandSlow.label>
+  <MakeSandSlow.description>자갈을 더욱 부서트려 모래를 만듭니다.</MakeSandSlow.description>
+  <MakeSandSlow.jobString>자갈 분쇄 중.</MakeSandSlow.jobString>
+
+  <MakeCrushedRocks.label>자갈 두 자루 생산</MakeCrushedRocks.label>
+  <MakeCrushedRocks.description>암석 덩어리를 분쇄하여 자갈을 만듭니다.</MakeCrushedRocks.description>
+  <MakeCrushedRocks.jobString>암석 덩어리 분쇄 중.</MakeCrushedRocks.jobString>
+
+  <MakeSand.label>모래 한 자루 생산</MakeSand.label>
+  <MakeSand.description>자갈을 더욱 부서트려 모래를 만듭니다.</MakeSand.description>
+  <MakeSand.jobString>자갈 분쇄 중.</MakeSand.jobString>
+
+  <MakeClay.label>진흙 한 자루 생산</MakeClay.label>
+  <MakeClay.description>모래를 더욱 미세한 분자로 걸러내 점토를 만듭니다.</MakeClay.description>
+  <MakeClay.jobString>모래 분쇄 중.</MakeClay.jobString>
+
+  <MakeDirt.label>흙 두 자루 생산</MakeDirt.label>
+  <MakeDirt.description>모래, 점토, 비료를 섞어 흙을 만듭니다.</MakeDirt.description>
+  <MakeDirt.jobString>혼합 중.</MakeDirt.jobString>
+
+  <MakeDirtEfficient.label>흙 두 자루 생산</MakeDirtEfficient.label>
+  <MakeDirtEfficient.description>모래, 점토, 비료를 섞어 흙을 만듭니다.</MakeDirtEfficient.description>
+  <MakeDirtEfficient.jobString>혼합 중.</MakeDirtEfficient.jobString>
+
+  <MakeCrushedRocks5.label>자갈 열 자루 생산</MakeCrushedRocks5.label>
+  <MakeCrushedRocks5.description>암석 덩어리를 분쇄하여 자갈을 만듭니다.</MakeCrushedRocks5.description>
+  <MakeCrushedRocks5.jobString>암석 덩어리 분쇄 중.</MakeCrushedRocks5.jobString>
+
+  <MakeSand5.label>모래 다섯 자루 생산</MakeSand5.label>
+  <MakeSand5.description>자갈을 더욱 부서트려 모래를 만듭니다.</MakeSand5.description>
+  <MakeSand5.jobString>자갈 분쇄 중.</MakeSand5.jobString>
+
+  <MakeClay5.label>진흙 다섯 자루 생산</MakeClay5.label>
+  <MakeClay5.description>모래를 더욱 미세한 분자로 걸러내 점토를 만듭니다.</MakeClay5.description>
+  <MakeClay5.jobString>모래 분쇄 중.</MakeClay5.jobString>
+
+  <MakeDirt5.label>흙 다섯 자루 생산</MakeDirt5.label>
+  <MakeDirt5.description>모래, 점토, 비료를 섞어 흙을 만듭니다.</MakeDirt5.description>
+  <MakeDirt5.jobString>혼합 중.</MakeDirt5.jobString>
+
+  <MakeDirt5Efficient.label>흙 열 자루 생산</MakeDirt5Efficient.label>
+  <MakeDirt5Efficient.description>모래, 점토, 비료를 섞어 흙을 만듭니다.</MakeDirt5Efficient.description>
+  <MakeDirt5Efficient.jobString>혼합 중.</MakeDirt5Efficient.jobString>
+
+  <MakeCompost.label>퇴비 생산</MakeCompost.label>
+  <MakeCompost.description>식재료로 퇴비를 만듭니다. 먹을 음식까지 몽땅 넣지 않도록 조심하세요.</MakeCompost.description>
+  <MakeCompost.jobString>퇴비 만드는 중.</MakeCompost.jobString>
+
+  <MakeCompost5.label>퇴비 다섯 자루 생산</MakeCompost5.label>
+  <MakeCompost5.description>식재료로 퇴비를 만듭니다. 먹을 음식까지 몽땅 넣지 않도록 조심하세요.</MakeCompost5.description>
+  <MakeCompost5.jobString>퇴비 만드는 중.</MakeCompost5.jobString>
+
+  <CompostCorpse.label>화장하기</CompostCorpse.label>
+  <CompostCorpse.description>퇴비에 불을 붙여서 시체를 태웁니다.</CompostCorpse.description>
+  <CompostCorpse.jobString>화장하는 중.</CompostCorpse.jobString>
+
+  <CompostCorpseCampfire.label>화장하기(모닥불)</CompostCorpseCampfire.label>
+  <CompostCorpseCampfire.description>모닥불에서 퇴비로 시체를 화장합니다. 전문 화장터보다는 여러모로 부족합니다.</CompostCorpseCampfire.description>
+  <CompostCorpseCampfire.jobString>화장하는 중.</CompostCorpseCampfire.jobString>
+
+
+</LanguageData>

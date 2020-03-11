@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<SubCategory_Stone.label>Pierre</SubCategory_Stone.label>
+	<SubCategory_Stone.description>Fonction de terraformation pour créer un sol en pierre brute.</SubCategory_Stone.description>
+	
+	<SubCategory_RockyDirt.label>Terre rocheuse</SubCategory_RockyDirt.label>
+	<SubCategory_RockyDirt.description>Fonction de terraformation pour créer de la terre rocheuse.</SubCategory_RockyDirt.description>
+		
+	<SubCategory_Sand.label>Sable</SubCategory_Sand.label>
+	<SubCategory_Sand.description>Fonction de terraformation pour créer du sable.</SubCategory_Sand.description>
+		
+	<SubCategory_Gravel.label>Gravier</SubCategory_Gravel.label>
+	<SubCategory_Gravel.description>Fonction de terraformation pour créer du gravier.</SubCategory_Gravel.description>
+		
+	<SubCategory_PackedDirt.label>Terre piétinée</SubCategory_PackedDirt.label>
+	<SubCategory_PackedDirt.description>Fonction de terraformation pour créer de la terre piétinée. Bon pour les chemins.</SubCategory_PackedDirt.description>
+		
+	<SubCategory_Soil.label>Terre fertile</SubCategory_Soil.label>
+	<SubCategory_Soil.description>Fonction de terraformation pour créer la terre fertile.</SubCategory_Soil.description>
+		
+	<SubCategory_SoilMarshy.label>Terre marécageuse</SubCategory_SoilMarshy.label>
+	<SubCategory_SoilMarshy.description>Fonction de terraformation pour créer une terre marécageuse.</SubCategory_SoilMarshy.description>
+		
+	<SubCategory_Marsh.label>Marais</SubCategory_Marsh.label>
+	<SubCategory_Marsh.description>Fonction de terraformation pour créer un marécage.</SubCategory_Marsh.description>
+	
+	<SubCategory_WaterShallow.label>Eau peu profonde</SubCategory_WaterShallow.label>
+	<SubCategory_WaterShallow.description>Fonction de terraformation pour créer de l'eau peu profonde.</SubCategory_WaterShallow.description>
+		
+	<SubCategory_WaterDeep.label>Eau profonde</SubCategory_WaterDeep.label>
+	<SubCategory_WaterDeep.description>Terraforming pour créer de l'eau profonde. \n Important: L'eau profonde est impraticable : les caravanes, les visiteurs, les attaquants, etc. peuvent ne pas être en mesure de vous atteindre. Profitez en avec soin !!</SubCategory_WaterDeep.description>
+
+</LanguageData>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FillCompostBarrel.label>퇴비 채우기</FillCompostBarrel.label>
+  <FillCompostBarrel.verb>퇴비 채우기</FillCompostBarrel.verb>
+  <FillCompostBarrel.gerund>퇴비 채우는 중.</FillCompostBarrel.gerund>
+
+  <EmptyCompostBarrel.label>비료 꺼내기</EmptyCompostBarrel.label>
+  <EmptyCompostBarrel.verb>비료 꺼내기</EmptyCompostBarrel.verb>
+  <EmptyCompostBarrel.gerund>비료 꺼내는 중.</EmptyCompostBarrel.gerund>
+
+  <DoBillsUseRockMill.label>작업하기</DoBillsUseRockMill.label>
+  <DoBillsUseRockMill.verb>작업하기</DoBillsUseRockMill.verb>
+  <DoBillsUseRockMill.gerund>분쇄 중.</DoBillsUseRockMill.gerund>
+
+  <ConstructFinishFramesGrowing.label>밭 갈기</ConstructFinishFramesGrowing.label>
+  <ConstructFinishFramesGrowing.verb>밭 갈기</ConstructFinishFramesGrowing.verb>
+  <ConstructFinishFramesGrowing.gerund>밭 가는 중.</ConstructFinishFramesGrowing.gerund>
+
+  <ConstructDeliverResourcesToBlueprintsGrowing.label>개간하기</ConstructDeliverResourcesToBlueprintsGrowing.label>
+  <ConstructDeliverResourcesToBlueprintsGrowing.verb>개간하기</ConstructDeliverResourcesToBlueprintsGrowing.verb>
+  <ConstructDeliverResourcesToBlueprintsGrowing.gerund>개간 중.</ConstructDeliverResourcesToBlueprintsGrowing.gerund>
+
+
+</LanguageData>

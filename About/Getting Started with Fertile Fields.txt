@@ -1,0 +1,142 @@
+RAINBEAU'S "FERTILE FIELDS" RIMWORLD MOD - AN OVERVIEW
+
+
+Welcome to "Fertile Fields"! From the very beginning of your game, this mod will allow you, with a little work, to improve your farmland's fertility. Later, after you've done the necessary research, you'll have access to extensive terraforming options which will allow you to restructure the map to create pretty much exactly the environment you desire.
+
+Hopefully, this quick intro will help you understand exactly what the mod will let you do, and more importantly, how to actually do it!
+
+
+(1) NEW TERRAIN:
+
+The mod adds a new terrain type, "rough gravel." It serves as an intermediate step for terraforming between solid stone and stony soil. It won't appear on new maps, but can be created either by breaking up solid stone tiles or by digging dirt out of various more fertile terrain tiles.
+
+
+(2) GETTING STARTED:
+
+The first thing you need to know is that most of the options added by "Fertile Fields" will appear as buttons in the new "Terraform" and "Farming" tabs of the Architect menu. If you're unsure what something does, read the button's text. I've tried to make sure the information you need is always available.
+
+The second thing you need to know is that most of the terrain alterations made possible by the mod will require dirt, crushed rocks, sand and/or fertilizer. So... how do you get them?
+
+Obtaining dirt is easy, as you just dig it up from the ground. But be aware that dirt is a finite resource. To get dirt to put in one location, you have to remove it from another. If you dig up dirt from a soil tile, you'll leave behind either stony soil or rough gravel. So try not to dig anywhere that you might want to later place a farm or garden. Digging up dirt from tiles where you're about to build walls or floors, on the other hand, is a really good idea.
+
+Similarly, crushed rocks can be dug up from stony soil, and sand from beaches or deserts.
+
+It's also possible to create all of those items, but that'll generally be something you do after you research "Terraforming." More on that in a bit.
+
+Obtaining fertilizer is a bit more involved. First, you have to create compost at a butcher's table, by mixing vegetable and meat items. Compost can also be obtained by burning corpses.
+
+Compost can be converted to fertilizer in either a compost bin or a compost barrel. A compost bin is a one-use item, built with compost and wood. It will sit for a bit more than three days, and then turn into three piles of fertilizer. (You might get your wood back, as well.) A compost barrel, on the other hand, is a permanent item that works similarly to a fermenting barrel. It requires power, but converts 30 compost at a time into fertilizer. It takes three days to process each batch.
+
+(On a side note, organic material will no longer just disappear from the game when it rots. Instead, it will become "rotted mush." This item, while disgusting, can be used to create compost.)
+
+Once you've got some dirt and fertilizer, you'll be able to upgrade stony soil or marshy soil to regular soil, or upgrade regular soil to rich soil.
+
+The specific buttons which will appear on the "Terraform" tab at the beginning of your game are as follows. Note that some buttons have the same name, as they represent different ways of creating the same terrain tile. The button graphics are based on the appearances of the "before" and "after" terrain types, which should help you spot the particular one you're looking for.
+
++ "Rough Gravel": PLACE ON: Sand or Soft Sand. RESULT: Rough Gravel. GAIN: Two piles of sand.
+		
++ "Rough Gravel": PLACE ON: Stony Soil. RESULT: Rough Gravel. GAIN: Crushed rocks, two piles of sand, and clay.
+
++ "Rough Gravel": PLACE ON: Fertile Soil. RESULT: Rough Gravel. GAIN: Three piles of dirt.
+		
++ "Rough Gravel": PLACE ON: Marshy Soil. RESULT: Rough Gravel. GAIN: Two piles of dirt.
+
++ "Sand": PLACE ON: Rough Gravel. RESULT: Sand. COST: Two piles of sand.
+
++ "Sand": PLACE ON: Stony Soil. RESULT: Sand. GAIN: Crushed rocks and clay.
+
++ "Sand": PLACE ON: Fertile Soil. RESULT: Sand. GAIN: A pile of dirt, crushed rocks, and clay.
+
++ "Stony Soil": PLACE ON: Rough Gravel. RESULT: Stony Soil. COST: Crushed rocks, two piles of sand, and clay. 
+		
++ "Stony Soil": PLACE ON: Sand or Soft Sand. RESULT: Stony Soil. COST: Crushed rocks and clay.
+
++ "Stony Soil": PLACE ON: Fertile Soil. RESULT: Stony Soil. GAIN: One pile of dirt.
+
++ "Packed dirt": PLACE ON: Soil. RESULT: Packed Dirt. COST: Nothing but effort.
+
++ "Soil": PLACE ON: Sand or Soft Sand. RESULT: Soil. COST: A pile of dirt, crushed rocks, and clay.
+		
++ "Soil": PLACE ON: Stony Soil. RESULT: Soil. COST: One pile of dirt.
+
++ "Soil": PLACE ON: Packed Dirt. RESULT: Soil. COST: Nothing but effort.
+
++ "Soil": PLACE ON: Mud. RESULT: Soil. COST: Nothing but effort.
+
++ "Soil": PLACE ON: Marshy Soil. RESULT: Soil. COST: One pile of dirt.
+
++ "Mud": PLACE ON: Fertile Soil. RESULT: Mud. COST: Just some effort.
+
++ "Mud": PLACE ON: Marshy Soil. RESULT: Mud. COST: One pile of dirt.
+
++ "Shallow water": PLACE ON: Sand or Soft Sand. RESULT: Shallow water. GAIN: Five piles of sand and five piles of crushed rocks. (This only works if the sand being converted is already near water. In other words, it can be used on beaches, but not in deserts.)
+
++ "Remove ice": PLACE ON: Ice. RESULT: Shallow water (on "sea ice" maps); either shallow water or stony soil (on "ice sheet" maps). COST: Effort.
+
+The following buttons will appear on the "Farming" tab:
+
++ "Rich soil": PLACE ON: Soil or lichen-covered dirt. RESULT: Rich soil. COST: One pile of fertilizer.
+
++ "Compost bin": A bin in which raw compost, after three and a half days, will become fertilizer. The bin's kind of ugly, though, and smells a bit. COST: Two wood and one pile of compost.
+		
++ "Compost barrel": A compost barrel will convert 10 raw compost into 10 fertilizer. Unlike a compost bin, though, it requires power. COST: 20 steel, 10 wood, and one component. (Note that this option won't be available if you don't yet have "Electricity" researched.)
+
+
+(3) "FARMING" RESEARCH:
+
+The "Farming" research represents advanced farming techniques such as tillage, that go beyond simple fertilization of soil. It allows soil to be plowed, so that even naturally-rich soil can be improved. It also allows topsoil to be layered over smooth stone, so that farms can be created in inhospitable environments or inside of mountains. Topsoil can be further improved by fertilizing it, but can't be plowed.
+
+Once you've completed the research, several new buttons will appear on the "Farming" tab.
+
++ "Topsoil": PLACE ON: Smooth stone or ice. RESULT: Topsoil. NOTE: Unlike most terrain types, topsoil can be removed with the "Remove Floor" tool. COST: Two piles of dirt.
+
++ "Fertilized topsoil": PLACE ON: Topsoil. RESULT: Fertilized topsoil. NOTE: Like regular topsoil, fertilized topsoil can be removed with the "Remove Floor" tool. COST: One pile of fertilizer.
+
++ "Plowed soil": PLACE ON: Rich soil. RESULT: Plowed soil. NOTE: Plowed soil can be removed with the "Remove Floor" tool. Also, plowed soil may revert to rich soil when crops are harvested, and need to be replowed. COST: One pile of fertilizer.
+
+
+(4) "TERRAFORMING" RESEARCH:
+
+"Terraforming" represents an understanding of advanced irrigation and drainage techniques, and opens up a wide variety of terrain-altering options. It allows you to turn marsh, mud, sand or shallow water tiles into farmable soil, or to turn fertile land into sand or marsh. It allows you to create (or drain) lakes. It also allows you to break solid rock into rough gravel, which can be further improved into regular soil, letting you create mountain farms that can actually be tilled for maximum fertility. And it even allows you to turn rough gravel back into rough stone.
+
+As you'd expect, it adds quite a few more buttons to the "Terraform" tab.
+
++ "Rough stone": PLACE ON: Rough Gravel. RESULT: Rough stone. COST: Crushed rocks.
+
++ "Rough Gravel": PLACE ON: Rough or smooth stone. RESULT: Rough Gravel. COST: One pile of dirt. GAIN: Rock chunk (sometimes).
+
++ "Sand": PLACE ON: Shallow water. RESULT: Sand. COST: Five piles of sand and five piles of crushed rocks.
+
++ "Soil": PLACE ON: Marsh. RESULT: Soil. COST: Two piles of dirt.
+
++ "Marshy soil": PLACE ON: Fertile soil. RESULT: Marshy soil. GAIN: One pile of dirt.
+
++ "Marshy soil": PLACE ON: Mud. RESULT: Marshy soil. GAIN: One pile of dirt.
+
++ "Marshy soil": PLACE ON: Marsh. RESULT: Marshy soil. COST: A pile of dirt.
+
++ "Marsh": PLACE ON: Soil. RESULT: Marsh. GAIN: Two piles of dirt.
+
++ "Marsh": PLACE ON: Marshy soil. RESULT: Marsh. GAIN: One pile of dirt.
+
++ "Marsh": PLACE ON: Shallow water. RESULT: Marsh. COST: Five piles of dirt.
+
++ "Shallow water": PLACE ON: Marsh. RESULT: Shallow water. GAIN: Five piles of dirt.
+
++ "Shallow water" PLACE ON: Deep water. RESULT: Shallow water. COST: Ten piles of dirt.
+
++ "Deep water": PLACE ON: Shallow water. RESULT: Deep water. GAIN: Ten piles of dirt. NOTE: Placing impassable terrain on the map is overpowered and potentially game-breaking. Use with caution!
+
+
+(5) THE ROCK MILL:
+
+Once you build a rock mill (available after you've researched Electricity), you're no longer limited to moving dirt around on your map or purchasing it from traders. You can create it yourself.
+
+At a rock mill, you can create crushed rocks from stone chunks, create sand from crushed rocks, and create clay from sand.
+
+Sand, clay and fertilizer can be combined to create dirt. This can also be done at a crafting spot rather than at a rock mill, and so can be done from the very beginning of the game, but the ability will be most useful once you're able to freely create sand and clay.
+
+
+(6) CLAY AND BRICKS:
+
+You can create dirt at a crafting spot with sand and clay. But the conversion works both ways. You can also "split" dirt into its component sand and clay. Sand may not be very useful in and of itself, unless you want to create an artificial beach, but clay can be "fired" in a smithy to create bricks. And bricks, of course, can be used to build attractive walls and floors.

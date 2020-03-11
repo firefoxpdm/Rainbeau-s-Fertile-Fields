@@ -1,0 +1,249 @@
+﻿<Patch>
+
+	<!-- Vanilla Modifications -->
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "Sandbags"]/costList</xpath>
+		<value>
+			<costList>
+				<Cloth>2</Cloth>
+				<Steel>2</Steel>
+				<SandPile>1</SandPile>
+			</costList>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName = "Sandbags"]/minifiedDef</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Sandbags"]</xpath>
+				<value>
+					<minifiedDef>MinifiedThing</minifiedDef>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName = "Sandbags"]/statBases/Mass</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Sandbags"]/statBases</xpath>
+				<value>
+					<Mass>10</Mass>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName = "Sandbags"]/thingCategories</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "Sandbags"]</xpath>
+				<value>
+					<thingCategories>
+						<li>BuildingsSecurity</li>
+					</thingCategories>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "HydroponicsBasin"]/costList</xpath>
+		<value>
+			<Fertilizer>4</Fertilizer>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "HydroponicsBasin"]/designationCategory</xpath>
+		<value>
+			<designationCategory>RFF_Farm</designationCategory>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationTest">
+				<xpath>Defs/ThingDef[defName = "SunLamp"]/designationCategory</xpath>
+				<success>Invert</success>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "SunLamp"]</xpath>
+				<value>
+					<designationCategory/>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName = "SunLamp"]/designationCategory</xpath>
+		<value>
+			<designationCategory>RFF_Farm</designationCategory>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name = "TableBase"]/stuffCategories</xpath>
+		<value>
+			<li>Brick</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name = "UnfinishedBase"]/stuffCategories</xpath>
+		<value>
+			<li>Brick</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "AnimalSleepingBox"]/stuffCategories</xpath>
+		<value>
+			<li>Brick</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Bed"]/stuffCategories</xpath>
+		<value>
+			<li>Brick</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "BilliardsTable"]/stuffCategories</xpath>
+		<value>
+			<li>Brick</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "ChessTable"]/stuffCategories</xpath>
+		<value>
+			<li>Brick</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "DoubleBed"]/stuffCategories</xpath>
+		<value>
+			<li>Brick</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "ElectricCrematorium"]/stuffCategories</xpath>
+		<value>
+			<li>Brick</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "HorseshoesPin"]/stuffCategories</xpath>
+		<value>
+			<li>Brick</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "PlantPot"]/stuffCategories</xpath>
+		<value>
+			<li>Brick</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "RoyalBed"]/stuffCategories</xpath>
+		<value>
+			<li>Brick</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Sarcophagus"]/stuffCategories</xpath>
+		<value>
+			<li>Brick</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "SculptureGrand"]/stuffCategories</xpath>
+		<value>
+			<li>Brick</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "SculptureLarge"]/stuffCategories</xpath>
+		<value>
+			<li>Brick</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "SculptureSmall"]/stuffCategories</xpath>
+		<value>
+			<li>Brick</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Shelf"]/stuffCategories</xpath>
+		<value>
+			<li>Brick</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "SimpleResearchBench"]/stuffCategories</xpath>
+		<value>
+			<li>Brick</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "Stool"]/stuffCategories</xpath>
+		<value>
+			<li>Brick</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName = "UnfinishedSculpture"]/stuffCategories</xpath>
+		<value>
+			<li>Brick</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "Make_Kibble"]/ingredients/li[2]/filter/thingDefs</xpath>
+		<value>
+			<li>PlantScraps</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/RecipeDef[defName = "Make_Kibble"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>PlantScraps</li>
+		</value>
+	</Operation>
+	
+</Patch>

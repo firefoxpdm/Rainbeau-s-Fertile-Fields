@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+
+	<name>[RF] Fertile Fields [1.0]</name>
+	<author>Rainbeau Flambe</author>
+	<url>https://ludeon.com/forums/index.php?topic=46165</url>
+	<targetVersion>1.0.0</targetVersion>
+	<description>(Last update: 12/05/2018)
+
+"Fertile Fields" is a terraforming mod that lets you fertilize and plow your soil, create farmland on solid rock so you can grow crops in inhospitable environs or inside of mountains, and eventually even restructure the landscape. 
+
+Create raw compost with food waste at a butcher's table, then put it in a compost bin or barrel so in time it can become fertilizer. Fertilizer can be used to convert any soil to rich soil. Further improve your farm's fertility by researching farming and plowing your soil. Or learn the fine art of terraforming, and redesign your environment to your heart's content.
+
+- Rainbeau Flambe (dburgdorf)
+
+=====
+
+New Research and Terrain Improvement Options:
+
+Without researching anything, "Fertile Fields" allows you to do basic terrain modification, essentially just digging up dirt from one spot and moving it to another. You can also create raw compost and turn it into fertilizer, which can be used to upgrade your soil, even turning regular soil into rich soil.
+
+Researching "Farming" opens up the ability to plow soil, which lets you further increase the fertility of rich soil. As well, it allows you to lay topsoil over smooth stone. Create a garden inside a mountain if you're so inclined. Topsoil can be further improved by fertilizing it, but can't be plowed.
+
+Finally, "Terraforming" represents an understanding of advanced irrigation and drainage techniques, and opens up a wide variety of terrain-altering options. It allows you to turn marsh, mud, sand or shallow water tiles into farmable soil, or to turn fertile land into sand or marsh. It lets you create shallow water tiles from marsh, so you can create decorative (or defensive) moats. It opens up the ability to dump dirt into deep water to create shallow water, or to remove dirt from shallow water to produce deep water. It also allows you to break solid rock into rough gravel, which can be further improved into regular soil, letting you create mountain farms that can actually be plowed for maximum fertility. Conversely, you can turn rough gravel back into rough stone. 
+
+=====
+
+Using the Mod:
+
+Most of what's added by "Fertile Fields" can be found on the new "Terraform" and "Farming" tabs of the Architect menu.
+
+A few things, however, are less obvious.
+
+Fertilizer is made from compost in either a compost bin or a compost barrel. Compost can be created at a butcher's table from vegetable matter and meat. It can also be obtained by burning corpses.
+
+Dirt can be created by mixing sand, clay and fertilizer at a crafting spot. Conversely, piles of dirt can be separated at crafting spots into sand and clay. Clay can be "fired" at a smithy to create bricks.
+
+Initially, if you need dirt, sand, clay or crushed rocks, you'll need to obtain them by digging up terrain somewhere on the map or by purchasing them from traders. Once you've built a rock mill, though, stone chunks can be turned to crushed rocks, which can be further ground into sand and then into clay. Sand and clay, as already noted, can be used to create dirt.
+
+Sandbags, by the way, are now made from sand, cloth and steel instead of just from steel, and the mod also introduces "heavy sandbags," made from sand, leather and steel.
+
+For a more detailed overview of everything the mod has to offer, you can consult the "Getting Started with Fertile Fields" text file located in the mod's "About" folder.
+
+=====
+
+Compatibility:
+
+"Fertile Fields" is not, at this time, compatible with Lanilor's "Terra Core" mod. That mod makes extensive changes to map and terrain generation, and adds far more terrain types than even exist in the vanilla game. To properly handle transformations between all of those new terrains would be a very extensive undertaking.
+
+"Fertile Fields" should be compatible with most any other mods, though. If you run into specific issues, please let me know.
+
+New terrains added by a number of mods are automatically recognized by "Fertile Fields." Night soil from Dub's "Hygiene" mod can be terraformed with any conversion that works from marshy soil. (Note that that mod has its own compost and fertilizer system, which is not consistent with what's provided by this one. There may be odd overlaps or misbehaviors if they're used together.) Wasteland from the "Crashlanding" mod can be terraformed as sand. Reclaimed soil from CuproPanda's "Quarry" mod can be terraformed as if it was gravel. Hot and cold springs from "Nature's Pretty Sweet" can be transformed as if they were shallow water tiles, and that mod's various "wet" sand and soil terrains can be transformed using terraforming jobs that work on comparable vanilla sand and soil terrains. The various rocky soils to be found on "Biomes!" cavern maps can be terraformed with any conversion that works on rocky dirt. And decrystallized sand and soil from "Tiberium Rim" can be terraformed as vanilla sand and gravel, respectively. (Note, though, that the various tiberium terrains introduced by that mod cannot be altered by anything in "Fertile Fields." To get rid of tiberium, you'll still need to utilize the mechanisms actually provided by "Tiberium Rim.")
+
+"Fertile Fields" is compatible with "Seeds Please!" However, if you're using that mod, the soil degradation feature of this mod won't be functional, and you won't get plant scraps from cutting plants. I'll see about resolving those issues in the near future.
+
+If this mod is used together with either "Glass+Lights" or "Dub's Skylights," then creation of the glass from those mods will require the sand from this mod.
+
+You should be able to add "Fertile Fields" to an existing saved game without trouble, but removing the mod from a game in progress will, of course, likely cause problems or even make the game unplayable.
+
+Special note regarding "Vegetable Garden": I've tried to ensure that "Fertile Fields" and "Vegetable Garden" are compatible with each other. Most elements of the "Vegetable Garden Project" are unchanged. However, if you're using "VGP Garden Tools," you'll notice that its fertilizing and terraforming options are missing, as they duplicate existing "Fertile Fields" functionality, and that its various new planter boxes, sunlamps and hydroponics basins are located in this mod's "Farming" tab along with their vanilla counterparts. Finally, be aware that if you try to add "Fertile Fields" to a game in which you've already been using "VGP Garden Tools," you may encounter problems.
+
+=====
+
+Credits:
+
+German language translation files were generously provided by Ryder32x. Korean language translation files were provided by Ludeon forums user NEPH. French language translation files were provided by Steam user Redstylt. Russian files were provided by Steam user fox_kirya.
+
+The C# code related to compost bins derives from Dismarzero's "Vegetable Garden." Other aspects of the mod's code have benefited in no small measure from NotFood's suggestions and contributions.
+
+The mod utilizes Pardeike's "Harmony Patch Library." (No additional download is required, as the library is included with the mod.)
+
+=====
+
+License:
+
+If you're a modpack maker and want to include "Fertile Fields" in your pack, or if you're a modder and want to use "Fertile Fields" as the basis of a derivative mod, please feel free to do so. I ask only that you let me know about it. 
+
+=====
+
+If you have any (helpful) suggestions for improvement, please let me know!
+
+	</description>
+
+</ModMetaData>

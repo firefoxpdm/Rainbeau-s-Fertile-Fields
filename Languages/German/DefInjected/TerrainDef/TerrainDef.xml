@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BrickFloor.label>Ziegelsteinboden</BrickFloor.label>
+	<BrickFloor.Description>Lege Ziegelsteine aus um einen schönen Boden zu erhalten.</BrickFloor.Description>
+		
+	<RockySoil.label>Schotter</RockySoil.label>
+
+	<Topsoil.label>Aufgeschüttete Erde</Topsoil.label>
+
+	<DirtFert.label>Gedüngte Erde</DirtFert.label>
+
+	<SoilTilled.label>Gepflügte Erde</SoilTilled.label>
+
+</LanguageData>

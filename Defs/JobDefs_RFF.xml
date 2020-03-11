@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<JobDef>
+		<defName>FillCompostBarrel</defName>
+		<driverClass>RFF_Code.JobDriver_FillCompostBarrel</driverClass>
+		<reportString>filling TargetA.</reportString>
+	</JobDef>
+
+	<JobDef>
+		<defName>EmptyCompostBarrel</defName>
+		<driverClass>RFF_Code.JobDriver_EmptyCompostBarrel</driverClass>
+		<reportString>taking fertilizer out of TargetA.</reportString>
+	</JobDef>
+
+	<JobDef>
+		<defName>FinishFrameGrowing</defName>
+		<driverClass>RFF_Code.JobDriver_ConstructFinishFrameGrowing</driverClass>
+		<reportString>creating TargetA.</reportString>
+	</JobDef>
+
+	<JobDef>
+		<defName>FinishFrameConstruction</defName>
+		<driverClass>RFF_Code.JobDriver_ConstructFinishFrameConstruction</driverClass>
+		<reportString>creating TargetA.</reportString>
+	</JobDef>
+
+</Defs>

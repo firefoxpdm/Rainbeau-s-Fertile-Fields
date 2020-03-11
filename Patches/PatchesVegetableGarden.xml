@@ -1,0 +1,395 @@
+﻿<Patch>
+
+	<!-- "Vegetable Garden" Modifications -->
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef[defName = "MakeSilage"]/ingredients/li[2]/filter/thingDefs</xpath>
+		<value>
+			<li>PlantScraps</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef[defName = "MakeSilage"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>PlantScraps</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef[defName = "MakebulkSilage"]/ingredients/li[2]/filter/thingDefs</xpath>
+		<value>
+			<li>PlantScraps</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef[defName = "MakebulkSilage"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>PlantScraps</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef[defName = "VG_MakebulkKibble"]/ingredients/li[2]/filter/thingDefs</xpath>
+		<value>
+			<li>PlantScraps</li>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<success>Always</success>
+		<xpath>Defs/RecipeDef[defName = "VG_MakebulkKibble"]/fixedIngredientFilter/thingDefs</xpath>
+		<value>
+			<li>PlantScraps</li>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name = "VG_LampBase"]/designationCategory</xpath>
+				<value>
+					<designationCategory>RFF_Farm</designationCategory>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "ModularFlowerbox"]/designationCategory</xpath>
+				<value>
+					<designationCategory>RFF_Farm</designationCategory>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "Planterbox"]/designationCategory</xpath>
+				<value>
+					<designationCategory>RFF_Farm</designationCategory>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "Planterbox"]/costList</xpath>
+				<value>
+					<costList>
+						<PileofDirt>4</PileofDirt> 
+					</costList>
+				</value> 
+			</li> 
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "ModularPlanterbox"]/designationCategory</xpath>
+				<value>
+					<designationCategory>RFF_Farm</designationCategory>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "ModularPlanterbox"]/costList</xpath>
+				<value> 
+					<costList>
+						<PileofDirt>1</PileofDirt> 
+					</costList>
+				</value> 
+			</li>  
+		</operations>
+	</Operation>
+
+		<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "ADV_ModularPlanterbox"]/designationCategory</xpath>
+				<value>
+					<designationCategory>RFF_Farm</designationCategory>
+				</value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "ADV_ModularPlanterbox"]/costList</xpath>
+				<value> 
+					<costList>
+						<PileofDirt>1</PileofDirt> 
+					</costList>
+				</value> 
+			</li>  
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "ModularHydroponicsBasin"]/designationCategory</xpath>
+				<value>
+					<designationCategory>RFF_Farm</designationCategory>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ModularHydroponicsBasin"]/costList</xpath>
+				<value>
+					<Fertilizer>1</Fertilizer>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "ADVHydroponicsBasin"]/designationCategory</xpath>
+				<value>
+					<designationCategory>RFF_Farm</designationCategory>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ADVHydroponicsBasin"]/costList</xpath>
+				<value>
+					<Fertilizer>4</Fertilizer>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName = "ADVModularHydroponicsBasin"]/designationCategory</xpath>
+				<value>
+					<designationCategory>RFF_Farm</designationCategory>
+				</value>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName = "ADVModularHydroponicsBasin"]/costList</xpath>
+				<value>
+					<Fertilizer>1</Fertilizer>
+				</value>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/DesignationCategoryDef[defName = "GardenTools"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+			
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "FertilizerCorpse"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "FertilizerCorpseCampfire"]/products</xpath>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "FertilizerCorpseCampfire"]/recipeUsers</xpath>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "MakeCompostStarter"]/products</xpath>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "MakeCompostStarter"]/recipeUsers</xpath>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "MakeFertilizer"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/RecipeDef[defName = "VG_DigSoil"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ResearchProjectDef[defName = "SoilReclam"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ResearchProjectDef[defName = "SoilReclamII"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/TerrainDef[defName = "VG_PlaceSoil"]/designationCategory</xpath>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/TerrainDef[defName = "VG_PlaceSoil"]/costList</xpath>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/TerrainDef[defName = "VG_PlaceSoil"]/researchPrerequisites</xpath>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/TerrainDef[defName = "VG_PlowSoil"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/TerrainDef[defName = "VG_ReclaimSoil"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/TerrainDef[defName = "VG_ReclaimWater"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/TerrainDef[defName = "VG_ReclaimMud"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/TerrainDef[defName = "VG_GardenSoil"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+	
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "RawFertilizer"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "VG_Composterbox"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "VG_DiggingSpot"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName = "VG_PileofDirt"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+
+	<Operation Class="PatchOperationSequence">
+		<success>Always</success>
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/WorkGiverDef[defName = "DoBillsUseDiggingSpot"]</xpath>
+			</li>
+		</operations>
+	</Operation>
+	
+</Patch>

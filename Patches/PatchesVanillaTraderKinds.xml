@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraderKindDef[defName = "Base_Neolithic_Standard"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>TerraformingResources</tradeTag>
+				<thingDefCountRange>
+					<min>0</min>
+					<max>2</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>100</min>
+					<max>300</max>
+				</countRange>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraderKindDef[defName = "Base_Outlander_Standard"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>TerraformingResources</tradeTag>
+				<thingDefCountRange>
+					<min>0</min>
+					<max>2</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>200</min>
+					<max>400</max>
+				</countRange>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraderKindDef[defName = "Caravan_Neolithic_BulkGoods"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>TerraformingResources</tradeTag>
+				<thingDefCountRange>
+					<min>0</min>
+					<max>4</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>50</min>
+					<max>150</max>
+				</countRange>
+			</li>
+		</value>
+	</Operation>
+ 
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraderKindDef[defName = "Caravan_Outlander_BulkGoods"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>TerraformingResources</tradeTag>
+				<thingDefCountRange>
+					<min>0</min>
+					<max>4</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>100</min>
+					<max>200</max>
+				</countRange>
+			</li>
+		</value>
+	</Operation>
+ 
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraderKindDef[defName = "Orbital_BulkGoods"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>TerraformingResources</tradeTag>
+				<thingDefCountRange>
+					<min>0</min>
+					<max>2</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>400</min>
+					<max>750</max>
+				</countRange>
+			</li>
+		</value>
+	</Operation>
+ 
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraderKindDef[defName = "Visitor_Neolithic_Standard"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_Tag">
+			<tradeTag>TerraformingResources</tradeTag>
+				<thingDefCountRange>
+					<min>0</min>
+					<max>2</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>5</min>
+					<max>15</max>
+				</countRange>
+			</li>
+		</value>
+	</Operation>
+ 
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/TraderKindDef[defName = "Visitor_Outlander_Standard"]/stockGenerators</xpath>
+		<value>
+			<li Class="StockGenerator_Tag">
+				<tradeTag>TerraformingResources</tradeTag>
+				<thingDefCountRange>
+					<min>0</min>
+					<max>2</max>
+				</thingDefCountRange>
+				<countRange>
+					<min>10</min>
+					<max>20</max>
+				</countRange>
+			</li>
+		</value>
+	</Operation>
+
+</Patch> 

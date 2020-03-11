@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Brick Wall -->
+
+  <BrickWall.label>벽돌 벽</BrickWall.label>
+  <BrickWall.description>벽돌을 쌓아 지은 벽입니다.</BrickWall.description>
+  <BrickWall_Blueprint.label>벽돌 벽 (청사진)</BrickWall_Blueprint.label>
+  <BrickWall_Frame.label>벽돌 벽 (건설 중)</BrickWall_Frame.label>
+  <BrickWall_Frame.description>벽돌을 쌓아 지은 벽입니다.</BrickWall_Frame.description>
+
+
+  <!-- Production -->
+
+  <RockMill.label>제분기</RockMill.label>
+  <RockMill.description>돌, 모래, 흙 등의 자재를 분쇄 혼합하는 기계입니다. 전기로 작동합니다.</RockMill.description>
+  <RockMill_Blueprint.label>제분기 (청사진)</RockMill_Blueprint.label>
+  <RockMill_Frame.label>제분기 (건설 중)</RockMill_Frame.label>
+  <RockMill_Frame.description>돌, 모래, 흙 등의 자재를 분쇄 혼합하는 기계입니다. 전기로 작동합니다.</RockMill_Frame.description>
+
+
+  <!-- Terraforming -->
+
+  <Terraform_RockyDirt-Stone.label>돌무더기 → 암석</Terraform_RockyDirt-Stone.label>
+  <Terraform_RockyDirt-Stone.description></Terraform_RockyDirt-Stone.description>
+  <Terraform_RockyDirt-Stone_Blueprint.label>거친 암석 (청사진)</Terraform_RockyDirt-Stone_Blueprint.label>
+  <Terraform_RockyDirt-Stone_Frame.label>거친 암석 (건설 중)</Terraform_RockyDirt-Stone_Frame.label>
+  <Terraform_RockyDirt-Stone_Frame.description>거친 암석.</Terraform_RockyDirt-Stone_Frame.description>
+
+  <Terraform_Stone-RockyDirt.label>암석 → 돌무더기</Terraform_Stone-RockyDirt.label>
+  <Terraform_Stone-RockyDirt.description>부산물: 암석 덩어리</Terraform_Stone-RockyDirt.description>
+  <Terraform_Stone-RockyDirt_Blueprint.label>돌무더기 (청사진)</Terraform_Stone-RockyDirt_Blueprint.label>
+  <Terraform_Stone-RockyDirt_Frame.label>돌무더기 (건설 중)</Terraform_Stone-RockyDirt_Frame.label>
+  <Terraform_Stone-RockyDirt_Frame.description>돌무더기.</Terraform_Stone-RockyDirt_Frame.description>
+
+  <Terraform_Sand-RockyDirt.label>모래 → 돌무더기</Terraform_Sand-RockyDirt.label>
+  <Terraform_Sand-RockyDirt.description>부산물: 모래</Terraform_Sand-RockyDirt.description>
+  <Terraform_Sand-RockyDirt_Blueprint.label>돌무더기 (청사진)</Terraform_Sand-RockyDirt_Blueprint.label>
+  <Terraform_Sand-RockyDirt_Frame.label>돌무더기 (건설 중)</Terraform_Sand-RockyDirt_Frame.label>
+  <Terraform_Sand-RockyDirt_Frame.description>돌무더기.</Terraform_Sand-RockyDirt_Frame.description>
+
+  <Terraform_Gravel-RockyDirt.label>자갈 → 돌무더기</Terraform_Gravel-RockyDirt.label>
+  <Terraform_Gravel-RockyDirt.description>부산물: 자갈, 흙</Terraform_Gravel-RockyDirt.description>
+  <Terraform_Gravel-RockyDirt_Blueprint.label>돌무더기 (청사진)</Terraform_Gravel-RockyDirt_Blueprint.label>
+  <Terraform_Gravel-RockyDirt_Frame.label>돌무더기 (건설 중)</Terraform_Gravel-RockyDirt_Frame.label>
+  <Terraform_Gravel-RockyDirt_Frame.description>돌무더기.</Terraform_Gravel-RockyDirt_Frame.description>
+
+  <Terraform_SoilF-RockyDirt.label>토양 → 돌무더기</Terraform_SoilF-RockyDirt.label>
+  <Terraform_SoilF-RockyDirt.description>부산물: 흙</Terraform_SoilF-RockyDirt.description>
+  <Terraform_SoilF-RockyDirt_Blueprint.label>돌무더기 (청사진)</Terraform_SoilF-RockyDirt_Blueprint.label>
+  <Terraform_SoilF-RockyDirt_Frame.label>돌무더기 (건설 중)</Terraform_SoilF-RockyDirt_Frame.label>
+  <Terraform_SoilF-RockyDirt_Frame.description>돌무더기.</Terraform_SoilF-RockyDirt_Frame.description>
+
+  <Terraform_SoilMarshy-RockyDirt.label>습지 토양 → 돌무더기</Terraform_SoilMarshy-RockyDirt.label>
+  <Terraform_SoilMarshy-RockyDirt.description>부산물: 흙</Terraform_SoilMarshy-RockyDirt.description>
+  <Terraform_SoilMarshy-RockyDirt_Blueprint.label>돌무더기 (청사진)</Terraform_SoilMarshy-RockyDirt_Blueprint.label>
+  <Terraform_SoilMarshy-RockyDirt_Frame.label>돌무더기 (건설 중)</Terraform_SoilMarshy-RockyDirt_Frame.label>
+  <Terraform_SoilMarshy-RockyDirt_Frame.description>돌무더기.</Terraform_SoilMarshy-RockyDirt_Frame.description>
+
+  <Terraform_RockyDirt-Sand.label>돌무더기 → 모래</Terraform_RockyDirt-Sand.label>
+  <Terraform_RockyDirt-Sand.description></Terraform_RockyDirt-Sand.description>
+  <Terraform_RockyDirt-Sand_Blueprint.label>모래 (청사진)</Terraform_RockyDirt-Sand_Blueprint.label>
+  <Terraform_RockyDirt-Sand_Frame.label>모래 (건설 중)</Terraform_RockyDirt-Sand_Frame.label>
+  <Terraform_RockyDirt-Sand_Frame.description>모래.</Terraform_RockyDirt-Sand_Frame.description>
+
+  <Terraform_Gravel-Sand.label>자갈 → 모래</Terraform_Gravel-Sand.label>
+  <Terraform_Gravel-Sand.description>부산물: 자갈.</Terraform_Gravel-Sand.description>
+  <Terraform_Gravel-Sand_Blueprint.label>모래 (청사진)</Terraform_Gravel-Sand_Blueprint.label>
+  <Terraform_Gravel-Sand_Frame.label>모래 (건설 중)</Terraform_Gravel-Sand_Frame.label>
+  <Terraform_Gravel-Sand_Frame.description>모래.</Terraform_Gravel-Sand_Frame.description>
+
+  <Terraform_SoilF-Sand.label>토양 → 모래</Terraform_SoilF-Sand.label>
+  <Terraform_SoilF-Sand.description>부산물: 흙</Terraform_SoilF-Sand.description>
+  <Terraform_SoilF-Sand_Blueprint.label>모래 (청사진)</Terraform_SoilF-Sand_Blueprint.label>
+  <Terraform_SoilF-Sand_Frame.label>모래 (건설 중)</Terraform_SoilF-Sand_Frame.label>
+  <Terraform_SoilF-Sand_Frame.description>모래.</Terraform_SoilF-Sand_Frame.description>
+
+  <Terraform_WaterShallow-Sand.label>얕은 물 → 모래</Terraform_WaterShallow-Sand.label>
+  <Terraform_WaterShallow-Sand.description></Terraform_WaterShallow-Sand.description>
+  <Terraform_WaterShallow-Sand_Blueprint.label>모래 (청사진)</Terraform_WaterShallow-Sand_Blueprint.label>
+  <Terraform_WaterShallow-Sand_Frame.label>모래 (건설 중)</Terraform_WaterShallow-Sand_Frame.label>
+  <Terraform_WaterShallow-Sand_Frame.description>모래.</Terraform_WaterShallow-Sand_Frame.description>
+
+  <Terraform_RockyDirt-Gravel.label>돌무더기 → 자갈</Terraform_RockyDirt-Gravel.label>
+  <Terraform_RockyDirt-Gravel.description></Terraform_RockyDirt-Gravel.description>
+  <Terraform_RockyDirt-Gravel_Blueprint.label>자갈 (청사진)</Terraform_RockyDirt-Gravel_Blueprint.label>
+  <Terraform_RockyDirt-Gravel_Frame.label>자갈 (건설 중)</Terraform_RockyDirt-Gravel_Frame.label>
+  <Terraform_RockyDirt-Gravel_Frame.description>자갈.</Terraform_RockyDirt-Gravel_Frame.description>
+
+  <Terraform_Sand-Gravel.label>모래 → 자갈</Terraform_Sand-Gravel.label>
+  <Terraform_Sand-Gravel.description></Terraform_Sand-Gravel.description>
+  <Terraform_Sand-Gravel_Blueprint.label>자갈 (청사진)</Terraform_Sand-Gravel_Blueprint.label>
+  <Terraform_Sand-Gravel_Frame.label>자갈 (건설 중)</Terraform_Sand-Gravel_Frame.label>
+  <Terraform_Sand-Gravel_Frame.description>자갈.</Terraform_Sand-Gravel_Frame.description>
+
+  <Terraform_SoilF-Gravel.label>토양 → 자갈</Terraform_SoilF-Gravel.label>
+  <Terraform_SoilF-Gravel.description>부산물: 흙</Terraform_SoilF-Gravel.description>
+  <Terraform_SoilF-Gravel_Blueprint.label>자갈 (청사진)</Terraform_SoilF-Gravel_Blueprint.label>
+  <Terraform_SoilF-Gravel_Frame.label>자갈 (건설 중)</Terraform_SoilF-Gravel_Frame.label>
+  <Terraform_SoilF-Gravel_Frame.description>자갈.</Terraform_SoilF-Gravel_Frame.description>
+
+  <Terraform_SoilF-PackedDirt.label>토양 → 다져진 흙</Terraform_SoilF-PackedDirt.label>
+  <Terraform_SoilF-PackedDirt.description></Terraform_SoilF-PackedDirt.description>
+  <Terraform_SoilF-PackedDirt_Blueprint.label>다져진 흙 (청사진)</Terraform_SoilF-PackedDirt_Blueprint.label>
+  <Terraform_SoilF-PackedDirt_Frame.label>다져진 흙 (건설 중)</Terraform_SoilF-PackedDirt_Frame.label>
+  <Terraform_SoilF-PackedDirt_Frame.description>다져진 흙.</Terraform_SoilF-PackedDirt_Frame.description>
+
+  <Terraform_Sand-SoilF.label>모래 → 토양</Terraform_Sand-SoilF.label>
+  <Terraform_Sand-SoilF.description></Terraform_Sand-SoilF.description>
+  <Terraform_Sand-SoilF_Blueprint.label>토양 (청사진)</Terraform_Sand-SoilF_Blueprint.label>
+  <Terraform_Sand-SoilF_Frame.label>토양 (건설 중)</Terraform_Sand-SoilF_Frame.label>
+  <Terraform_Sand-SoilF_Frame.description>토양.</Terraform_Sand-SoilF_Frame.description>
+
+  <Terraform_Gravel-SoilF.label>자갈 → 토양</Terraform_Gravel-SoilF.label>
+  <Terraform_Gravel-SoilF.description></Terraform_Gravel-SoilF.description>
+  <Terraform_Gravel-SoilF_Blueprint.label>토양 (청사진)</Terraform_Gravel-SoilF_Blueprint.label>
+  <Terraform_Gravel-SoilF_Frame.label>토양 (건설 중)</Terraform_Gravel-SoilF_Frame.label>
+  <Terraform_Gravel-SoilF_Frame.description>토양.</Terraform_Gravel-SoilF_Frame.description>
+
+  <Terraform_PackedDirt-SoilF.label>다져진 흙 → 토양</Terraform_PackedDirt-SoilF.label>
+  <Terraform_PackedDirt-SoilF.description></Terraform_PackedDirt-SoilF.description>
+  <Terraform_PackedDirt-SoilF_Blueprint.label>토양 (청사진)</Terraform_PackedDirt-SoilF_Blueprint.label>
+  <Terraform_PackedDirt-SoilF_Frame.label>토양 (건설 중)</Terraform_PackedDirt-SoilF_Frame.label>
+  <Terraform_PackedDirt-SoilF_Frame.description>토양.</Terraform_PackedDirt-SoilF_Frame.description>
+
+  <Terraform_Mud-SoilF.label>진흙 → 토양</Terraform_Mud-SoilF.label>
+  <Terraform_Mud-SoilF.description></Terraform_Mud-SoilF.description>
+  <Terraform_Mud-SoilF_Blueprint.label>토양 (청사진)</Terraform_Mud-SoilF_Blueprint.label>
+  <Terraform_Mud-SoilF_Frame.label>토양 (건설 중)</Terraform_Mud-SoilF_Frame.label>
+  <Terraform_Mud-SoilF_Frame.description>토양.</Terraform_Mud-SoilF_Frame.description>
+
+  <Terraform_SoilMarshy-SoilF.label>습지 토양 → 토양</Terraform_SoilMarshy-SoilF.label>
+  <Terraform_SoilMarshy-SoilF.description></Terraform_SoilMarshy-SoilF.description>
+  <Terraform_SoilMarshy-SoilF_Blueprint.label>토양 (청사진)</Terraform_SoilMarshy-SoilF_Blueprint.label>
+  <Terraform_SoilMarshy-SoilF_Frame.label>토양 (건설 중)</Terraform_SoilMarshy-SoilF_Frame.label>
+  <Terraform_SoilMarshy-SoilF_Frame.description>토양.</Terraform_SoilMarshy-SoilF_Frame.description>
+
+  <Terraform_Marsh-SoilF.label>늪지 → 토양</Terraform_Marsh-SoilF.label>
+  <Terraform_Marsh-SoilF.description></Terraform_Marsh-SoilF.description>
+  <Terraform_Marsh-SoilF_Blueprint.label>토양 (청사진)</Terraform_Marsh-SoilF_Blueprint.label>
+  <Terraform_Marsh-SoilF_Frame.label>토양 (건설 중)</Terraform_Marsh-SoilF_Frame.label>
+  <Terraform_Marsh-SoilF_Frame.description>토양.</Terraform_Marsh-SoilF_Frame.description>
+
+  <Terraform_SoilF-Mud.label>토양 → 진흙</Terraform_SoilF-Mud.label>
+  <Terraform_SoilF-Mud.description></Terraform_SoilF-Mud.description>
+  <Terraform_SoilF-Mud_Blueprint.label>진흙 (청사진)</Terraform_SoilF-Mud_Blueprint.label>
+  <Terraform_SoilF-Mud_Frame.label>진흙 (건설 중)</Terraform_SoilF-Mud_Frame.label>
+  <Terraform_SoilF-Mud_Frame.description>진흙.</Terraform_SoilF-Mud_Frame.description>
+
+  <Terraform_SoilMarshy-Mud.label>습지 토양 → 진흙</Terraform_SoilMarshy-Mud.label>
+  <Terraform_SoilMarshy-Mud.description></Terraform_SoilMarshy-Mud.description>
+  <Terraform_SoilMarshy-Mud_Blueprint.label>진흙 (청사진)</Terraform_SoilMarshy-Mud_Blueprint.label>
+  <Terraform_SoilMarshy-Mud_Frame.label>진흙 (건설 중)</Terraform_SoilMarshy-Mud_Frame.label>
+  <Terraform_SoilMarshy-Mud_Frame.description>진흙.</Terraform_SoilMarshy-Mud_Frame.description>
+
+  <Terraform_SoilF-SoilMarshy.label>토양 → 습지 토양</Terraform_SoilF-SoilMarshy.label>
+  <Terraform_SoilF-SoilMarshy.description>부산물: 흙</Terraform_SoilF-SoilMarshy.description>
+  <Terraform_SoilF-SoilMarshy_Blueprint.label>습지 토양 (청사진)</Terraform_SoilF-SoilMarshy_Blueprint.label>
+  <Terraform_SoilF-SoilMarshy_Frame.label>습지 토양 (건설 중)</Terraform_SoilF-SoilMarshy_Frame.label>
+  <Terraform_SoilF-SoilMarshy_Frame.description>습지 토양.</Terraform_SoilF-SoilMarshy_Frame.description>
+
+  <Terraform_Mud-SoilMarshy.label>진흙 → 습지 토양</Terraform_Mud-SoilMarshy.label>
+  <Terraform_Mud-SoilMarshy.description>부산물: 흙</Terraform_Mud-SoilMarshy.description>
+  <Terraform_Mud-SoilMarshy_Blueprint.label>습지 토양 (청사진)</Terraform_Mud-SoilMarshy_Blueprint.label>
+  <Terraform_Mud-SoilMarshy_Frame.label>습지 토양 (건설 중)</Terraform_Mud-SoilMarshy_Frame.label>
+  <Terraform_Mud-SoilMarshy_Frame.description>습지 토양.</Terraform_Mud-SoilMarshy_Frame.description>
+
+  <Terraform_Marsh-SoilMarshy.label>늪지  → 습지 토양</Terraform_Marsh-SoilMarshy.label>
+  <Terraform_Marsh-SoilMarshy.description></Terraform_Marsh-SoilMarshy.description>
+  <Terraform_Marsh-SoilMarshy_Blueprint.label>습지 토양 (청사진)</Terraform_Marsh-SoilMarshy_Blueprint.label>
+  <Terraform_Marsh-SoilMarshy_Frame.label>습지 토양 (건설 중)</Terraform_Marsh-SoilMarshy_Frame.label>
+  <Terraform_Marsh-SoilMarshy_Frame.description>습지 토양.</Terraform_Marsh-SoilMarshy_Frame.description>
+
+  <Terraform_SoilF-Marsh.label>토양 → 늪지</Terraform_SoilF-Marsh.label>
+  <Terraform_SoilF-Marsh.description>부산물: 흙</Terraform_SoilF-Marsh.description>
+  <Terraform_SoilF-Marsh_Blueprint.label>늪지 (청사진)</Terraform_SoilF-Marsh_Blueprint.label>
+  <Terraform_SoilF-Marsh_Frame.label>늪지 (건설 중)</Terraform_SoilF-Marsh_Frame.label>
+  <Terraform_SoilF-Marsh_Frame.description>늪지.</Terraform_SoilF-Marsh_Frame.description>
+
+  <Terraform_SoilMarshy-Marsh.label>습지 토양 → 늪지</Terraform_SoilMarshy-Marsh.label>
+  <Terraform_SoilMarshy-Marsh.description>부산물: 흙</Terraform_SoilMarshy-Marsh.description>
+  <Terraform_SoilMarshy-Marsh_Blueprint.label>늪지 (청사진)</Terraform_SoilMarshy-Marsh_Blueprint.label>
+  <Terraform_SoilMarshy-Marsh_Frame.label>늪지 (건설 중)</Terraform_SoilMarshy-Marsh_Frame.label>
+  <Terraform_SoilMarshy-Marsh_Frame.description>늪지.</Terraform_SoilMarshy-Marsh_Frame.description>
+
+  <Terraform_WaterShallow-Marsh.label>얕은 물 → 늪지</Terraform_WaterShallow-Marsh.label>
+  <Terraform_WaterShallow-Marsh.description></Terraform_WaterShallow-Marsh.description>
+  <Terraform_WaterShallow-Marsh_Blueprint.label>늪지 (청사진)</Terraform_WaterShallow-Marsh_Blueprint.label>
+  <Terraform_WaterShallow-Marsh_Frame.label>늪지 (건설 중)</Terraform_WaterShallow-Marsh_Frame.label>
+  <Terraform_WaterShallow-Marsh_Frame.description>늪지.</Terraform_WaterShallow-Marsh_Frame.description>
+
+  <Terraform_Sand-WaterShallow.label>모래 → 얕은 물</Terraform_Sand-WaterShallow.label>
+  <Terraform_Sand-WaterShallow.description>부산물: 대량의 모래</Terraform_Sand-WaterShallow.description>
+  <Terraform_Sand-WaterShallow_Blueprint.label>얕은 물 (청사진)</Terraform_Sand-WaterShallow_Blueprint.label>
+  <Terraform_Sand-WaterShallow_Frame.label>얕은 물 (건설 중)</Terraform_Sand-WaterShallow_Frame.label>
+  <Terraform_Sand-WaterShallow_Frame.description>얕은 물.</Terraform_Sand-WaterShallow_Frame.description>
+
+  <Terraform_Marsh-WaterShallow.label>늪지 → 얕은 물</Terraform_Marsh-WaterShallow.label>
+  <Terraform_Marsh-WaterShallow.description>부산물: 대량의 흙</Terraform_Marsh-WaterShallow.description>
+  <Terraform_Marsh-WaterShallow_Blueprint.label>얕은 물 (청사진)</Terraform_Marsh-WaterShallow_Blueprint.label>
+  <Terraform_Marsh-WaterShallow_Frame.label>얕은 물 (건설 중)</Terraform_Marsh-WaterShallow_Frame.label>
+  <Terraform_Marsh-WaterShallow_Frame.description>얕은 물.</Terraform_Marsh-WaterShallow_Frame.description>
+
+  <Terraform_WaterDeep-WaterShallow.label>깊은 물 → 얕은 물</Terraform_WaterDeep-WaterShallow.label>
+  <Terraform_WaterDeep-WaterShallow.description></Terraform_WaterDeep-WaterShallow.description>
+  <Terraform_WaterDeep-WaterShallow_Blueprint.label>얕은 물 (청사진)</Terraform_WaterDeep-WaterShallow_Blueprint.label>
+  <Terraform_WaterDeep-WaterShallow_Frame.label>얕은 물 (건설 중)</Terraform_WaterDeep-WaterShallow_Frame.label>
+  <Terraform_WaterDeep-WaterShallow_Frame.description>얕은 물.</Terraform_WaterDeep-WaterShallow_Frame.description>
+
+  <Terraform_Ice-WaterShallow.label>얼음 → 얕은 물</Terraform_Ice-WaterShallow.label>
+  <Terraform_Ice-WaterShallow.description></Terraform_Ice-WaterShallow.description>
+  <Terraform_Ice-WaterShallow_Blueprint.label>얕은 물 (청사진)</Terraform_Ice-WaterShallow_Blueprint.label>
+  <Terraform_Ice-WaterShallow_Frame.label>얕은 물 (건설 중)</Terraform_Ice-WaterShallow_Frame.label>
+  <Terraform_Ice-WaterShallow_Frame.description>얕은 물.</Terraform_Ice-WaterShallow_Frame.description>
+
+  <Terraform_WaterShallow-WaterDeep.label>얕은 물 → 깊은 물</Terraform_WaterShallow-WaterDeep.label>
+  <Terraform_WaterShallow-WaterDeep.description>부산물: 대량의 흙</Terraform_WaterShallow-WaterDeep.description>
+  <Terraform_WaterShallow-WaterDeep_Blueprint.label>깊은 물 (청사진)</Terraform_WaterShallow-WaterDeep_Blueprint.label>
+  <Terraform_WaterShallow-WaterDeep_Frame.label>깊은 물(건설 중)</Terraform_WaterShallow-WaterDeep_Frame.label>
+  <Terraform_WaterShallow-WaterDeep_Frame.description>깊은 물.</Terraform_WaterShallow-WaterDeep_Frame.description>
+
+
+  <!-- Farming -->
+
+  <Terraform_Stone-Topsoil.label>준설토</Terraform_Stone-Topsoil.label>
+  <Terraform_Stone-Topsoil.description>암석 바닥 위에 설치합니다. 작물 재배가 가능합니다. 바닥 제거 기능으로 제거할 수 있습니다.</Terraform_Stone-Topsoil.description>
+  <Terraform_Stone-Topsoil_Blueprint.label>준설토 (청사진)</Terraform_Stone-Topsoil_Blueprint.label>
+  <Terraform_Stone-Topsoil_Frame.label>준설토 (건설 중)</Terraform_Stone-Topsoil_Frame.label>
+  <Terraform_Stone-Topsoil_Frame.description>준설토.</Terraform_Stone-Topsoil_Frame.description>
+
+  <Terraform_Topsoil-DirtFert.label>기름진 준설토</Terraform_Topsoil-DirtFert.label>
+  <Terraform_Topsoil-DirtFert.description>준설토 위에 설치합니다. 작물 재배가 가능합니다. 바닥 제거 기능으로 제거할 수 있습니다.</Terraform_Topsoil-DirtFert.description>
+  <Terraform_Topsoil-DirtFert_Blueprint.label>기름진 준설토 (청사진)</Terraform_Topsoil-DirtFert_Blueprint.label>
+  <Terraform_Topsoil-DirtFert_Frame.label>기름진 준설토 (건설 중)</Terraform_Topsoil-DirtFert_Frame.label>
+  <Terraform_Topsoil-DirtFert_Frame.description>기름진 준설토.</Terraform_Topsoil-DirtFert_Frame.description>
+
+  <Terraform_SoilF-SoilRich.label>기름진 토양</Terraform_SoilF-SoilRich.label>
+  <Terraform_SoilF-SoilRich.description>기름진 토양.</Terraform_SoilF-SoilRich.description>
+  <Terraform_SoilF-SoilRich_Blueprint.label>기름진 토양 (청사진)</Terraform_SoilF-SoilRich_Blueprint.label>
+  <Terraform_SoilF-SoilRich_Frame.label>기름진 토양 (건설 중)</Terraform_SoilF-SoilRich_Frame.label>
+  <Terraform_SoilF-SoilRich_Frame.description>기름진 토양.</Terraform_SoilF-SoilRich_Frame.description>
+
+  <Terraform_SoilRich-SoilTilled.label>개간된 토양</Terraform_SoilRich-SoilTilled.label>
+  <Terraform_SoilRich-SoilTilled.description>기름진 토양 위에 설치합니다. 바닥 제거 기능으로 제거할 수 있습니다.</Terraform_SoilRich-SoilTilled.description>
+  <Terraform_SoilRich-SoilTilled_Blueprint.label>개간된 토양 (청사진)</Terraform_SoilRich-SoilTilled_Blueprint.label>
+  <Terraform_SoilRich-SoilTilled_Frame.label>개간된 토양 (건설 중)</Terraform_SoilRich-SoilTilled_Frame.label>
+  <Terraform_SoilRich-SoilTilled_Frame.description>개간된 토양.</Terraform_SoilRich-SoilTilled_Frame.description>
+
+
+  <!-- Farming Tools -->
+
+  <CompostBin.label>퇴비 숙성판</CompostBin.label>
+  <CompostBin.description>퇴비를 숙성시켜 비료로 만드는 공간입니다. 냄새가 지독합니다.</CompostBin.description>
+  <CompostBin_Blueprint.label>퇴비 숙성판 (청사진)</CompostBin_Blueprint.label>
+  <CompostBin_Frame.label>퇴비 숙성판 (건설 중)</CompostBin_Frame.label>
+  <CompostBin_Frame.description>퇴비를 숙성시켜 비료로 만드는 판입니다. 냄새가 지독합니다.</CompostBin_Frame.description>
+
+  <CompostBarrel.label>퇴비 숙성고</CompostBarrel.label>
+  <CompostBarrel.description>퇴비를 비료로 대량 전환하는 장치입니다. 퇴비 통보다 10배 많은 퇴비를 숙성시킬 수 있습니다. 전력이 필요합니다.</CompostBarrel.description>
+  <CompostBarrel_Blueprint.label>퇴비 숙성고 (청사진)</CompostBarrel_Blueprint.label>
+  <CompostBarrel_Blueprint_Install.label>퇴비 숙성고 (청사진)</CompostBarrel_Blueprint_Install.label>
+  <CompostBarrel_Frame.label>퇴비 숙성고 (건설 중)</CompostBarrel_Frame.label>
+  <CompostBarrel_Frame.description>퇴비를 비료로 대량 전환하는 장치입니다. 전력이 필요합니다.</CompostBarrel_Frame.description>
+
+  <HeavySandbags.label>두터운 모래주머니</HeavySandbags.label>
+  <HeavySandbags.description>전투시 은엄폐 공간을 제공합니다.</HeavySandbags.description>
+  <HeavySandbags_Blueprint.label>두터운 모래주머니 (청사진)</HeavySandbags_Blueprint.label>
+  <HeavySandbags_Blueprint_Install.label>두터운 모래주머니 (청사진)</HeavySandbags_Blueprint_Install.label>
+  <HeavySandbags_Frame.label>두터운 모래주머니 (건설 중)</HeavySandbags_Frame.label>
+  <HeavySandbags_Frame.description>전투시 은엄폐 공간을 제공합니다.</HeavySandbags_Frame.description>
+
+
+</LanguageData>
