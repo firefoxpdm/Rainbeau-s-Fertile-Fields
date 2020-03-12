@@ -951,7 +951,7 @@
 	<RecipeDef Name="RFF_MakeStoneBlocksBase" Abstract="True">
 		<jobString>Cutting stone blocks from chunk.</jobString>
 		<workAmount>1200</workAmount>
-		<workSpeedStat>UnskilledLaborSpeed</workSpeedStat>
+		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<effectWorking>CutStone</effectWorking>
 		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
 		<targetCountAdjustment>20</targetCountAdjustment>

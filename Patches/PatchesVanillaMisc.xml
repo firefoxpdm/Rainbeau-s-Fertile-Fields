@@ -2,67 +2,6 @@
 
 	<!-- Vanilla Modifications -->
 	
-	<Operation Class="PatchOperationReplace">
-		<xpath>Defs/ThingDef[defName = "Sandbags"]/costList</xpath>
-		<value>
-			<costList>
-				<Cloth>2</Cloth>
-				<Steel>2</Steel>
-				<SandPile>1</SandPile>
-			</costList>
-		</value>
-	</Operation>
-
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>Defs/ThingDef[defName = "Sandbags"]/minifiedDef</xpath>
-				<success>Invert</success>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName = "Sandbags"]</xpath>
-				<value>
-					<minifiedDef>MinifiedThing</minifiedDef>
-				</value>
-			</li>
-		</operations>
-	</Operation>
-
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>Defs/ThingDef[defName = "Sandbags"]/statBases/Mass</xpath>
-				<success>Invert</success>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName = "Sandbags"]/statBases</xpath>
-				<value>
-					<Mass>10</Mass>
-				</value>
-			</li>
-		</operations>
-	</Operation>
-	
-	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
-		<operations>
-			<li Class="PatchOperationTest">
-				<xpath>Defs/ThingDef[defName = "Sandbags"]/thingCategories</xpath>
-				<success>Invert</success>
-			</li>
-			<li Class="PatchOperationAdd">
-				<xpath>Defs/ThingDef[defName = "Sandbags"]</xpath>
-				<value>
-					<thingCategories>
-						<li>BuildingsSecurity</li>
-					</thingCategories>
-				</value>
-			</li>
-		</operations>
-	</Operation>
-	
 	<Operation Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName = "HydroponicsBasin"]/costList</xpath>
 		<value>

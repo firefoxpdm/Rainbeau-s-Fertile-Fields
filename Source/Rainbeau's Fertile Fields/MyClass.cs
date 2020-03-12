@@ -1,9 +1,8 @@
-﻿using Harmony;
+﻿using HarmonyLib;
 using RimWorld;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Reflection;
 using System.Text;
 using UnityEngine;
@@ -15,7 +14,7 @@ namespace RFF_Code {
 	[StaticConstructorOnStartup]
 	internal static class RFF_Initializer {
 		static RFF_Initializer() {
-			HarmonyInstance harmony = HarmonyInstance.Create("net.rainbeau.rimworld.mod.fertilefields");
+			Harmony harmony = new Harmony("net.rainbeau.rimworld.mod.fertilefields");
 			harmony.PatchAll( Assembly.GetExecutingAssembly() );
 		}
 	}
@@ -87,18 +86,44 @@ namespace RFF_Code {
 			Scribe_Values.Look(ref plantScrapsPercent, "plantScrapsPercent", 100.5f);
 			//Scribe_Values.Look(ref compressedMenu, "compressedMenu", true);
 		}
-	}	
+	}
 
-	// ===================================== //
-	// ========== Harmony Patches ========== //
-	// ===================================== //
+    // ===================================== //
+    // ========== Harmony Patches ========== //
+    // ===================================== //
 
-	[HarmonyPatch (typeof (CompRottable), "CompTickRare")]
+        // TODO: make this not necessary.
+    [HarmonyPatch]
+    public static class Designator_Dropdown_GetDesignatorCost_NullReferenceProtection
+    {
+        static MethodBase TargetMethod()
+        {
+            return AccessTools.Method(typeof(Designator_Dropdown), "GetDesignatorCost");
+        }
+
+        public static bool Prefix(Designator des, ref ThingDef __result)
+        {
+            Designator_Place designatorPlace = des as Designator_Place;
+            if (designatorPlace != null)
+            {
+                BuildableDef placingDef = designatorPlace.PlacingDef;
+                if (placingDef.costList != null && placingDef.costList.Count > 0)
+                {
+                    return true;
+                }
+                    
+            }
+            __result = null;
+            return false;
+        }
+    }
+
+        [HarmonyPatch (typeof (CompRottable), "CompTickRare")]
 	public static class CompRottable_CompTickRare {
 		static void Prefix (CompRottable __instance, ref State __state) {
 			__state = new State (__instance);
 		}
-		static void Postfix(CompRottable __instance, ref State __state) {
+        static void Postfix(CompRottable __instance, ref State __state) {
 			if (__instance.parent.Destroyed) {
 				if (__instance.parent.def.thingCategories == null) { return; }
 				if (__instance.parent.def.defName.Contains("__Corpse")) { return; }
@@ -124,7 +149,7 @@ namespace RFF_Code {
 		}
 	}
 
-	[HarmonyPatch(typeof(GenConstruct), "BlocksConstruction", null)]
+	[HarmonyPatch(typeof(GenConstruct), "BlocksConstruction")]
 	public static class GenConstruct_BlocksConstruction {
 		public static bool Prefix(Thing constructible, Thing t, ref bool __result) {
 			ThingDef thingDef;
@@ -148,7 +173,7 @@ namespace RFF_Code {
 		}
 	}
 
-	[HarmonyPatch(typeof(GenConstruct), "CanPlaceBlueprintOver", null)]
+	[HarmonyPatch(typeof(GenConstruct), "CanPlaceBlueprintOver")]
 	public static class GenConstruct_CanPlaceBlueprintOver {
 		public static bool Prefix(BuildableDef newDef, ThingDef oldDef, ref bool __result) {
 			ThingDef thingDef = newDef as ThingDef;
@@ -184,7 +209,7 @@ namespace RFF_Code {
 		}
 	}
 
-	[HarmonyPatch(typeof(GenSpawn), "SpawningWipes", null)]
+	[HarmonyPatch(typeof(GenSpawn), "SpawningWipes")]
 	public static class GenSpawn_SpawningWipes {
 		public static bool Prefix(BuildableDef newEntDef, BuildableDef oldEntDef, ref bool __result) {
 			ThingDef thingDef = newEntDef as ThingDef;
@@ -209,9 +234,68 @@ namespace RFF_Code {
 		}
 	}
 
-	[HarmonyPatch(typeof(JobDriver_PlantCut), "PlantWorkDoneToil", null)]
-	internal static class JobDriver_PlantCut_PlantWorkDoneToil {
-		private static bool Prefix(ref Toil __result) {
+	[HarmonyPatch(typeof(JobDriver_PlantCut), "PlantWorkDoneToil")]
+    public static class JobDriver_PlantCut_PlantWorkDoneToil {
+        public static bool Prefix(ref Toil __result) {
+			Toil toil = new Toil();
+			toil.initAction = delegate {
+				Pawn actor = toil.actor;
+				Plant cutPlant = (Plant)actor.jobs.curJob.GetTarget(TargetIndex.A).Thing;
+				ThingDef leavings = ThingDef.Named("PlantScraps");
+				var plantScraps = ThingMaker.MakeThing (leavings, null);
+				float stackSize = cutPlant.def.plant.harvestYield;
+				if (cutPlant.def.defName == "Plant_Grass" || cutPlant.def.defName == "Plant_TallGrass"
+				  || cutPlant.def.defName == "Plant_Dandelion" || cutPlant.def.defName == "Plant_Astragalus"
+				  || cutPlant.def.defName == "Plant_Moss" || cutPlant.def.defName == "Plant_Daylily") {
+					stackSize = 3; 
+				}
+				else if (stackSize < 9) {
+					stackSize = 9;
+				}
+				if (Rand.Value < 0.33f) {
+					stackSize = stackSize * Rand.Value;
+				}
+				stackSize = stackSize * cutPlant.Growth * (Controller.Settings.plantScrapsPercent/100);
+				plantScraps.stackCount = (int)stackSize;
+				if (plantScraps.stackCount > 0) {
+					GenPlace.TryPlaceThing (plantScraps, actor.Position, actor.Map, ThingPlaceMode.Near, null);
+				}
+				if (!cutPlant.Destroyed) {
+					cutPlant.Destroy(DestroyMode.Vanish);
+				}
+				IntVec3 cell = toil.actor.jobs.curJob.GetTarget(TargetIndex.A).Cell;
+				if (actor.Map.terrainGrid.TerrainAt(cell).defName == "DirtFert" && (Rand.Value < (Controller.Settings.degradeChanceRich/100))) {
+					actor.Map.terrainGrid.SetTerrain(cell,TerrainDef.Named("Topsoil"));
+					if (Controller.Settings.autoRefertilize.Equals(true) && actor.Map.zoneManager.ZoneAt(cell) is Zone_Growing) {
+						GenConstruct.PlaceBlueprintForBuild(ThingDef.Named("Terraform_Topsoil-DirtFert"), cell, actor.Map, Rot4.North, Faction.OfPlayer, null);
+					}
+				}
+				if (actor.Map.terrainGrid.TerrainAt(cell).defName == "SoilRich" && (Rand.Value < (Controller.Settings.degradeChanceRich/100))) {
+					actor.Map.terrainGrid.SetTerrain(cell,TerrainDef.Named("Soil"));
+					if (Controller.Settings.autoRefertilize.Equals(true) && actor.Map.zoneManager.ZoneAt(cell) is Zone_Growing) {
+						GenConstruct.PlaceBlueprintForBuild(ThingDef.Named("Terraform_SoilF-SoilRich"), cell, actor.Map, Rot4.North, Faction.OfPlayer, null);
+					}
+				}
+				if (actor.Map.terrainGrid.TerrainAt(cell).defName == "SoilTilled" && (Rand.Value < (Controller.Settings.degradeChancePlowed/100))) {
+					actor.Map.terrainGrid.SetTerrain(cell,TerrainDef.Named("SoilRich"));
+					if (Controller.Settings.autoReplow.Equals(true) && actor.Map.zoneManager.ZoneAt(cell) is Zone_Growing) {
+						GenConstruct.PlaceBlueprintForBuild(ThingDef.Named("Terraform_SoilRich-SoilTilled"), cell, actor.Map, Rot4.North, Faction.OfPlayer, null);
+					}
+				}
+			};
+			__result = toil;
+			return false;
+		}
+	}
+    
+	[HarmonyPatch]
+    public static class JobDriver_PlantCut_Designated_PlantWorkDoneToil {
+        static MethodBase TargetMethod()
+        {
+            return AccessTools.Method(typeof(JobDriver_PlantCut_Designated), "PlantWorkDoneToil");
+        }
+
+        public static bool Prefix(ref Toil __result) {
 			Toil toil = new Toil();
 			toil.initAction = delegate {
 				Pawn actor = toil.actor;
@@ -263,12 +347,13 @@ namespace RFF_Code {
 		}
 	}
 
-	[HarmonyPatch(typeof(JobDriver_PlantCut_Designated), "PlantWorkDoneToil", null)]
-	internal static class JobDriver_PlantCut_Designated_PlantWorkDoneToil {
-		private static bool Prefix(ref Toil __result) {
-			Toil toil = new Toil();
-			toil.initAction = delegate {
-				Pawn actor = toil.actor;
+	[HarmonyPatch(typeof(JobDriver_PlantHarvest), "PlantWorkDoneToil")]
+    public static class JobDriver_PlantHarvest_PlantWorkDoneToil {
+        public static void Postfix(ref Toil __result, ref JobDriver_PlantHarvest __instance) {
+			Toil _Result = __result;
+			Map map = __instance.pawn.Map;
+			_Result.initAction = (Action)Delegate.Combine(_Result.initAction, new Action(delegate {
+				Pawn actor = _Result.actor;
 				Plant cutPlant = (Plant)actor.jobs.curJob.GetTarget(TargetIndex.A).Thing;
 				ThingDef leavings = ThingDef.Named("PlantScraps");
 				var plantScraps = ThingMaker.MakeThing (leavings, null);
@@ -284,42 +369,43 @@ namespace RFF_Code {
 				if (Rand.Value < 0.33f) {
 					stackSize = stackSize * Rand.Value;
 				}
+				stackSize = stackSize * Rand.Value;
 				stackSize = stackSize * cutPlant.Growth * (Controller.Settings.plantScrapsPercent/100);
 				plantScraps.stackCount = (int)stackSize;
 				if (plantScraps.stackCount > 0) {
 					GenPlace.TryPlaceThing (plantScraps, actor.Position, actor.Map, ThingPlaceMode.Near, null);
 				}
-				if (!cutPlant.Destroyed) {
-					cutPlant.Destroy(DestroyMode.Vanish);
-				}
-				IntVec3 cell = toil.actor.jobs.curJob.GetTarget(TargetIndex.A).Cell;
+				IntVec3 cell = _Result.actor.jobs.curJob.GetTarget(TargetIndex.A).Cell;
 				if (actor.Map.terrainGrid.TerrainAt(cell).defName == "DirtFert" && (Rand.Value < (Controller.Settings.degradeChanceRich/100))) {
 					actor.Map.terrainGrid.SetTerrain(cell,TerrainDef.Named("Topsoil"));
-					if (Controller.Settings.autoRefertilize.Equals(true) && actor.Map.zoneManager.ZoneAt(cell) is Zone_Growing) {
-						GenConstruct.PlaceBlueprintForBuild(ThingDef.Named("Terraform_Topsoil-DirtFert"), cell, actor.Map, Rot4.North, Faction.OfPlayer, null);
+					if (Controller.Settings.autoRefertilize.Equals(true) && map.zoneManager.ZoneAt(cell) is Zone_Growing) {
+						GenConstruct.PlaceBlueprintForBuild(ThingDef.Named("Terraform_Topsoil-DirtFert"), cell, map, Rot4.North, Faction.OfPlayer, null);
 					}
 				}
 				if (actor.Map.terrainGrid.TerrainAt(cell).defName == "SoilRich" && (Rand.Value < (Controller.Settings.degradeChanceRich/100))) {
 					actor.Map.terrainGrid.SetTerrain(cell,TerrainDef.Named("Soil"));
-					if (Controller.Settings.autoRefertilize.Equals(true) && actor.Map.zoneManager.ZoneAt(cell) is Zone_Growing) {
-						GenConstruct.PlaceBlueprintForBuild(ThingDef.Named("Terraform_SoilF-SoilRich"), cell, actor.Map, Rot4.North, Faction.OfPlayer, null);
+					if (Controller.Settings.autoRefertilize.Equals(true) && map.zoneManager.ZoneAt(cell) is Zone_Growing) {
+						GenConstruct.PlaceBlueprintForBuild(ThingDef.Named("Terraform_SoilF-SoilRich"), cell, map, Rot4.North, Faction.OfPlayer, null);
 					}
 				}
 				if (actor.Map.terrainGrid.TerrainAt(cell).defName == "SoilTilled" && (Rand.Value < (Controller.Settings.degradeChancePlowed/100))) {
 					actor.Map.terrainGrid.SetTerrain(cell,TerrainDef.Named("SoilRich"));
-					if (Controller.Settings.autoReplow.Equals(true) && actor.Map.zoneManager.ZoneAt(cell) is Zone_Growing) {
-						GenConstruct.PlaceBlueprintForBuild(ThingDef.Named("Terraform_SoilRich-SoilTilled"), cell, actor.Map, Rot4.North, Faction.OfPlayer, null);
+					if (Controller.Settings.autoReplow.Equals(true) && map.zoneManager.ZoneAt(cell) is Zone_Growing) {
+						GenConstruct.PlaceBlueprintForBuild(ThingDef.Named("Terraform_SoilRich-SoilTilled"), cell, map, Rot4.North, Faction.OfPlayer, null);
 					}
 				}
-			};
-			__result = toil;
-			return false;
+			}));
 		}
-	}
-	
-	[HarmonyPatch(typeof(JobDriver_PlantHarvest), "PlantWorkDoneToil", null)]
-	internal static class JobDriver_PlantHarvest_PlantWorkDoneToil {
-		private static void Postfix(ref Toil __result, ref JobDriver_PlantHarvest __instance) {
+    }
+
+	[HarmonyPatch]
+    static class JobDriver_PlantHarvest_Designated_PlantWorkDoneToil {
+        static MethodBase TargetMethod()
+        {
+            return AccessTools.Method(typeof(JobDriver_PlantHarvest_Designated), "PlantWorkDoneToil");
+        }
+
+        public static void Postfix(ref Toil __result, ref JobDriver_PlantHarvest __instance) {
 			Toil _Result = __result;
 			Map map = __instance.pawn.Map;
 			_Result.initAction = (Action)Delegate.Combine(_Result.initAction, new Action(delegate {
@@ -368,60 +454,9 @@ namespace RFF_Code {
 		}
 	}
 
-	[HarmonyPatch(typeof(JobDriver_PlantHarvest_Designated), "PlantWorkDoneToil", null)]
-	internal static class JobDriver_PlantHarvest_Designated_PlantWorkDoneToil {
-		private static void Postfix(ref Toil __result, ref JobDriver_PlantHarvest __instance) {
-			Toil _Result = __result;
-			Map map = __instance.pawn.Map;
-			_Result.initAction = (Action)Delegate.Combine(_Result.initAction, new Action(delegate {
-				Pawn actor = _Result.actor;
-				Plant cutPlant = (Plant)actor.jobs.curJob.GetTarget(TargetIndex.A).Thing;
-				ThingDef leavings = ThingDef.Named("PlantScraps");
-				var plantScraps = ThingMaker.MakeThing (leavings, null);
-				float stackSize = cutPlant.def.plant.harvestYield;
-				if (cutPlant.def.defName == "Plant_Grass" || cutPlant.def.defName == "Plant_TallGrass"
-				  || cutPlant.def.defName == "Plant_Dandelion" || cutPlant.def.defName == "Plant_Astragalus"
-				  || cutPlant.def.defName == "Plant_Moss" || cutPlant.def.defName == "Plant_Daylily") {
-					stackSize = 3; 
-				}
-				else if (stackSize < 9) {
-					stackSize = 9;
-				}
-				if (Rand.Value < 0.33f) {
-					stackSize = stackSize * Rand.Value;
-				}
-				stackSize = stackSize * Rand.Value;
-				stackSize = stackSize * cutPlant.Growth * (Controller.Settings.plantScrapsPercent/100);
-				plantScraps.stackCount = (int)stackSize;
-				if (plantScraps.stackCount > 0) {
-					GenPlace.TryPlaceThing (plantScraps, actor.Position, actor.Map, ThingPlaceMode.Near, null);
-				}
-				IntVec3 cell = _Result.actor.jobs.curJob.GetTarget(TargetIndex.A).Cell;
-				if (actor.Map.terrainGrid.TerrainAt(cell).defName == "DirtFert" && (Rand.Value < (Controller.Settings.degradeChanceRich/100))) {
-					actor.Map.terrainGrid.SetTerrain(cell,TerrainDef.Named("Topsoil"));
-					if (Controller.Settings.autoRefertilize.Equals(true) && map.zoneManager.ZoneAt(cell) is Zone_Growing) {
-						GenConstruct.PlaceBlueprintForBuild(ThingDef.Named("Terraform_Topsoil-DirtFert"), cell, map, Rot4.North, Faction.OfPlayer, null);
-					}
-				}
-				if (actor.Map.terrainGrid.TerrainAt(cell).defName == "SoilRich" && (Rand.Value < (Controller.Settings.degradeChanceRich/100))) {
-					actor.Map.terrainGrid.SetTerrain(cell,TerrainDef.Named("Soil"));
-					if (Controller.Settings.autoRefertilize.Equals(true) && map.zoneManager.ZoneAt(cell) is Zone_Growing) {
-						GenConstruct.PlaceBlueprintForBuild(ThingDef.Named("Terraform_SoilF-SoilRich"), cell, map, Rot4.North, Faction.OfPlayer, null);
-					}
-				}
-				if (actor.Map.terrainGrid.TerrainAt(cell).defName == "SoilTilled" && (Rand.Value < (Controller.Settings.degradeChancePlowed/100))) {
-					actor.Map.terrainGrid.SetTerrain(cell,TerrainDef.Named("SoilRich"));
-					if (Controller.Settings.autoReplow.Equals(true) && map.zoneManager.ZoneAt(cell) is Zone_Growing) {
-						GenConstruct.PlaceBlueprintForBuild(ThingDef.Named("Terraform_SoilRich-SoilTilled"), cell, map, Rot4.North, Faction.OfPlayer, null);
-					}
-				}
-			}));
-		}
-	}
-	
 	[HarmonyPatch(typeof(WorkGiver_ConstructDeliverResourcesToBlueprints), "JobOnThing")]
 	public static class WorkGiver_ConstructDeliverResourcesToBlueprints_JobOnThing {
-		static bool Prefix(Pawn pawn, Thing t, ref Job __result, bool forced = false) {
+        public static bool Prefix(Pawn pawn, Thing t, ref Job __result, bool forced = false) {
 			if (t.Faction != pawn.Faction) {
 				__result = null;
 				return false;
@@ -442,7 +477,7 @@ namespace RFF_Code {
 	
 	[HarmonyPatch(typeof(WorkGiver_ConstructDeliverResourcesToBlueprints), "NoCostFrameMakeJobFor")]
 	public static class WorkGiver_ConstructDeliverResourcesToBlueprints_NoCostFrameMakeJobFor {
-		static bool Prefix(Pawn pawn, IConstructible c, ref Job __result) {
+        public static bool Prefix(Pawn pawn, IConstructible c, ref Job __result) {
 			if (c is Blueprint && c.MaterialsNeeded().Count == 0) {
 				Thing check = (Thing)c;
 				if (check.def.defName.Contains("Stone-Topsoil") || check.def.defName.Contains("Topsoil-DirtFert") || check.def.defName.Contains("SoilF-SoilRich") || check.def.defName.Contains("SoilRich-SoilTilled")) {
@@ -456,7 +491,7 @@ namespace RFF_Code {
 
 	[HarmonyPatch(typeof(WorkGiver_ConstructFinishFrames), "JobOnThing")]
 	public static class WorkGiver_ConstructFinishFrames_JobOnThing {
-		static bool Prefix(Pawn pawn, Thing t, ref Job __result, bool forced = false) {
+        public static bool Prefix(Pawn pawn, Thing t, ref Job __result, bool forced = false) {
 			if (t.Faction != pawn.Faction) {
 				__result = null;
 				return false;
@@ -533,7 +568,7 @@ namespace RFF_Code {
 	// ================================== //
 
 	public class PlaceWorker_Dynamic : PlaceWorker {
-		public override AcceptanceReport AllowsPlacing (BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null) {
+		public override AcceptanceReport AllowsPlacing (BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null, Thing otherThing = null) {
 			var config = checkingDef.GetModExtension<Terrain> ();
 			var terrainDef = map.terrainGrid.TerrainAt (loc);
 			bool above = false, aboveSkip = true;
@@ -1091,7 +1126,7 @@ namespace RFF_Code {
 	public class IngredientValueGetter_Mass : IngredientValueGetter {
 		public IngredientValueGetter_Mass() { }
 		public override string BillRequirementsDescription(RecipeDef r, IngredientCount ing) {
-			return string.Concat("RFF.BillRequires".Translate(new object[] { ing.GetBaseCount() }), " (", ing.filter.Summary, ")");
+            return string.Concat(TranslatorFormattedStringExtensions.Translate("RFF.BillRequires", ing.GetBaseCount()), " (", ing.filter.Summary, ")");
 		}
 		public override float ValuePerUnitOf(ThingDef t) {
 			return t.GetStatValueAbstract(StatDefOf.Mass, null);
@@ -1371,7 +1406,7 @@ namespace RFF_Code {
 				});
 			}
 		}
-		[DebuggerHidden]
+		
 		public override IEnumerable<Gizmo> GetGizmos() {
 			IEnumerator<Gizmo> enumerator = base.GetGizmos().GetEnumerator();
 			while (enumerator.MoveNext()) {
@@ -1379,7 +1414,7 @@ namespace RFF_Code {
 				yield return current;
 			}
 			if (Prefs.DevMode && !this.Empty) {
-				yield return new Command_Action {
+                yield return new Command_Action {
 					defaultLabel = "Debug: Set progress to 1",
 					action = delegate {
 						this.Progress = 1f;

@@ -24,7 +24,7 @@
 		<designationCategory>Floors</designationCategory>
 		<fertility>0</fertility>
 		<constructEffect>ConstructDirt</constructEffect>
-		<acceptTerrainSourceFilth>True</acceptTerrainSourceFilth>
+		<filthAcceptanceMask>Terrain</filthAcceptanceMask>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	</TerrainDef>
 
@@ -51,7 +51,8 @@
 		<designationCategory>Floors</designationCategory>
 		<fertility>0</fertility>
 		<constructEffect>ConstructDirt</constructEffect>
-		<acceptTerrainSourceFilth>True</acceptTerrainSourceFilth>
+		<filthAcceptanceMask>Terrain</filthAcceptanceMask>
+		<takeFootprints>True</takeFootprints>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 	</TerrainDef>
 	
@@ -77,6 +78,7 @@
 		</affordances>
 		<generatedFilth>Filth_Dirt</generatedFilth>
 		<fertility>0.2</fertility>
+		<filthAcceptanceMask>Natural</filthAcceptanceMask>
 		<takeFootprints>True</takeFootprints> 
 	</TerrainDef>
 
@@ -102,6 +104,7 @@
 		</affordances>
 		<generatedFilth>Filth_Dirt</generatedFilth>
 		<fertility>1.0</fertility>
+		<filthAcceptanceMask>Natural</filthAcceptanceMask>
 		<takeFootprints>True</takeFootprints>
 	</TerrainDef>
 
@@ -127,6 +130,7 @@
 		</affordances>
 		<generatedFilth>Filth_Dirt</generatedFilth>
 		<fertility>1.4</fertility>
+		<filthAcceptanceMask>Natural</filthAcceptanceMask>
 		<takeFootprints>True</takeFootprints>
 	</TerrainDef>
 
@@ -152,6 +156,7 @@
 		</affordances>
 		<generatedFilth>Filth_Dirt</generatedFilth>
 		<fertility>1.8</fertility>
+		<filthAcceptanceMask>Natural</filthAcceptanceMask>
 		<takeFootprints>True</takeFootprints>
 		<avoidWander>true</avoidWander>
 	</TerrainDef>

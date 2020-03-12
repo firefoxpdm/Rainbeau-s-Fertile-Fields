@@ -1,6 +1,10 @@
 ---------------------------------------------------------------------------------
   Changelog for "Rainbeau's Fertile Fields"
 ---------------------------------------------------------------------------------
+- 2020-03-12
+    - Updated to 1.1
+	- Removed all sandbag-related modifications as they have been changed by
+	  the core game.
 
 - 12/05/2018
 	- Plant scraps can now be used in silage and bulk kibble recipes added by

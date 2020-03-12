@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
 
-	<name>[RF] Fertile Fields [1.0]</name>
+	<name>[RF] Fertile Fields [1.1]</name>
 	<author>Rainbeau Flambe</author>
-	<url>https://ludeon.com/forums/index.php?topic=46165</url>
-	<targetVersion>1.0.0</targetVersion>
-	<description>(Last update: 12/05/2018)
+	<url>https://github.com/firefoxpdm/Rainbeau-s-Fertile-Fields</url>
+	<supportedVersions>
+        <li>1.1</li>
+    </supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+		</li>
+	</modDependencies>
+	<description>(Last update: 2020-03-11)
+	
+Originally from https://ludeon.com/forums/index.php?topic=46165
 
 "Fertile Fields" is a terraforming mod that lets you fertilize and plow your soil, create farmland on solid rock so you can grow crops in inhospitable environs or inside of mountains, and eventually even restructure the landscape. 
 
