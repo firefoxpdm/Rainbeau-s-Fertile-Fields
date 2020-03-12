@@ -1,3 +1,0 @@
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RF - Fertile Fields\Assemblies\Rainbeau's Fertile Fields.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RF - Fertile Fields\Source\Rainbeau's Fertile Fields\obj\Debug\Rainbeau's Fertile Fields.csprojResolveAssemblyReference.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RF - Fertile Fields\Source\Rainbeau's Fertile Fields\obj\Debug\Rainbeau's Fertile Fields.dll
